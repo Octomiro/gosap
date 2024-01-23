@@ -1,0 +1,48 @@
+linters:
+  enable:
+    - errcheck
+    - gosimple
+    - govet
+    - ineffassign
+    - staticcheck
+    - unused
+    - deadcode
+    - cyclop
+    - decorder
+    - dupword
+    - errchkjson
+    - funlen
+    - godot
+    - godox
+    - gofmt
+    - gofumpt
+    - gosec
+    - varcheck
+    - goconst
+    - goimports
+    - misspell
+    - revive
+    - unconvert
+    - unparam
+  disable:
+    - depguard
+  # Enable presets.
+  # https://golangci-lint.run/usage/linters
+  # Default: []
+  presets:
+    - bugs
+    - comment
+    - complexity
+    - error
+    - format
+    - import
+    - metalinter
+    - module
+    - performance
+    - sql
+    - style
+    - test
+    - unused
+  # Run only fast linters from enabled linters set (first run won't be fast)
+  # Default: false
+  fast: true
