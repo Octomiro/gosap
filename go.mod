@@ -1,3 +1,3 @@
-module github.com/octomiro/gosap/v2
+module github.com/octomiro/gosap
 
 go 1.21.5
