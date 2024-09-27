@@ -3,6 +3,7 @@
     "DocNum": 1,
     "DocEntry": 1,
     "DocType": "dDocument_Items",
+    "CardCode": "C20000",
     "DocumentLines": [
       {
         "LineNum": 0,
@@ -55,6 +56,7 @@
     "DocNum": 2,
     "DocEntry": 2,
     "DocType": "dDocument_Items",
+    "CardCode": "C30000",
     "DocumentLines": [
       {
         "LineNum": 0,
@@ -80,6 +82,7 @@
     "DocNum": 3,
     "DocEntry": 3,
     "DocType": "dDocument_Items",
+    "CardCode": "C40000",
     "DocumentLines": [
       {
         "LineNum": 0,
@@ -96,6 +99,7 @@
     "DocNum": 4,
     "DocEntry": 4,
     "DocType": "dDocument_Items",
+    "CardCode": "C23900",
     "DocumentLines": [
       {
         "LineNum": 0,
@@ -130,6 +134,7 @@
     "DocNum": 5,
     "DocEntry": 5,
     "DocType": "dDocument_Items",
+    "CardCode": "C42000",
     "DocumentLines": [
       {
         "LineNum": 0,
@@ -200,6 +205,7 @@
     "DocNum": 6,
     "DocEntry": 6,
     "DocType": "dDocument_Items",
+    "CardCode": "C30000",
     "DocumentLines": [
       {
         "LineNum": 0,
@@ -252,6 +258,7 @@
     "DocNum": 7,
     "DocEntry": 7,
     "DocType": "dDocument_Items",
+    "CardCode": "C40000",
     "DocumentLines": [
       {
         "LineNum": 0,
@@ -286,6 +293,7 @@
     "DocNum": 8,
     "DocEntry": 8,
     "DocType": "dDocument_Items",
+    "CardCode": "C20000",
     "DocumentLines": [
       {
         "LineNum": 0,
@@ -311,6 +319,7 @@
     "DocNum": 9,
     "DocEntry": 9,
     "DocType": "dDocument_Items",
+    "CardCode": "C23900",
     "DocumentLines": [
       {
         "LineNum": 0,
@@ -345,6 +354,7 @@
     "DocNum": 10,
     "DocEntry": 10,
     "DocType": "dDocument_Items",
+    "CardCode": "C50000",
     "DocumentLines": [
       {
         "LineNum": 0,
@@ -379,6 +389,7 @@
     "DocNum": 11,
     "DocEntry": 11,
     "DocType": "dDocument_Items",
+    "CardCode": "C60000",
     "DocumentLines": [
       {
         "LineNum": 0,
@@ -431,6 +442,7 @@
     "DocNum": 12,
     "DocEntry": 12,
     "DocType": "dDocument_Items",
+    "CardCode": "C70000",
     "DocumentLines": [
       {
         "LineNum": 0,
@@ -483,6 +495,7 @@
     "DocNum": 13,
     "DocEntry": 13,
     "DocType": "dDocument_Items",
+    "CardCode": "C70000",
     "DocumentLines": [
       {
         "LineNum": 0,
@@ -517,6 +530,7 @@
     "DocNum": 14,
     "DocEntry": 14,
     "DocType": "dDocument_Items",
+    "CardCode": "C60000",
     "DocumentLines": [
       {
         "LineNum": 0,
@@ -578,6 +592,7 @@
     "DocNum": 15,
     "DocEntry": 15,
     "DocType": "dDocument_Items",
+    "CardCode": "C40000",
     "DocumentLines": [
       {
         "LineNum": 0,
@@ -621,6 +636,7 @@
     "DocNum": 16,
     "DocEntry": 16,
     "DocType": "dDocument_Items",
+    "CardCode": "C42000",
     "DocumentLines": [
       {
         "LineNum": 0,
@@ -646,6 +662,7 @@
     "DocNum": 17,
     "DocEntry": 17,
     "DocType": "dDocument_Items",
+    "CardCode": "C50000",
     "DocumentLines": [
       {
         "LineNum": 0,
@@ -716,6 +733,7 @@
     "DocNum": 18,
     "DocEntry": 18,
     "DocType": "dDocument_Items",
+    "CardCode": "C70000",
     "DocumentLines": [
       {
         "LineNum": 0,
@@ -750,6 +768,7 @@
     "DocNum": 19,
     "DocEntry": 19,
     "DocType": "dDocument_Items",
+    "CardCode": "C20000",
     "DocumentLines": [
       {
         "LineNum": 0,
@@ -802,6 +821,7 @@
     "DocNum": 20,
     "DocEntry": 20,
     "DocType": "dDocument_Items",
+    "CardCode": "C23900",
     "DocumentLines": [
       {
         "LineNum": 0,
