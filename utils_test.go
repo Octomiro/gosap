@@ -25,3 +25,16 @@ func JSONToItems(items string) []gosap.Item {
 
 	return Items
 }
+
+func ToJSON[T any](t T) string {
+	json, err := json.MarshalIndent(t, "", "  ")
+	if err != nil {
+		return ""
+	}
+
+	return string(json)
+}
+
+func FromJSON(content string, toMarshal any) error {
+	return json.Unmarshal([]byte(content), &toMarshal)
+}

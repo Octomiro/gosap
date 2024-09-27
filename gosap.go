@@ -181,6 +181,56 @@ func (s *Session) GetClients(cfg Config) (*Clients, error) {
 	return &clients, nil
 }
 
+func (s *Session) GetDeliveryNotes(cfg Config) (*DeliveryNotes, error) {
+	req, err := http.NewRequest(http.MethodGet, cfg.GetDeliveryNotesEndpoint(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	resp, err := s.Do(req)
+	if err != nil {
+		return nil, err
+	}
+	defer resp.Body.Close()
+
+	content, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, fmt.Errorf("could not read response body content due to %s", err)
+	}
+
+	var notes DeliveryNotes
+	if err := json.Unmarshal(content, &notes); err != nil {
+		return nil, fmt.Errorf("could not load json response due to %s", err)
+	}
+
+	return &notes, nil
+}
+
+func (s *Session) GetDeliveryNote(cfg Config, id string) (*DeliveryNote, error) {
+	req, err := http.NewRequest(http.MethodGet, cfg.GetDeliveryNoteEndpoint(id), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	resp, err := s.Do(req)
+	if err != nil {
+		return nil, err
+	}
+	defer resp.Body.Close()
+
+	content, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, fmt.Errorf("could not read response body content due to %s", err)
+	}
+
+	var note DeliveryNote
+	if err := json.Unmarshal(content, &note); err != nil {
+		return nil, fmt.Errorf("could not load json response due to %s", err)
+	}
+
+	return &note, nil
+}
+
 func (s *Session) CreatePurchaseDeliveryNote(cfg Config, note PurchaseDeliveryNotes) (bool, error) {
 	payload, err := json.Marshal(note)
 	if err != nil {

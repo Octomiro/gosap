@@ -87,6 +87,14 @@ func (c *Config) GetClientsEndpoint() string {
 		c.hostPort())
 }
 
+func (c *Config) GetDeliveryNoteEndpoint(id string) string {
+	return fmt.Sprintf("https://%s/b1s/v1/DeliveryNotes(%s)", c.hostPort(), id)
+}
+
+func (c *Config) GetDeliveryNotesEndpoint() string {
+	return fmt.Sprintf("https://%s/b1s/v1/DeliveryNotes", c.hostPort())
+}
+
 func (c *Config) CreatePurchaseDeliveryNoteEndpoint() string {
 	return fmt.Sprintf("https://%s/b1s/v1/PurchaseDeliveryNotes", c.hostPort())
 }

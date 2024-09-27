@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"strconv"
 	"testing"
 
 	"github.com/octomiro/gosap"
@@ -25,6 +26,57 @@ func TestMain(m *testing.M) {
 	}
 
 	os.Exit(m.Run())
+}
+
+func TestGetDeliveryNotes(t *testing.T) {
+	t.Parallel()
+
+	session, err := gosap.Authenticate(config)
+	require.NoError(t, err)
+
+	notes, err := session.GetDeliveryNotes(config)
+	require.NoError(t, err)
+
+	t.Log(notes)
+
+	gp := filepath.Join("testdata", filepath.FromSlash(t.Name())+".golden")
+	if *update {
+		err := os.WriteFile(gp, []byte(ToJSON(notes.Value)), 0o600)
+		require.NoError(t, err)
+	}
+
+	goldenContent, err := os.ReadFile(gp)
+	require.NoError(t, err)
+	assert.Equal(t, []byte(ToJSON(notes.Value)), goldenContent)
+}
+
+func TestGetDeliveryNote(t *testing.T) {
+	session, err := gosap.Authenticate(config)
+	require.NoError(t, err)
+
+	deliveryNotesFile := filepath.Join("testdata", "TestGetDeliveryNotes.golden")
+
+	bytes, err := os.ReadFile(deliveryNotesFile)
+	require.NoError(t, err)
+
+	notes := make([]gosap.DeliveryNote, 0, 10)
+	err = FromJSON(string(bytes), &notes)
+	require.NoError(t, err)
+
+	t.Log(notes)
+
+	for _, note := range notes {
+		t.Run("Test GetItem", func(t *testing.T) {
+			t.Parallel()
+
+			tnote, err := session.GetDeliveryNote(config, strconv.Itoa(note.DocEntry))
+			assert.NoError(t, err)
+
+			t.Log(tnote)
+
+			assert.Equal(t, note, *tnote)
+		})
+	}
 }
 
 func TestGetItems(t *testing.T) {
