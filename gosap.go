@@ -1,6 +1,7 @@
 package gosap
 
 import (
+	"crypto/tls"
 	"encoding/json"
 	"fmt"
 	"io"
@@ -19,7 +20,12 @@ func Authenticate(cfg Config) (*Session, error) {
 		return nil, err
 	}
 
-	resp, err := http.Post(cfg.LoginEndpoint(), "application/json", strings.NewReader(loginPayload))
+	tr := &http.Transport{
+		TLSClientConfig: &tls.Config{InsecureSkipVerify: true},
+	}
+	client := &http.Client{Transport: tr}
+
+	resp, err := client.Post(cfg.LoginEndpoint(), "application/json", strings.NewReader(loginPayload))
 	if err != nil {
 		return nil, err
 	}
@@ -54,7 +60,10 @@ func (s *Session) setSessionCookies(req *http.Request) {
 // Do sends the request and returns the response.
 // Caller should close Body of response after reading it.
 func (s *Session) Do(req *http.Request) (*http.Response, error) {
-	client := &http.Client{}
+	tr := &http.Transport{
+		TLSClientConfig: &tls.Config{InsecureSkipVerify: true},
+	}
+	client := &http.Client{Transport: tr}
 
 	s.setSessionCookies(req)
 	req.Header.Set("Content-Type", "application/json")
@@ -70,6 +79,31 @@ func (s *Session) Do(req *http.Request) (*http.Response, error) {
 	}
 
 	return resp, nil
+}
+
+func (s *Session) GetItem(cfg Config, id string) (*Item, error) {
+	req, err := http.NewRequest(http.MethodGet, cfg.GetItemEndpoint(id), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	resp, err := s.Do(req)
+	if err != nil {
+		return nil, err
+	}
+	defer resp.Body.Close()
+
+	content, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, fmt.Errorf("could not read response body content due to %s", err)
+	}
+
+	var item Item
+	if err := json.Unmarshal(content, &item); err != nil {
+		return nil, fmt.Errorf("could not load json response due to %s", err)
+	}
+
+	return &item, nil
 }
 
 func (s *Session) GetItems(cfg Config) (*Items, error) {
