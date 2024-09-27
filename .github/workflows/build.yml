@@ -21,6 +21,7 @@ jobs:
         echo "COMPANY_DB=${SAP_COMPANY_DB}" >> gosap.env
         echo "DB_PASSWORD=${SAP_USERNAME_DB}" >> gosap.env
         echo "DB_USERNAME=${SAP_PASSWORD_DB}" >> gosap.env
+        cat gosap.env
 
     - name: Build
       run: go build -v ./...
