@@ -33,7 +33,7 @@ func Authenticate(cfg Config) (*Session, error) {
 
 	statusOK := resp.StatusCode >= http.StatusOK && resp.StatusCode < http.StatusMultipleChoices
 	if !statusOK {
-		return nil, fmt.Errorf("request to SAP API was not successful due to %s", resp.Status)
+		return nil, fmt.Errorf("request to SAP API (%s) was not successful due to %s", cfg.LoginEndpoint(), resp.Status)
 	}
 
 	cookies := resp.Cookies()
