@@ -26,6 +26,9 @@ linters:
     - unparam
   disable:
     - depguard
+    - funlen
+    - godot
+    - gochecknoinits
   # Enable presets.
   # https://golangci-lint.run/usage/linters
   # Default: []
