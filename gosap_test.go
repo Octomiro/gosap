@@ -18,9 +18,11 @@ var (
 )
 
 func TestMain(m *testing.M) {
-	config, _ = gosap.LoadConfig(".")
-
-	fmt.Println(config)
+	var err error
+	config, err = gosap.LoadConfig(".")
+	if err != nil {
+		fmt.Println(err)
+	}
 
 	os.Exit(m.Run())
 }
