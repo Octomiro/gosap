@@ -75,7 +75,7 @@ func (s *Session) Do(req *http.Request) (*http.Response, error) {
 
 	statusOK := resp.StatusCode >= http.StatusOK && resp.StatusCode < http.StatusMultipleChoices
 	if !statusOK {
-		return nil, fmt.Errorf("request to SAP API was not successful due to %s", resp.Status)
+		return nil, fmt.Errorf("request to SAP API (%s) was not successful due to %s", req.URL, resp.Status)
 	}
 
 	return resp, nil
