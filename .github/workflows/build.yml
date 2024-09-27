@@ -16,16 +16,7 @@ jobs:
 
     - name: Setup config file
       run: |
-        export SAP_IP=${{secrets.SAP_IP}}
-        export SAP_PORT=${{secrets.SAP_PORT}}
-        export SAP_COMPANY_DB=${{secrets.COMPANY_DB}}
-        export SAP_USERNAME_DB=${{secrets.SAP_USERNAME_DB}}
-        export SAP_PASSWORD_DB=${{secrets.SAP_PASSWORD_DB}}
-        echo "IP=${SAP_IP}" >> gosap.env
-        echo "PORT=${SAP_PORT}" >> gosap.env
-        echo "COMPANY_DB=${SAP_COMPANY_DB}" >> gosap.env
-        echo "DB_PASSWORD=${SAP_USERNAME_DB}" >> gosap.env
-        echo "DB_USERNAME=${SAP_PASSWORD_DB}" >> gosap.env
+        echo "${{secrets.GOSAP_CONFIG}}" >> gosap.env
         cat gosap.env
 
     - name: Build
