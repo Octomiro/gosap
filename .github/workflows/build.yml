@@ -12,7 +12,15 @@ jobs:
     - name: Setup Go
       uses: actions/setup-go@v4
       with:
-        go-version: '1.21'
+        go-version: '1.22'
+
+    - name: Setup config file
+      run: |
+        echo "IP=${SAP_IP}" >> gosap.env
+        echo "PORT=${SAP_PORT}" >> gosap.env
+        echo "COMPANY_DB=${SAP_COMPANY_DB}" >> gosap.env
+        echo "DB_PASSWORD=${SAP_USERNAME_DB}" >> gosap.env
+        echo "DB_USERNAME=${SAP_PASSWORD_DB}" >> gosap.env
 
     - name: Build
       run: go build -v ./...
