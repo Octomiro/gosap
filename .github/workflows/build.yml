@@ -17,7 +17,6 @@ jobs:
     - name: Setup config file
       run: |
         echo "${{secrets.GOSAP_CONFIG}}" >> gosap.env
-        cat gosap.env
 
     - name: Build
       run: go build -v ./...
