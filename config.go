@@ -6,14 +6,48 @@ import (
 	"fmt"
 	"net"
 	"strconv"
+
+	"github.com/spf13/viper"
 )
 
+const B1DeaultPort = 50000
+
 type Config struct {
-	IP        string
-	Port      uint16
-	CompanyDB string
-	Username  string
-	Password  string
+	IP        string `mapstructure:"IP"`
+	Port      uint16 `mapstructure:"PORT"`
+	CompanyDB string `mapstructure:"COMPANY_DB"`
+	Username  string `mapstructure:"DB_USERNAME"`
+	Password  string `mapstructure:"DB_PASSWORD"`
+}
+
+func LoadConfig(path string) (Config, error) {
+	viper.AddConfigPath(path)
+	viper.SetConfigName("gosap")
+	viper.SetConfigType("env")
+
+	viper.SetDefault("IP", "")
+	viper.SetDefault("PORT", B1DeaultPort)
+	viper.SetDefault("COMPANY_DB", "")
+	viper.SetDefault("USERNAME", "")
+	viper.SetDefault("PASSWORD", "")
+
+	viper.AutomaticEnv()
+
+	config := Config{}
+
+	err := viper.ReadInConfig()
+	if err != nil {
+		if _, ok := err.(viper.ConfigFileNotFoundError); !ok {
+			return config, err
+		}
+	}
+
+	err = viper.Unmarshal(&config)
+	if err != nil {
+		return config, err
+	}
+
+	return config, nil
 }
 
 func (c *Config) LoginEndpoint() string {
@@ -36,6 +70,11 @@ func (c *Config) LoginPayload() (string, error) {
 func (c *Config) GetItemsEndpoint() string {
 	return fmt.Sprintf("https://%s/b1s/v1/Items?$select=ItemCode,ItemName,PurchaseUnitWidth",
 		c.hostPort())
+}
+
+func (c *Config) GetItemEndpoint(id string) string {
+	return fmt.Sprintf("https://%s/b1s/v1/Items('%s')?$select=ItemCode,ItemName,PurchaseUnitWidth",
+		c.hostPort(), id)
 }
 
 func (c *Config) GetSuppliersEndpoint() string {

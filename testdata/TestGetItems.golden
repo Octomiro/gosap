@@ -1,0 +1,102 @@
+[
+  {
+    "ItemCode": "R00001",
+    "ItemName": "Papier pour imprimante blanc A4",
+    "PurchaseUnitWidth": 60
+  },
+  {
+    "ItemCode": "R00002",
+    "ItemName": "Papier pour imprimante A4 recyclé",
+    "PurchaseUnitWidth": 60
+  },
+  {
+    "ItemCode": "S10000",
+    "ItemName": "Serveur type Point 10000",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "I00007",
+    "ItemName": "Cartouche d'encre pour imprimante HP Printer 95",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "LM4029MC",
+    "ItemName": "Barette mémoire",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "I00008",
+    "ItemName": "Pack HP Vivera 6 cartouches -Papier Photo",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "P10002",
+    "ItemName": "PC - P4 2.4G, DDR 1024M, 400G HD",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "LM4029PH",
+    "ItemName": "LM4029PH Tête d'impression pour imprimante Lexmark 4029",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "MRP_comp3",
+    "ItemName": "MRP composant 3",
+    "PurchaseUnitWidth": null
+  },
+  {
+    "ItemCode": "MRP_art3",
+    "ItemName": "MRP Article 3",
+    "PurchaseUnitWidth": null
+  },
+  {
+    "ItemCode": "I00003",
+    "ItemName": "Flashdrive USB 4GB",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "A00003",
+    "ItemName": "Imprimante IBM type Infoprint 1226",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "P10004",
+    "ItemName": "PC configuration 2",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "I00011",
+    "ItemName": "Hub de voyage Belkin 4-Port USB 2.0",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "Z00001",
+    "ItemName": "Tablette PC 64GB noire",
+    "PurchaseUnitWidth": null
+  },
+  {
+    "ItemCode": "LM4029ACA",
+    "ItemName": "LM4029ACA Cordon d'alimentation pour imprimante Lexmark 4029",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "I00013",
+    "ItemName": "SDHC 64 GB CLASS 10",
+    "PurchaseUnitWidth": null
+  },
+  {
+    "ItemCode": "LM4029",
+    "ItemName": "LM4029 Imprimante Lexmark 4029",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "C00004",
+    "ItemName": "Tour PC avec alimentation",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "I00005",
+    "ItemName": "Batteries A20 pour laptop IBM Thankpad",
+    "PurchaseUnitWidth": 0
+  }
+]
