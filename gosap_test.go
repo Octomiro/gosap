@@ -66,7 +66,7 @@ func TestGetDeliveryNote(t *testing.T) {
 	t.Log(notes)
 
 	for _, note := range notes {
-		t.Run("Test GetItem", func(t *testing.T) {
+		t.Run("Test get specific delivery note", func(t *testing.T) {
 			t.Parallel()
 
 			tnote, err := session.GetDeliveryNote(config, strconv.Itoa(note.DocEntry))
@@ -77,6 +77,13 @@ func TestGetDeliveryNote(t *testing.T) {
 			assert.Equal(t, note, *tnote)
 		})
 	}
+
+	t.Run("Test getting a delivery note with wrong id", func(t *testing.T) {
+		t.Parallel()
+
+		_, err := session.GetDeliveryNote(config, "3242")
+		assert.Error(t, err)
+	})
 }
 
 func TestGetItems(t *testing.T) {
