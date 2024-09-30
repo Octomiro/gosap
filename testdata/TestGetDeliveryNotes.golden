@@ -1,58 +1,5 @@
 [
   {
-    "DocNum": 1,
-    "DocEntry": 1,
-    "DocType": "dDocument_Items",
-    "CardCode": "C20000",
-    "DocumentLines": [
-      {
-        "LineNum": 0,
-        "ItemCode": "A00001",
-        "ItemDescription": "Imprimante IBM type Infoprint 1312",
-        "Quantity": 5,
-        "SelectedQuantity": 0,
-        "ShipDate": "2006-01-20",
-        "Price": 600
-      },
-      {
-        "LineNum": 1,
-        "ItemCode": "A00002",
-        "ItemDescription": "Imprimante IBM type Infoprint 1222",
-        "Quantity": 5,
-        "SelectedQuantity": 0,
-        "ShipDate": "2006-01-20",
-        "Price": 300
-      },
-      {
-        "LineNum": 2,
-        "ItemCode": "A00003",
-        "ItemDescription": "Imprimante IBM type Infoprint 1226",
-        "Quantity": 5,
-        "SelectedQuantity": 0,
-        "ShipDate": "2006-01-20",
-        "Price": 450
-      },
-      {
-        "LineNum": 3,
-        "ItemCode": "A00004",
-        "ItemDescription": "Imprimante HP type Color Laser Jet 5",
-        "Quantity": 5,
-        "SelectedQuantity": 0,
-        "ShipDate": "2006-01-20",
-        "Price": 750
-      },
-      {
-        "LineNum": 4,
-        "ItemCode": "A00005",
-        "ItemDescription": "Imprimante HP type Color Laser Jet 4",
-        "Quantity": 5,
-        "SelectedQuantity": 0,
-        "ShipDate": "2006-01-20",
-        "Price": 600
-      }
-    ]
-  },
-  {
     "DocNum": 2,
     "DocEntry": 2,
     "DocType": "dDocument_Items",
@@ -63,7 +10,6 @@
         "ItemCode": "A00006",
         "ItemDescription": "Imprimante HP type 600 Series Inc",
         "Quantity": 5,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-01-25",
         "Price": 500
       },
@@ -72,7 +18,6 @@
         "ItemCode": "B10000",
         "ItemDescription": "Etiquettes pour imprimante",
         "Quantity": 200,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-01-25",
         "Price": 1.25
       }
@@ -89,7 +34,6 @@
         "ItemCode": "S10000",
         "ItemDescription": "Serveur type Point 10000",
         "Quantity": 5,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-01-30",
         "Price": 2306.25
       }
@@ -106,7 +50,6 @@
         "ItemCode": "C00001",
         "ItemDescription": "Carte mère P4 Turbo",
         "Quantity": 6,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-02-04",
         "Price": 600
       },
@@ -115,7 +58,6 @@
         "ItemCode": "A00003",
         "ItemDescription": "Imprimante IBM type Infoprint 1226",
         "Quantity": 6,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-02-04",
         "Price": 450
       },
@@ -124,7 +66,6 @@
         "ItemCode": "LM4029MC",
         "ItemDescription": "Barette mémoire",
         "Quantity": 10,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-02-04",
         "Price": 75
       }
@@ -141,7 +82,6 @@
         "ItemCode": "A00001",
         "ItemDescription": "Imprimante IBM type Infoprint 1312",
         "Quantity": 5,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-02-10",
         "Price": 500
       },
@@ -150,7 +90,6 @@
         "ItemCode": "A00002",
         "ItemDescription": "Imprimante IBM type Infoprint 1222",
         "Quantity": 5,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-02-10",
         "Price": 250
       },
@@ -159,7 +98,6 @@
         "ItemCode": "A00003",
         "ItemDescription": "Imprimante IBM type Infoprint 1226",
         "Quantity": 5,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-02-10",
         "Price": 375
       },
@@ -168,7 +106,6 @@
         "ItemCode": "A00004",
         "ItemDescription": "Imprimante HP type Color Laser Jet 5",
         "Quantity": 5,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-02-10",
         "Price": 625
       },
@@ -177,7 +114,6 @@
         "ItemCode": "A00005",
         "ItemDescription": "Imprimante HP type Color Laser Jet 4",
         "Quantity": 5,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-02-10",
         "Price": 500
       },
@@ -186,7 +122,6 @@
         "ItemCode": "A00006",
         "ItemDescription": "Imprimante HP type 600 Series Inc",
         "Quantity": 5,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-02-10",
         "Price": 500
       },
@@ -195,7 +130,6 @@
         "ItemCode": "P10001",
         "ItemDescription": "PC - P4 2.4G, DDR 512M, 400G HD",
         "Quantity": 2,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-02-10",
         "Price": 1775
       }
@@ -212,7 +146,6 @@
         "ItemCode": "C00002",
         "ItemDescription": "Carte mère P4 Turbo - Asus Chipset",
         "Quantity": 10,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-02-25",
         "Price": 375
       },
@@ -221,7 +154,6 @@
         "ItemCode": "C00010",
         "ItemDescription": "Souris USB",
         "Quantity": 20,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-02-25",
         "Price": 25
       },
@@ -230,7 +162,6 @@
         "ItemCode": "C00011",
         "ItemDescription": "Barette mémoire DDR RAM 512 MB",
         "Quantity": 20,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-02-25",
         "Price": 50
       },
@@ -239,7 +170,6 @@
         "ItemCode": "C00008",
         "ItemDescription": "Moniteur 19' TFT",
         "Quantity": 10,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-02-25",
         "Price": 250
       },
@@ -248,7 +178,6 @@
         "ItemCode": "C00009",
         "ItemDescription": "Clavier USB type Comfort",
         "Quantity": 15,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-02-25",
         "Price": 25
       }
@@ -265,7 +194,6 @@
         "ItemCode": "A00002",
         "ItemDescription": "Imprimante IBM type Infoprint 1222",
         "Quantity": 10,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-03-03",
         "Price": 250
       },
@@ -274,7 +202,6 @@
         "ItemCode": "A00003",
         "ItemDescription": "Imprimante IBM type Infoprint 1226",
         "Quantity": 10,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-03-03",
         "Price": 375
       },
@@ -283,7 +210,6 @@
         "ItemCode": "P10002",
         "ItemDescription": "PC - P4 2.4G, DDR 1024M, 400G HD",
         "Quantity": 2,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-03-03",
         "Price": 1700
       }
@@ -300,7 +226,6 @@
         "ItemCode": "A00006",
         "ItemDescription": "Imprimante HP type 600 Series Inc",
         "Quantity": 10,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-03-07",
         "Price": 600
       },
@@ -309,7 +234,6 @@
         "ItemCode": "B10000",
         "ItemDescription": "Etiquettes pour imprimante",
         "Quantity": 400,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-03-07",
         "Price": 1.5
       }
@@ -326,7 +250,6 @@
         "ItemCode": "A00001",
         "ItemDescription": "Imprimante IBM type Infoprint 1312",
         "Quantity": 8,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-03-15",
         "Price": 600
       },
@@ -335,7 +258,6 @@
         "ItemCode": "A00003",
         "ItemDescription": "Imprimante IBM type Infoprint 1226",
         "Quantity": 8,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-03-15",
         "Price": 450
       },
@@ -344,7 +266,6 @@
         "ItemCode": "LM4029MC",
         "ItemDescription": "Barette mémoire",
         "Quantity": 20,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-03-15",
         "Price": 75
       }
@@ -361,7 +282,6 @@
         "ItemCode": "S10000",
         "ItemDescription": "Serveur type Point 10000",
         "Quantity": 5,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-03-26",
         "Price": 2306.25
       },
@@ -370,7 +290,6 @@
         "ItemCode": "P10003",
         "ItemDescription": "PC configuration 1",
         "Quantity": 5,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-03-26",
         "Price": 375
       },
@@ -379,7 +298,6 @@
         "ItemCode": "P10004",
         "ItemDescription": "PC configuration 2",
         "Quantity": 5,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-03-26",
         "Price": 625
       }
@@ -396,7 +314,6 @@
         "ItemCode": "C00003",
         "ItemDescription": "Processeur Intel P4 2.4 GhZ",
         "Quantity": 10,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-03-30",
         "Price": 227.5
       },
@@ -405,7 +322,6 @@
         "ItemCode": "C00009",
         "ItemDescription": "Clavier USB type Comfort",
         "Quantity": 20,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-03-30",
         "Price": 35
       },
@@ -414,7 +330,6 @@
         "ItemCode": "C00008",
         "ItemDescription": "Moniteur 19' TFT",
         "Quantity": 20,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-03-30",
         "Price": 350
       },
@@ -423,7 +338,6 @@
         "ItemCode": "C00007",
         "ItemDescription": "Disque dur Seagate 400 GB",
         "Quantity": 10,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-03-30",
         "Price": 875
       },
@@ -432,7 +346,6 @@
         "ItemCode": "C00006",
         "ItemDescription": "Carte réseau 10/100",
         "Quantity": 15,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-03-30",
         "Price": 26.25
       }
@@ -449,7 +362,6 @@
         "ItemCode": "A00006",
         "ItemDescription": "Imprimante HP type 600 Series Inc",
         "Quantity": 20,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-04-04",
         "Price": 700
       },
@@ -458,7 +370,6 @@
         "ItemCode": "B10000",
         "ItemDescription": "Etiquettes pour imprimante",
         "Quantity": 100,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-04-04",
         "Price": 1.75
       },
@@ -467,7 +378,6 @@
         "ItemCode": "A00001",
         "ItemDescription": "Imprimante IBM type Infoprint 1312",
         "Quantity": 10,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-04-04",
         "Price": 700
       },
@@ -476,7 +386,6 @@
         "ItemCode": "A00003",
         "ItemDescription": "Imprimante IBM type Infoprint 1226",
         "Quantity": 10,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-04-04",
         "Price": 525
       },
@@ -485,7 +394,6 @@
         "ItemCode": "LM4029MC",
         "ItemDescription": "Barette mémoire",
         "Quantity": 20,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-04-04",
         "Price": 87.5
       }
@@ -502,7 +410,6 @@
         "ItemCode": "A00001",
         "ItemDescription": "Imprimante IBM type Infoprint 1312",
         "Quantity": 5,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-04-09",
         "Price": 700
       },
@@ -511,7 +418,6 @@
         "ItemCode": "A00003",
         "ItemDescription": "Imprimante IBM type Infoprint 1226",
         "Quantity": 5,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-04-09",
         "Price": 525
       },
@@ -520,7 +426,6 @@
         "ItemCode": "LM4029MC",
         "ItemDescription": "Barette mémoire",
         "Quantity": 10,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-04-09",
         "Price": 87.5
       }
@@ -537,7 +442,6 @@
         "ItemCode": "C00004",
         "ItemDescription": "Tour PC avec alimentation",
         "Quantity": 10,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-04-12",
         "Price": 61.25
       },
@@ -546,7 +450,6 @@
         "ItemCode": "A00002",
         "ItemDescription": "Imprimante IBM type Infoprint 1222",
         "Quantity": 15,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-04-12",
         "Price": 350
       },
@@ -555,7 +458,6 @@
         "ItemCode": "A00003",
         "ItemDescription": "Imprimante IBM type Infoprint 1226",
         "Quantity": 10,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-04-12",
         "Price": 525
       },
@@ -564,7 +466,6 @@
         "ItemCode": "C00006",
         "ItemDescription": "Carte réseau 10/100",
         "Quantity": 15,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-04-12",
         "Price": 26.25
       },
@@ -573,7 +474,6 @@
         "ItemCode": "C00007",
         "ItemDescription": "Disque dur Seagate 400 GB",
         "Quantity": 10,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-04-12",
         "Price": 875
       },
@@ -582,7 +482,6 @@
         "ItemCode": "S10000",
         "ItemDescription": "Serveur type Point 10000",
         "Quantity": 1,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-04-12",
         "Price": 3228.75
       }
@@ -599,7 +498,6 @@
         "ItemCode": "S10000",
         "ItemDescription": "Serveur type Point 10000",
         "Quantity": 5,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-04-15",
         "Price": 2306.25
       },
@@ -608,7 +506,6 @@
         "ItemCode": "P10001",
         "ItemDescription": "PC - P4 2.4G, DDR 512M, 400G HD",
         "Quantity": 2,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-04-15",
         "Price": 1775
       },
@@ -617,7 +514,6 @@
         "ItemCode": "P10003",
         "ItemDescription": "PC configuration 1",
         "Quantity": 5,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-04-15",
         "Price": 375
       },
@@ -626,7 +522,6 @@
         "ItemCode": "P10004",
         "ItemDescription": "PC configuration 2",
         "Quantity": 5,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-04-15",
         "Price": 625
       }
@@ -643,7 +538,6 @@
         "ItemCode": "A00002",
         "ItemDescription": "Imprimante IBM type Infoprint 1222",
         "Quantity": 8,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-04-20",
         "Price": 250
       },
@@ -652,7 +546,6 @@
         "ItemCode": "A00003",
         "ItemDescription": "Imprimante IBM type Infoprint 1226",
         "Quantity": 5,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-04-20",
         "Price": 375
       }
@@ -669,7 +562,6 @@
         "ItemCode": "A00001",
         "ItemDescription": "Imprimante IBM type Infoprint 1312",
         "Quantity": 8,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-04-30",
         "Price": 500
       },
@@ -678,7 +570,6 @@
         "ItemCode": "A00003",
         "ItemDescription": "Imprimante IBM type Infoprint 1226",
         "Quantity": 8,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-04-30",
         "Price": 375
       },
@@ -687,7 +578,6 @@
         "ItemCode": "P10001",
         "ItemDescription": "PC - P4 2.4G, DDR 512M, 400G HD",
         "Quantity": 1,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-04-30",
         "Price": 1775
       },
@@ -696,7 +586,6 @@
         "ItemCode": "P10002",
         "ItemDescription": "PC - P4 2.4G, DDR 1024M, 400G HD",
         "Quantity": 1,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-04-30",
         "Price": 1700
       },
@@ -705,7 +594,6 @@
         "ItemCode": "P10003",
         "ItemDescription": "PC configuration 1",
         "Quantity": 2,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-04-30",
         "Price": 375
       },
@@ -714,7 +602,6 @@
         "ItemCode": "P10004",
         "ItemDescription": "PC configuration 2",
         "Quantity": 2,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-04-30",
         "Price": 625
       },
@@ -723,7 +610,6 @@
         "ItemCode": "LM4029MC",
         "ItemDescription": "Barette mémoire",
         "Quantity": 10,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-04-30",
         "Price": 62.5
       }
@@ -740,7 +626,6 @@
         "ItemCode": "S10000",
         "ItemDescription": "Serveur type Point 10000",
         "Quantity": 7,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-05-10",
         "Price": 3228.75
       },
@@ -749,7 +634,6 @@
         "ItemCode": "P10003",
         "ItemDescription": "PC configuration 1",
         "Quantity": 2,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-05-10",
         "Price": 525
       },
@@ -758,7 +642,6 @@
         "ItemCode": "P10004",
         "ItemDescription": "PC configuration 2",
         "Quantity": 2,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-05-10",
         "Price": 875
       }
@@ -775,7 +658,6 @@
         "ItemCode": "C00005",
         "ItemDescription": "Carte WLAN",
         "Quantity": 12,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-05-25",
         "Price": 90
       },
@@ -784,7 +666,6 @@
         "ItemCode": "C00002",
         "ItemDescription": "Carte mère P4 Turbo - Asus Chipset",
         "Quantity": 12,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-05-25",
         "Price": 450
       },
@@ -793,7 +674,6 @@
         "ItemCode": "C00003",
         "ItemDescription": "Processeur Intel P4 2.4 GhZ",
         "Quantity": 16,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-05-25",
         "Price": 195
       },
@@ -802,7 +682,6 @@
         "ItemCode": "A00004",
         "ItemDescription": "Imprimante HP type Color Laser Jet 5",
         "Quantity": 8,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-05-25",
         "Price": 750
       },
@@ -811,7 +690,6 @@
         "ItemCode": "A00005",
         "ItemDescription": "Imprimante HP type Color Laser Jet 4",
         "Quantity": 15,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-05-25",
         "Price": 600
       }
@@ -828,7 +706,6 @@
         "ItemCode": "A00001",
         "ItemDescription": "Imprimante IBM type Infoprint 1312",
         "Quantity": 10,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-05-30",
         "Price": 600
       },
@@ -837,7 +714,6 @@
         "ItemCode": "B10000",
         "ItemDescription": "Etiquettes pour imprimante",
         "Quantity": 200,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-05-30",
         "Price": 1.5
       },
@@ -846,7 +722,6 @@
         "ItemCode": "A00002",
         "ItemDescription": "Imprimante IBM type Infoprint 1222",
         "Quantity": 8,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-05-30",
         "Price": 300
       },
@@ -855,7 +730,6 @@
         "ItemCode": "A00003",
         "ItemDescription": "Imprimante IBM type Infoprint 1226",
         "Quantity": 5,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-05-30",
         "Price": 450
       },
@@ -864,7 +738,6 @@
         "ItemCode": "LM4029MC",
         "ItemDescription": "Barette mémoire",
         "Quantity": 30,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-05-30",
         "Price": 75
       },
@@ -873,7 +746,6 @@
         "ItemCode": "P10001",
         "ItemDescription": "PC - P4 2.4G, DDR 512M, 400G HD",
         "Quantity": 2,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-05-30",
         "Price": 2130
       },
@@ -882,9 +754,40 @@
         "ItemCode": "P10002",
         "ItemDescription": "PC - P4 2.4G, DDR 1024M, 400G HD",
         "Quantity": 2,
-        "SelectedQuantity": 0,
         "ShipDate": "2006-05-30",
         "Price": 2040
+      }
+    ]
+  },
+  {
+    "DocNum": 21,
+    "DocEntry": 21,
+    "DocType": "dDocument_Items",
+    "CardCode": "C30000",
+    "DocumentLines": [
+      {
+        "LineNum": 0,
+        "ItemCode": "S10000",
+        "ItemDescription": "Serveur type Point 10000",
+        "Quantity": 5,
+        "ShipDate": "2006-06-04",
+        "Price": 2306.25
+      },
+      {
+        "LineNum": 1,
+        "ItemCode": "P10002",
+        "ItemDescription": "PC - P4 2.4G, DDR 1024M, 400G HD",
+        "Quantity": 3,
+        "ShipDate": "2006-06-04",
+        "Price": 1700
+      },
+      {
+        "LineNum": 2,
+        "ItemCode": "P10003",
+        "ItemDescription": "PC configuration 1",
+        "Quantity": 3,
+        "ShipDate": "2006-06-04",
+        "Price": 375
       }
     ]
   }
