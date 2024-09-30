@@ -98,5 +98,210 @@
     "ItemCode": "I00005",
     "ItemName": "Batteries A20 pour laptop IBM Thankpad",
     "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "LM4029APCD",
+    "ItemName": "LM4029APCD Lexmark 4029 Printer AC Power Cord",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "A00002",
+    "ItemName": "Imprimante IBM type Infoprint 1222",
+    "PurchaseUnitWidth": 10
+  },
+  {
+    "ItemCode": "A00005",
+    "ItemName": "Imprimante HP type Color Laser Jet 4",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "LM4029SB",
+    "ItemName": "LM4029SB Carte mère pour imprimante Lexmark 4029",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "I00009",
+    "ItemName": "Canon PowerShot A1000IS",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "MRP_art1",
+    "ItemName": "MRP Article 1",
+    "PurchaseUnitWidth": null
+  },
+  {
+    "ItemCode": "C00001",
+    "ItemName": "Carte mère P4 Turbo",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "MRP_art4",
+    "ItemName": "MRP Article 4",
+    "PurchaseUnitWidth": null
+  },
+  {
+    "ItemCode": "C00005",
+    "ItemName": "Carte WLAN",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "I00001",
+    "ItemName": "Pack de 10 disques DVD+R",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "A00004",
+    "ItemName": "Imprimante HP type Color Laser Jet 5",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "L10001",
+    "ItemName": "Labor Hours Production",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "C00003",
+    "ItemName": "Processeur Intel P4 2.4 GhZ",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "I00006",
+    "ItemName": "Batteries A21 pour laptop IBM Thankpad",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "C00006",
+    "ItemName": "Carte réseau 10/100",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "I00002",
+    "ItemName": "pack de 50 disques DVD+R",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "MRP_art5",
+    "ItemName": "MRP Article 5",
+    "PurchaseUnitWidth": null
+  },
+  {
+    "ItemCode": "LM4029PS",
+    "ItemName": "LM4029PS Alimentation pour imprimante Lexmark 4029",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "I00010",
+    "ItemName": "Canon EOS 30D",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "MRP_art2",
+    "ItemName": "MRP Article 2",
+    "PurchaseUnitWidth": null
+  },
+  {
+    "ItemCode": "MRP_Comp1",
+    "ItemName": "MRP Composant 1",
+    "PurchaseUnitWidth": null
+  },
+  {
+    "ItemCode": "LM4029D",
+    "ItemName": "LM4029D Bac 500 feuilles pour imprimante Lexmark 4029",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "C00010",
+    "ItemName": "Souris USB",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "I00012",
+    "ItemName": "Kit de transfert Belkin PC-to-Mac",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "C00002",
+    "ItemName": "Carte mère P4 Turbo - Asus Chipset",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "C00011",
+    "ItemName": "Barette mémoire DDR RAM 512 MB",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "C00009",
+    "ItemName": "Clavier USB type Comfort",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "P10001",
+    "ItemName": "PC - P4 2.4G, DDR 512M, 400G HD",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "C00008",
+    "ItemName": "Moniteur 19' TFT",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "LB0002",
+    "ItemName": "Taux de facturation journalier",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "P10003",
+    "ItemName": "PC configuration 1",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "LB0001",
+    "ItemName": "Taux de facturation horaire",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "TR0001",
+    "ItemName": "Frais de déplacement",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "I00004",
+    "ItemName": "Flashdrive USB 8GB",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "MRP_nom",
+    "ItemName": "MRP nomenclature",
+    "PurchaseUnitWidth": null
+  },
+  {
+    "ItemCode": "MRP_Comp2",
+    "ItemName": "MRP composant 2",
+    "PurchaseUnitWidth": null
+  },
+  {
+    "ItemCode": "C00007",
+    "ItemName": "Disque dur Seagate 400 GB",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "B10000",
+    "ItemName": "Etiquettes pour imprimante",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "Z00002",
+    "ItemName": "Tablette PC 64GB blanche",
+    "PurchaseUnitWidth": null
+  },
+  {
+    "ItemCode": "A00006",
+    "ItemName": "Imprimante HP type 600 Series Inc",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "A00001",
+    "ItemName": "Imprimante IBM type Infoprint 1312",
+    "PurchaseUnitWidth": 10
   }
 ]
