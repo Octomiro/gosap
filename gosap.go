@@ -231,6 +231,29 @@ func (s *Session) GetDeliveryNote(cfg Config, id string) (*DeliveryNote, error) 
 	return &note, nil
 }
 
+func (s *Session) changeDeliveryNote(endpoint string) error {
+	req, err := http.NewRequest(http.MethodPost, endpoint, nil)
+	if err != nil {
+		return err
+	}
+
+	_, err = s.Do(req)
+
+	return err
+}
+
+func (s *Session) RopenDeliveryNote(cfg Config, id string) error {
+	return s.changeDeliveryNote(cfg.ReopenDeliveryNoteEndpoint(id))
+}
+
+func (s *Session) CloseDeliveryNote(cfg Config, id string) error {
+	return s.changeDeliveryNote(cfg.CloseDeliveryNoteEndpoint(id))
+}
+
+func (s *Session) CancelDeliveryNote(cfg Config, id string) error {
+	return s.changeDeliveryNote(cfg.CancelDeliveryNoteEndpoint(id))
+}
+
 func (s *Session) CreatePurchaseDeliveryNote(cfg Config, note PurchaseDeliveryNotes) (bool, error) {
 	payload, err := json.Marshal(note)
 	if err != nil {
