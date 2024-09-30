@@ -106,8 +106,8 @@ func (s *Session) GetItem(cfg Config, id string) (*Item, error) {
 	return &item, nil
 }
 
-func (s *Session) GetItems(cfg Config) (*Items, error) {
-	req, err := http.NewRequest(http.MethodGet, cfg.GetItemsEndpoint(), nil)
+func (s *Session) getItems(cfg Config, endpoint string) (*Items, error) {
+	req, err := http.NewRequest(http.MethodGet, endpoint, nil)
 	if err != nil {
 		return nil, err
 	}
@@ -128,7 +128,20 @@ func (s *Session) GetItems(cfg Config) (*Items, error) {
 		return nil, fmt.Errorf("could not load json response due to %s", err)
 	}
 
+	if items.NextLink != nil && *items.NextLink != "" {
+		next, err := s.getItems(cfg, cfg.BuildEndpoint(*items.NextLink))
+		if err != nil {
+			return &items, err
+		}
+
+		items.Value = append(items.Value, next.Value...)
+	}
+
 	return &items, nil
+}
+
+func (s *Session) GetItems(cfg Config) (*Items, error) {
+	return s.getItems(cfg, cfg.GetItemsEndpoint())
 }
 
 func (s *Session) GetSuppliers(cfg Config) (*Suppliers, error) {
@@ -208,15 +221,12 @@ func (s *Session) getDeliveryNotes(cfg Config, endpoint string) (*DeliveryNotes,
 	}
 
 	if notes.NextLink != nil && *notes.NextLink != "" {
-		fmt.Println(cfg.BuildEndpoint(*notes.NextLink))
 		next, err := s.getDeliveryNotes(cfg, cfg.BuildEndpoint(*notes.NextLink))
 		if err != nil {
 			return &notes, err
 		}
 
 		notes.Value = append(notes.Value, next.Value...)
-
-		fmt.Println(len(notes.Value))
 	}
 
 	return &notes, nil
