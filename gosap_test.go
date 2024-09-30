@@ -36,6 +36,7 @@ func TestGetDeliveryNotes(t *testing.T) {
 
 	notes, err := session.GetDeliveryNotes(config)
 	require.NoError(t, err)
+	assert.True(t, len(notes.Value) > 0)
 
 	t.Log(notes)
 
