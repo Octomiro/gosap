@@ -107,6 +107,10 @@ func (c *Config) GetDeliveryNotesEndpoint() string {
 	return fmt.Sprintf("https://%s/b1s/v1/DeliveryNotes", c.hostPort())
 }
 
+func (c *Config) BuildEndpoint(endpoint string) string {
+	return fmt.Sprintf("https://%s%s", c.hostPort(), endpoint)
+}
+
 func (c *Config) CreatePurchaseDeliveryNoteEndpoint() string {
 	return fmt.Sprintf("https://%s/b1s/v1/PurchaseDeliveryNotes", c.hostPort())
 }

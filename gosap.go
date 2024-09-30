@@ -182,7 +182,11 @@ func (s *Session) GetClients(cfg Config) (*Clients, error) {
 }
 
 func (s *Session) GetDeliveryNotes(cfg Config) (*DeliveryNotes, error) {
-	req, err := http.NewRequest(http.MethodGet, cfg.GetDeliveryNotesEndpoint(), nil)
+	return s.getDeliveryNotes(cfg, cfg.GetDeliveryNotesEndpoint())
+}
+
+func (s *Session) getDeliveryNotes(cfg Config, endpoint string) (*DeliveryNotes, error) {
+	req, err := http.NewRequest(http.MethodGet, endpoint, nil)
 	if err != nil {
 		return nil, err
 	}
@@ -201,6 +205,18 @@ func (s *Session) GetDeliveryNotes(cfg Config) (*DeliveryNotes, error) {
 	var notes DeliveryNotes
 	if err := json.Unmarshal(content, &notes); err != nil {
 		return nil, fmt.Errorf("could not load json response due to %s", err)
+	}
+
+	if notes.NextLink != nil && *notes.NextLink != "" {
+		fmt.Println(cfg.BuildEndpoint(*notes.NextLink))
+		next, err := s.getDeliveryNotes(cfg, cfg.BuildEndpoint(*notes.NextLink))
+		if err != nil {
+			return &notes, err
+		}
+
+		notes.Value = append(notes.Value, next.Value...)
+
+		fmt.Println(len(notes.Value))
 	}
 
 	return &notes, nil
