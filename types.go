@@ -21,8 +21,16 @@ type DeliveryNote struct {
 	DocEntry      int    `json:"DocEntry,omitempty"`
 	DocType       string `json:"DocType,omitempty"`
 	CardCode      string `json:",omitempty"`
-	Status        string `json:",omitempty"`
+	Status        string `json:"DocumentStatus,omitempty"`
 	DocumentLines []DeliveryNoteLine
+}
+
+func (dn *DeliveryNote) IsOpen() bool {
+	return dn.Status == "bost_Open"
+}
+
+func (dn *DeliveryNote) IsClosed() bool {
+	return dn.Status == "bost_Close"
 }
 
 type DeliveryNotes struct {
