@@ -8,19 +8,19 @@ type Item struct {
 
 type DeliveryNoteLine struct {
 	LineNum          int
-	ItemCode         string
-	ItemDescription  string
-	Quantity         float64
-	SelectedQuantity float64 `json:",omitEmpty"`
-	ShipDate         string
-	Price            float64
+	ItemCode         string  `json:",omitempty"`
+	ItemDescription  string  `json:",omitempty"`
+	Quantity         float64 `json:",omitempty"`
+	SelectedQuantity float64 `json:"U_SelectedQuantity,omitempty"`
+	ShipDate         string  `json:",omitempty"`
+	Price            float64 `json:",omitempty"`
 }
 
 type DeliveryNote struct {
-	DocNum        int    `json:"DocNum"`
-	DocEntry      int    `json:"DocEntry"`
+	DocNum        int    `json:"DocNum,omitempty"`
+	DocEntry      int    `json:"DocEntry,omitempty"`
 	DocType       string `json:"DocType,omitempty"`
-	CardCode      string
+	CardCode      string `json:",omitempty"`
 	DocumentLines []DeliveryNoteLine
 }
 
