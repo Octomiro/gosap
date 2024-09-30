@@ -21,6 +21,7 @@ type DeliveryNote struct {
 	DocEntry      int    `json:"DocEntry,omitempty"`
 	DocType       string `json:"DocType,omitempty"`
 	CardCode      string `json:",omitempty"`
+	Status        string `json:",omitempty"`
 	DocumentLines []DeliveryNoteLine
 }
 
