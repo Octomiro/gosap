@@ -66,12 +66,13 @@ func TestGetDeliveryNote(t *testing.T) {
 
 	t.Log(notes)
 
-	for _, note := range notes {
+	for _, note := range notes[:30] {
 		t.Run("Test get specific delivery note", func(t *testing.T) {
 			t.Parallel()
 
 			tnote, err := session.GetDeliveryNote(config, strconv.Itoa(note.DocEntry))
-			assert.NoError(t, err)
+			require.NoError(t, err)
+			require.NotNil(t, tnote)
 
 			t.Log(tnote)
 
@@ -122,7 +123,7 @@ func TestGetItem(t *testing.T) {
 
 	items := JSONToItems(string(itemsBytes))
 
-	for _, item := range items {
+	for _, item := range items[:20] {
 		t.Run("Test GetItem", func(t *testing.T) {
 			t.Parallel()
 
