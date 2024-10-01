@@ -183,7 +183,11 @@ func (s *Session) getSuppliers(cfg Config, endpoint string) (*Suppliers, error) 
 }
 
 func (s *Session) GetClients(cfg Config) (*Clients, error) {
-	req, err := http.NewRequest(http.MethodGet, cfg.GetClientsEndpoint(), nil)
+	return s.getClients(cfg, cfg.GetClientsEndpoint())
+}
+
+func (s *Session) getClients(cfg Config, endpoint string) (*Clients, error) {
+	req, err := http.NewRequest(http.MethodGet, endpoint, nil)
 	if err != nil {
 		return nil, err
 	}
@@ -202,6 +206,15 @@ func (s *Session) GetClients(cfg Config) (*Clients, error) {
 	var clients Clients
 	if err := json.Unmarshal(content, &clients); err != nil {
 		return nil, fmt.Errorf("could not load json response due to %s", err)
+	}
+
+	if clients.NextLink != nil && *clients.NextLink != "" {
+		next, err := s.getSuppliers(cfg, cfg.BuildEndpoint(*clients.NextLink))
+		if err != nil {
+			return &clients, err
+		}
+
+		clients.Value = append(clients.Value, next.Value...)
 	}
 
 	return &clients, nil
