@@ -145,7 +145,11 @@ func (s *Session) GetItems(cfg Config) (*Items, error) {
 }
 
 func (s *Session) GetSuppliers(cfg Config) (*Suppliers, error) {
-	req, err := http.NewRequest(http.MethodGet, cfg.GetSuppliersEndpoint(), nil)
+	return s.getSuppliers(cfg, cfg.GetSuppliersEndpoint())
+}
+
+func (s *Session) getSuppliers(cfg Config, endpoint string) (*Suppliers, error) {
+	req, err := http.NewRequest(http.MethodGet, endpoint, nil)
 	if err != nil {
 		return nil, err
 	}
@@ -164,6 +168,15 @@ func (s *Session) GetSuppliers(cfg Config) (*Suppliers, error) {
 	var suppliers Suppliers
 	if err := json.Unmarshal(content, &suppliers); err != nil {
 		return nil, fmt.Errorf("could not load json response due to %s", err)
+	}
+
+	if suppliers.NextLink != nil && *suppliers.NextLink != "" {
+		next, err := s.getSuppliers(cfg, cfg.BuildEndpoint(*suppliers.NextLink))
+		if err != nil {
+			return &suppliers, err
+		}
+
+		suppliers.Value = append(suppliers.Value, next.Value...)
 	}
 
 	return &suppliers, nil
