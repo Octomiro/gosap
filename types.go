@@ -6,7 +6,7 @@ type Item struct {
 	PurchaseUnitWidth *float64
 }
 
-type DeliveryNoteLine struct {
+type DocumentLine struct {
 	LineNum          int
 	ItemCode         string  `json:",omitempty"`
 	ItemDescription  string  `json:",omitempty"`
@@ -16,7 +16,7 @@ type DeliveryNoteLine struct {
 	Price            float64 `json:",omitempty"`
 }
 
-type DeliveryNote struct {
+type Document struct {
 	DocNum        int    `json:"DocNum,omitempty"`
 	DocEntry      int    `json:"DocEntry,omitempty"`
 	DocType       string `json:"DocType,omitempty"`
@@ -24,6 +24,13 @@ type DeliveryNote struct {
 	Status        string `json:"DocumentStatus,omitempty"`
 	DocumentLines []DeliveryNoteLine
 }
+
+type (
+	DeliveryNote      = Document
+	DeliveryNoteLine  = DocumentLine
+	PurchaseOrder     = Document
+	PurchaseOrderLine = DocumentLine
+)
 
 func (dn *DeliveryNote) IsOpen() bool {
 	return dn.Status == "bost_Open"
@@ -65,6 +72,12 @@ type (
 	Suppliers = BusinessPartners
 	Clients   = BusinessPartners
 )
+
+type PurchaseOrders struct {
+	Metadata string          `json:"odata.metadata"` //nolint:tagliatelle
+	Value    []PurchaseOrder `json:"value"`
+	NextLink *string         `json:"odata.nextLink"` //nolint:tagliatelle
+}
 
 type PurchaseDeliveryNoteLine struct {
 	ItemCode  string

@@ -225,6 +225,11 @@
     "PurchaseUnitWidth": 0
   },
   {
+    "ItemCode": "A00001",
+    "ItemName": "Imprimante IBM type Infoprint 1312",
+    "PurchaseUnitWidth": 10
+  },
+  {
     "ItemCode": "C00011",
     "ItemName": "Barette mémoire DDR RAM 512 MB",
     "PurchaseUnitWidth": 0
@@ -298,10 +303,5 @@
     "ItemCode": "A00006",
     "ItemName": "Imprimante HP type 600 Series Inc",
     "PurchaseUnitWidth": 0
-  },
-  {
-    "ItemCode": "A00001",
-    "ItemName": "Imprimante IBM type Infoprint 1312",
-    "PurchaseUnitWidth": 10
   }
 ]

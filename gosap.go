@@ -306,6 +306,81 @@ func (s *Session) CancelDeliveryNote(cfg Config, id string) error {
 	return s.changeDeliveryNote(cfg.CancelDeliveryNoteEndpoint(id))
 }
 
+func (s *Session) GetPurchaseOrders(cfg Config) (*PurchaseOrders, error) {
+	return s.getPurchaseOrders(cfg, cfg.GetPurchaseOrdersEndpoint())
+}
+
+func (s *Session) getPurchaseOrders(cfg Config, endpoint string) (*PurchaseOrders, error) {
+	req, err := http.NewRequest(http.MethodGet, endpoint, nil)
+	if err != nil {
+		return nil, err
+	}
+
+	resp, err := s.Do(req)
+	if err != nil {
+		return nil, err
+	}
+	defer resp.Body.Close()
+
+	content, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, fmt.Errorf("could not read response body content due to %s", err)
+	}
+
+	var notes PurchaseOrders
+	if err := json.Unmarshal(content, &notes); err != nil {
+		return nil, fmt.Errorf("could not load json response due to %s", err)
+	}
+
+	if notes.NextLink != nil && *notes.NextLink != "" {
+		next, err := s.getPurchaseOrders(cfg, cfg.BuildEndpoint(*notes.NextLink))
+		if err != nil {
+			return &notes, err
+		}
+
+		notes.Value = append(notes.Value, next.Value...)
+	}
+
+	return &notes, nil
+}
+
+func (s *Session) GetPurchaseOrder(cfg Config, id string) (*PurchaseOrder, error) {
+	req, err := http.NewRequest(http.MethodGet, cfg.GetPurchaseOrderEndpoint(id), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	resp, err := s.Do(req)
+	if err != nil {
+		return nil, err
+	}
+	defer resp.Body.Close()
+
+	content, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, fmt.Errorf("could not read response body content due to %s", err)
+	}
+
+	var note PurchaseOrder
+	if err := json.Unmarshal(content, &note); err != nil {
+		return nil, fmt.Errorf("could not load json response due to %s", err)
+	}
+
+	return &note, nil
+}
+
+func (s *Session) ReopenPurchaseOrder(cfg Config, id string) error {
+	return s.changeDeliveryNote(cfg.ReopenPurchaseOrderEndpoint(id))
+}
+
+func (s *Session) ClosePurchaseOrder(cfg Config, id string) error {
+	return s.changeDeliveryNote(cfg.ClosePurchaseOrderEndpoint(id))
+}
+
+func (s *Session) CancelPurchaseOrder(cfg Config, id string) error {
+	return s.changeDeliveryNote(cfg.CancelPurchaseOrderEndpoint(id))
+}
+
 func (s *Session) CreatePurchaseDeliveryNote(cfg Config, note PurchaseDeliveryNotes) (bool, error) {
 	payload, err := json.Marshal(note)
 	if err != nil {
