@@ -1,5 +1,54 @@
 [
   {
+    "DocNum": 1,
+    "DocEntry": 1,
+    "DocType": "dDocument_Items",
+    "CardCode": "C20000",
+    "DocumentStatus": "bost_Close",
+    "DocumentLines": [
+      {
+        "LineNum": 0,
+        "ItemCode": "A00001",
+        "ItemDescription": "Imprimante IBM type Infoprint 1312",
+        "Quantity": 5,
+        "ShipDate": "2006-01-20",
+        "Price": 600
+      },
+      {
+        "LineNum": 1,
+        "ItemCode": "A00002",
+        "ItemDescription": "Imprimante IBM type Infoprint 1222",
+        "Quantity": 5,
+        "ShipDate": "2006-01-20",
+        "Price": 300
+      },
+      {
+        "LineNum": 2,
+        "ItemCode": "A00003",
+        "ItemDescription": "Imprimante IBM type Infoprint 1226",
+        "Quantity": 5,
+        "ShipDate": "2006-01-20",
+        "Price": 450
+      },
+      {
+        "LineNum": 3,
+        "ItemCode": "A00004",
+        "ItemDescription": "Imprimante HP type Color Laser Jet 5",
+        "Quantity": 5,
+        "ShipDate": "2006-01-20",
+        "Price": 750
+      },
+      {
+        "LineNum": 4,
+        "ItemCode": "A00005",
+        "ItemDescription": "Imprimante HP type Color Laser Jet 4",
+        "Quantity": 5,
+        "ShipDate": "2006-01-20",
+        "Price": 600
+      }
+    ]
+  },
+  {
     "DocNum": 2,
     "DocEntry": 2,
     "DocType": "dDocument_Items",
@@ -43660,55 +43709,6 @@
         "ItemDescription": "Imprimante HP type 600 Series Inc",
         "Quantity": 2,
         "Price": 500
-      }
-    ]
-  },
-  {
-    "DocNum": 1,
-    "DocEntry": 1,
-    "DocType": "dDocument_Items",
-    "CardCode": "C20000",
-    "DocumentStatus": "bost_Close",
-    "DocumentLines": [
-      {
-        "LineNum": 0,
-        "ItemCode": "A00001",
-        "ItemDescription": "Imprimante IBM type Infoprint 1312",
-        "Quantity": 5,
-        "ShipDate": "2006-01-20",
-        "Price": 600
-      },
-      {
-        "LineNum": 1,
-        "ItemCode": "A00002",
-        "ItemDescription": "Imprimante IBM type Infoprint 1222",
-        "Quantity": 5,
-        "ShipDate": "2006-01-20",
-        "Price": 300
-      },
-      {
-        "LineNum": 2,
-        "ItemCode": "A00003",
-        "ItemDescription": "Imprimante IBM type Infoprint 1226",
-        "Quantity": 5,
-        "ShipDate": "2006-01-20",
-        "Price": 450
-      },
-      {
-        "LineNum": 3,
-        "ItemCode": "A00004",
-        "ItemDescription": "Imprimante HP type Color Laser Jet 5",
-        "Quantity": 5,
-        "ShipDate": "2006-01-20",
-        "Price": 750
-      },
-      {
-        "LineNum": 4,
-        "ItemCode": "A00005",
-        "ItemDescription": "Imprimante HP type Color Laser Jet 4",
-        "Quantity": 5,
-        "ShipDate": "2006-01-20",
-        "Price": 600
       }
     ]
   },

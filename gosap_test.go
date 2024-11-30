@@ -51,6 +51,28 @@ func TestGetDeliveryNotes(t *testing.T) {
 	assert.Equal(t, []byte(ToJSON(notes.Value)), goldenContent)
 }
 
+func TestGetPurchaseOrders(t *testing.T) {
+	t.Parallel()
+
+	session, err := gosap.Authenticate(config)
+	require.NoError(t, err)
+
+	orders, err := session.GetPurchaseOrders(config)
+	require.NoError(t, err)
+
+	t.Log(orders)
+
+	gp := filepath.Join("testdata", filepath.FromSlash(t.Name())+".golden")
+	if *update {
+		err := os.WriteFile(gp, []byte(ToJSON(orders.Value)), 0o600)
+		require.NoError(t, err)
+	}
+
+	goldenContent, err := os.ReadFile(gp)
+	require.NoError(t, err)
+	assert.Equal(t, []byte(ToJSON(orders.Value)), goldenContent)
+}
+
 func TestGetDeliveryNote(t *testing.T) {
 	session, err := gosap.Authenticate(config)
 	require.NoError(t, err)
@@ -81,6 +103,43 @@ func TestGetDeliveryNote(t *testing.T) {
 	}
 
 	t.Run("Test getting a delivery note with wrong id", func(t *testing.T) {
+		t.Parallel()
+
+		_, err := session.GetDeliveryNote(config, "3242")
+		assert.Error(t, err)
+	})
+}
+
+func TestGetPurchaseOrder(t *testing.T) {
+	session, err := gosap.Authenticate(config)
+	require.NoError(t, err)
+
+	deliveryNotesFile := filepath.Join("testdata", "TestGetPurchaseOrders.golden")
+
+	bytes, err := os.ReadFile(deliveryNotesFile)
+	require.NoError(t, err)
+
+	notes := make([]gosap.PurchaseOrder, 0, 10)
+	err = FromJSON(string(bytes), &notes)
+	require.NoError(t, err)
+
+	t.Log(notes)
+
+	for _, note := range notes[:30] {
+		t.Run("purchase_order_with_valid_id_is_retrieved", func(t *testing.T) {
+			t.Parallel()
+
+			tnote, err := session.GetPurchaseOrder(config, strconv.Itoa(note.DocEntry))
+			require.NoError(t, err)
+			require.NotNil(t, tnote)
+
+			t.Log(tnote)
+
+			assert.Equal(t, note, *tnote)
+		})
+	}
+
+	t.Run("purchase_order_with_invalid_id_returns_error", func(t *testing.T) {
 		t.Parallel()
 
 		_, err := session.GetDeliveryNote(config, "3242")

@@ -111,7 +111,7 @@ func (c *Config) BuildEndpoint(endpoint string) string {
 	return fmt.Sprintf("https://%s%s", c.hostPort(), endpoint)
 }
 
-func (c *Config) GetPurchaseOrdersEndpoint(id string) string {
+func (c *Config) GetPurchaseOrdersEndpoint() string {
 	return fmt.Sprintf("https://%s/b1s/v1/PurchaseOrders", c.hostPort())
 }
 
