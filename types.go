@@ -22,14 +22,16 @@ type Document struct {
 	DocType       string `json:"DocType,omitempty"`
 	CardCode      string `json:",omitempty"`
 	Status        string `json:"DocumentStatus,omitempty"`
-	DocumentLines []DeliveryNoteLine
+	DocumentLines []DocumentLine
 }
 
 type (
-	DeliveryNote      = Document
-	DeliveryNoteLine  = DocumentLine
-	PurchaseOrder     = Document
-	PurchaseOrderLine = DocumentLine
+	DeliveryNote             = Document
+	DeliveryNoteLine         = DocumentLine
+	PurchaseOrder            = Document
+	PurchaseOrderLine        = DocumentLine
+	PurchaseDeliveryNote     = Document
+	PurchaseDeliveryNoteLine = DocumentLine
 )
 
 func (dn *DeliveryNote) IsOpen() bool {
@@ -79,14 +81,8 @@ type PurchaseOrders struct {
 	NextLink *string         `json:"odata.nextLink"` //nolint:tagliatelle
 }
 
-type PurchaseDeliveryNoteLine struct {
-	ItemCode  string
-	Quantity  string
-	TaxCode   string
-	UnitPrice *string
-}
-
 type PurchaseDeliveryNotes struct {
-	CardCode      string
-	DocumentLines []PurchaseDeliveryNoteLine
+	Metadata string                 `json:"odata.metadata"` //nolint:tagliatelle
+	Value    []PurchaseDeliveryNote `json:"value"`
+	NextLink *string                `json:"odata.nextLink"` //nolint:tagliatelle
 }

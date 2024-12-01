@@ -131,8 +131,24 @@ func (c *Config) ReopenPurchaseOrderEndpoint(id string) string {
 	return fmt.Sprintf("https://%s/b1s/v1/PurchaseOrders(%s)/Reopen", c.hostPort(), id)
 }
 
-func (c *Config) CreatePurchaseDeliveryNoteEndpoint() string {
+func (c *Config) GetPurchaseDeliveryNotesEndpoint() string {
 	return fmt.Sprintf("https://%s/b1s/v1/PurchaseDeliveryNotes", c.hostPort())
+}
+
+func (c *Config) GetPurchaseDeliveryNoteEndpoint(id string) string {
+	return fmt.Sprintf("https://%s/b1s/v1/PurchaseDeliveryNotes(%s)", c.hostPort(), id)
+}
+
+func (c *Config) ClosePurchaseDeliveryNoteEndpoint(id string) string {
+	return fmt.Sprintf("https://%s/b1s/v1/PurchaseDeliveryNotes(%s)/Close", c.hostPort(), id)
+}
+
+func (c *Config) CancelPurchaseDeliveryNoteEndpoint(id string) string {
+	return fmt.Sprintf("https://%s/b1s/v1/PurchaseDeliveryNotes(%s)/Cancel", c.hostPort(), id)
+}
+
+func (c *Config) ReopenPurchaseDeliveryNoteEndpoint(id string) string {
+	return fmt.Sprintf("https://%s/b1s/v1/PurchaseDeliveryNotes(%s)/Reopen", c.hostPort(), id)
 }
 
 func (c *Config) hostPort() string {
