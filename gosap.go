@@ -381,14 +381,68 @@ func (s *Session) CancelPurchaseOrder(cfg Config, id string) error {
 	return s.changeDeliveryNote(cfg.CancelPurchaseOrderEndpoint(id))
 }
 
-func (s *Session) CreatePurchaseDeliveryNote(cfg Config, note PurchaseDeliveryNotes) (bool, error) {
+func (s *Session) GetPurchaseDeliveryNotes(cfg Config) (*PurchaseDeliveryNotes, error) {
+	return s.getPurchaseDeliveryNotes(cfg, cfg.GetPurchaseDeliveryNotesEndpoint())
+}
+
+func (s *Session) getPurchaseDeliveryNotes(cfg Config, endpoint string) (*PurchaseDeliveryNotes, error) {
+	req, err := http.NewRequest(http.MethodGet, endpoint, nil)
+	if err != nil {
+		return nil, err
+	}
+
+	resp, err := s.Do(req)
+	if err != nil {
+		return nil, err
+	}
+	defer resp.Body.Close()
+
+	content, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, fmt.Errorf("could not read response body content due to %s", err)
+	}
+
+	var notes PurchaseDeliveryNotes
+	if err := json.Unmarshal(content, &notes); err != nil {
+		return nil, fmt.Errorf("could not load json response due to %s", err)
+	}
+
+	if notes.NextLink != nil && *notes.NextLink != "" {
+		next, err := s.getPurchaseDeliveryNotes(cfg, cfg.BuildEndpoint(*notes.NextLink))
+		if err != nil {
+			return &notes, err
+		}
+
+		notes.Value = append(notes.Value, next.Value...)
+	}
+
+	return &notes, nil
+}
+
+func (s *Session) GetPurchaseDeliveryNote(cfg Config, id string) (*PurchaseDeliveryNote, error) {
+	return s.retrieveDocument(cfg.GetPurchaseDeliveryNoteEndpoint(id))
+}
+
+func (s *Session) ReopenPurchaseDeliveryNote(cfg Config, id string) error {
+	return s.changeDeliveryNote(cfg.ReopenPurchaseDeliveryNoteEndpoint(id))
+}
+
+func (s *Session) ClosePurchaseDeliveryNote(cfg Config, id string) error {
+	return s.changeDeliveryNote(cfg.ClosePurchaseDeliveryNoteEndpoint(id))
+}
+
+func (s *Session) CancelPurchaseDeliveryNote(cfg Config, id string) error {
+	return s.changeDeliveryNote(cfg.CancelPurchaseDeliveryNoteEndpoint(id))
+}
+
+func (s *Session) CreatePurchaseDeliveryNote(cfg Config, note Document) (bool, error) {
 	payload, err := json.Marshal(note)
 	if err != nil {
 		return false, err
 	}
 
 	req, err := http.NewRequest(http.MethodPost,
-		cfg.CreatePurchaseDeliveryNoteEndpoint(), strings.NewReader(string(payload)))
+		cfg.GetPurchaseDeliveryNotesEndpoint(), strings.NewReader(string(payload)))
 	if err != nil {
 		return false, err
 	}
@@ -405,4 +459,29 @@ func (s *Session) CreatePurchaseDeliveryNote(cfg Config, note PurchaseDeliveryNo
 	}
 
 	return true, nil
+}
+
+func (s *Session) retrieveDocument(endpoint string) (*Document, error) {
+	req, err := http.NewRequest(http.MethodGet, endpoint, nil)
+	if err != nil {
+		return nil, err
+	}
+
+	resp, err := s.Do(req)
+	if err != nil {
+		return nil, err
+	}
+	defer resp.Body.Close()
+
+	content, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, fmt.Errorf("could not read response body content due to %s", err)
+	}
+
+	var doc Document
+	if err := json.Unmarshal(content, &doc); err != nil {
+		return nil, fmt.Errorf("could not load json response due to %s", err)
+	}
+
+	return &doc, nil
 }
