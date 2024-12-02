@@ -35,7 +35,7 @@ type PurchaseDeliveryNote struct {
 }
 
 type PurchaseDeliveryNoteLine struct {
-	LineNum         int
+	LineNum         int     `json:",omitempty"`
 	ItemCode        string  `json:",omitempty"`
 	ItemDescription string  `json:",omitempty"`
 	Quantity        float64 `json:",omitempty"`

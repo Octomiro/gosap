@@ -1,6 +1,7 @@
 package gosap_test
 
 import (
+	"encoding/json"
 	"flag"
 	"fmt"
 	"os"
@@ -147,7 +148,7 @@ func TestGetPurchaseOrder(t *testing.T) {
 	})
 }
 
-func TestPurchaseDeliveryNotes(t *testing.T) {
+func TestGetPurchaseDeliveryNotes(t *testing.T) {
 	t.Parallel()
 
 	session, err := gosap.Authenticate(config)
@@ -167,6 +168,33 @@ func TestPurchaseDeliveryNotes(t *testing.T) {
 	goldenContent, err := os.ReadFile(gp)
 	require.NoError(t, err)
 	assert.Equal(t, []byte(ToJSON(notes.Value)), goldenContent)
+}
+
+func TestCreatePurchaseDeliveryNote(t *testing.T) {
+	t.Parallel()
+
+	session, err := gosap.Authenticate(config)
+	require.NoError(t, err)
+
+	note := gosap.PurchaseDeliveryNote{
+		CardCode: "V10000",
+		DocumentLines: []gosap.PurchaseDeliveryNoteLine{
+			{
+				ItemCode: "I00007",
+				Quantity: 20,
+			},
+		},
+	}
+
+	payload, err := json.Marshal(note)
+	require.NoError(t, err)
+
+	t.Log(string(payload))
+
+	ok, err := session.CreatePurchaseDeliveryNote(config, note)
+
+	assert.True(t, ok)
+	assert.NoError(t, err)
 }
 
 func TestGetItems(t *testing.T) {
