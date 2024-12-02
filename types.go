@@ -22,7 +22,28 @@ type Document struct {
 	DocType       string `json:"DocType,omitempty"`
 	CardCode      string `json:",omitempty"`
 	Status        string `json:"DocumentStatus,omitempty"`
-	DocumentLines []DeliveryNoteLine
+	DocumentLines []DocumentLine
+}
+
+type PurchaseDeliveryNote struct {
+	DocNum        int    `json:"DocNum,omitempty"`
+	DocEntry      int    `json:"DocEntry,omitempty"`
+	DocType       string `json:"DocType,omitempty"`
+	CardCode      string `json:",omitempty"`
+	Status        string `json:"DocumentStatus,omitempty"`
+	DocumentLines []PurchaseDeliveryNoteLine
+}
+
+type PurchaseDeliveryNoteLine struct {
+	LineNum         int     `json:",omitempty"`
+	ItemCode        string  `json:",omitempty"`
+	ItemDescription string  `json:",omitempty"`
+	Quantity        float64 `json:",omitempty"`
+	ShipDate        string  `json:",omitempty"`
+	Price           float64 `json:",omitempty"`
+	BaseType        int     `json:",omitempty"`
+	BaseEntry       int     `json:",omitempty"`
+	BaseLine        int     `json:",omitempty"`
 }
 
 type (
@@ -79,14 +100,8 @@ type PurchaseOrders struct {
 	NextLink *string         `json:"odata.nextLink"` //nolint:tagliatelle
 }
 
-type PurchaseDeliveryNoteLine struct {
-	ItemCode  string
-	Quantity  string
-	TaxCode   string
-	UnitPrice *string
-}
-
 type PurchaseDeliveryNotes struct {
-	CardCode      string
-	DocumentLines []PurchaseDeliveryNoteLine
+	Metadata string                 `json:"odata.metadata"` //nolint:tagliatelle
+	Value    []PurchaseDeliveryNote `json:"value"`
+	NextLink *string                `json:"odata.nextLink"` //nolint:tagliatelle
 }

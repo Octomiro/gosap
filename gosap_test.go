@@ -1,6 +1,7 @@
 package gosap_test
 
 import (
+	"encoding/json"
 	"flag"
 	"fmt"
 	"os"
@@ -145,6 +146,55 @@ func TestGetPurchaseOrder(t *testing.T) {
 		_, err := session.GetDeliveryNote(config, "3242")
 		assert.Error(t, err)
 	})
+}
+
+func TestGetPurchaseDeliveryNotes(t *testing.T) {
+	t.Parallel()
+
+	session, err := gosap.Authenticate(config)
+	require.NoError(t, err)
+
+	notes, err := session.GetPurchaseDeliveryNotes(config)
+	require.NoError(t, err)
+
+	t.Log(notes)
+
+	gp := filepath.Join("testdata", filepath.FromSlash(t.Name())+".golden")
+	if *update {
+		err := os.WriteFile(gp, []byte(ToJSON(notes.Value)), 0o600)
+		require.NoError(t, err)
+	}
+
+	goldenContent, err := os.ReadFile(gp)
+	require.NoError(t, err)
+	assert.Equal(t, []byte(ToJSON(notes.Value)), goldenContent)
+}
+
+func TestCreatePurchaseDeliveryNote(t *testing.T) {
+	t.Parallel()
+
+	session, err := gosap.Authenticate(config)
+	require.NoError(t, err)
+
+	note := gosap.PurchaseDeliveryNote{
+		CardCode: "V10000",
+		DocumentLines: []gosap.PurchaseDeliveryNoteLine{
+			{
+				ItemCode: "I00007",
+				Quantity: 20,
+			},
+		},
+	}
+
+	payload, err := json.Marshal(note)
+	require.NoError(t, err)
+
+	t.Log(string(payload))
+
+	ok, err := session.CreatePurchaseDeliveryNote(config, note)
+
+	assert.True(t, ok)
+	assert.NoError(t, err)
 }
 
 func TestGetItems(t *testing.T) {
