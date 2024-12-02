@@ -433,3 +433,175 @@ func retrieveDocument[T any](s *Session, endpoint string) (*T, error) {
 
 	return &doc, nil
 }
+
+func (s *Session) GetInventoryCounting(cfg Config, id int) (*InventoryCounting, error) {
+	url := cfg.GetInventoryCountingEndpoint(id)
+	req, err := http.NewRequest(http.MethodGet, url, nil)
+	if err != nil {
+		return nil, err
+	}
+
+	resp, err := s.Do(req)
+	if err != nil {
+		return nil, err
+	}
+	defer resp.Body.Close()
+
+	var counting InventoryCounting
+	if err := json.NewDecoder(resp.Body).Decode(&counting); err != nil {
+		return nil, fmt.Errorf("could not decode response body due to %s", err)
+	}
+
+	return &counting, nil
+}
+
+func (s *Session) GetInventoryCountings(cfg Config, filter string) ([]InventoryCounting, error) {
+	url := cfg.GetInventoryCountingsEndpoint(filter)
+	req, err := http.NewRequest(http.MethodGet, url, nil)
+	if err != nil {
+		return nil, err
+	}
+
+	resp, err := s.Do(req)
+	if err != nil {
+		return nil, err
+	}
+	defer resp.Body.Close()
+
+	var countings []InventoryCounting
+	if err := json.NewDecoder(resp.Body).Decode(&countings); err != nil {
+		return nil, fmt.Errorf("could not decode response body due to %s", err)
+	}
+
+	return countings, nil
+}
+
+func (s *Session) CreateInventoryCounting(cfg Config, counting InventoryCounting) (bool, error) {
+	payload, err := json.Marshal(counting)
+	if err != nil {
+		return false, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, cfg.CreateInventoryCountingEndpoint(), strings.NewReader(string(payload)))
+	if err != nil {
+		return false, err
+	}
+
+	resp, err := s.Do(req)
+	if err != nil {
+		return false, err
+	}
+	defer resp.Body.Close()
+
+	_, err = io.ReadAll(resp.Body)
+	if err != nil {
+		return false, fmt.Errorf("could not read response body content due to %s", err)
+	}
+
+	return true, nil
+}
+
+func (s *Session) UpdateInventoryCounting(cfg Config, id int, updates InventoryCounting) (bool, error) {
+	payload, err := json.Marshal(updates)
+	if err != nil {
+		return false, err
+	}
+
+	url := cfg.GetInventoryCountingEndpoint(id)
+	req, err := http.NewRequest(http.MethodPatch, url, strings.NewReader(string(payload)))
+	if err != nil {
+		return false, err
+	}
+
+	resp, err := s.Do(req)
+	if err != nil {
+		return false, err
+	}
+	defer resp.Body.Close()
+
+	_, err = io.ReadAll(resp.Body)
+	if err != nil {
+		return false, fmt.Errorf("could not read response body content due to %s", err)
+	}
+
+	return true, nil
+}
+
+func (s *Session) DeleteInventoryCounting(cfg Config, id int) (bool, error) {
+	url := cfg.GetInventoryCountingEndpoint(id)
+	req, err := http.NewRequest(http.MethodDelete, url, nil)
+	if err != nil {
+		return false, err
+	}
+
+	resp, err := s.Do(req)
+	if err != nil {
+		return false, err
+	}
+	defer resp.Body.Close()
+
+	_, err = io.ReadAll(resp.Body)
+	if err != nil {
+		return false, fmt.Errorf("could not read response body content due to %s", err)
+	}
+
+	return true, nil
+}
+
+func (s *Session) CloseInventoryCounting(cfg Config, id int) (bool, error) {
+	url := cfg.CloseInventoryCountingEndpoint(id)
+	req, err := http.NewRequest(http.MethodPost, url, nil)
+	if err != nil {
+		return false, err
+	}
+
+	resp, err := s.Do(req)
+	if err != nil {
+		return false, err
+	}
+	defer resp.Body.Close()
+
+	_, err = io.ReadAll(resp.Body)
+	if err != nil {
+		return false, fmt.Errorf("could not read response body content due to %s", err)
+	}
+
+	return true, nil
+}
+
+func (s *Session) AddLinesToInventoryCounting(cfg Config, id int, lines []InventoryCountingLine) (bool, error) {
+	// Retrieve the existing inventory counting
+	existingCounting, err := s.GetInventoryCounting(cfg, id)
+	if err != nil {
+		return false, err
+	}
+
+	// Append new lines to the existing lines
+	existingCounting.InventoryCountingLines = append(existingCounting.InventoryCountingLines, lines...)
+
+	// Prepare the payload for the update
+	payload, err := json.Marshal(existingCounting)
+	if err != nil {
+		return false, err
+	}
+
+	// Send the PATCH request to update the inventory counting
+	url := cfg.GetInventoryCountingEndpoint(id)
+	req, err := http.NewRequest(http.MethodPatch, url, strings.NewReader(string(payload)))
+	if err != nil {
+		return false, err
+	}
+
+	resp, err := s.Do(req)
+	if err != nil {
+		return false, err
+	}
+	defer resp.Body.Close()
+
+	_, err = io.ReadAll(resp.Body)
+	if err != nil {
+		return false, fmt.Errorf("could not read response body content due to %s", err)
+	}
+
+	return true, nil
+}

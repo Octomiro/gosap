@@ -105,3 +105,15 @@ type PurchaseDeliveryNotes struct {
 	Value    []PurchaseDeliveryNote `json:"value"`
 	NextLink *string                `json:"odata.nextLink"` //nolint:tagliatelle
 }
+
+type InventoryCountingLine struct {
+	ItemCode      string `json:"ItemCode"`
+	WarehouseCode string `json:"WarehouseCode"`
+}
+
+type InventoryCounting struct {
+	DocumentEntry          int                     `json:"DocumentEntry,omitempty"`
+	DocumentNumber         string                  `json:"DocumentNumber,omitempty"`
+	Series                 string                  `json:"Series,omitempty"`
+	InventoryCountingLines []InventoryCountingLine `json:"InventoryCountingLines,omitempty"`
+}
