@@ -154,3 +154,19 @@ func (c *Config) ReopenPurchaseDeliveryNoteEndpoint(id string) string {
 func (c *Config) hostPort() string {
 	return net.JoinHostPort(c.IP, strconv.Itoa(int(c.Port)))
 }
+
+func (c *Config) GetInventoryCountingEndpoint(id int) string {
+	return fmt.Sprintf("https://%s/b1s/v2/InventoryCountings(%d)", c.hostPort(), id)
+}
+
+func (c *Config) GetInventoryCountingsEndpoint(filter string) string {
+	return fmt.Sprintf("https://%s/b1s/v2/InventoryCountings?$filter=%s", c.hostPort(), filter)
+}
+
+func (c *Config) CreateInventoryCountingEndpoint() string {
+	return fmt.Sprintf("https://%s/b1s/v2/InventoryCountings", c.hostPort())
+}
+
+func (c *Config) CloseInventoryCountingEndpoint(id int) string {
+	return fmt.Sprintf("https://%s/b1s/v2/InventoryCountings(%d)/Close", c.hostPort(), id)
+}
