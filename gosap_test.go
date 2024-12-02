@@ -147,6 +147,28 @@ func TestGetPurchaseOrder(t *testing.T) {
 	})
 }
 
+func TestPurchaseDeliveryNotes(t *testing.T) {
+	t.Parallel()
+
+	session, err := gosap.Authenticate(config)
+	require.NoError(t, err)
+
+	notes, err := session.GetPurchaseDeliveryNotes(config)
+	require.NoError(t, err)
+
+	t.Log(notes)
+
+	gp := filepath.Join("testdata", filepath.FromSlash(t.Name())+".golden")
+	if *update {
+		err := os.WriteFile(gp, []byte(ToJSON(notes.Value)), 0o600)
+		require.NoError(t, err)
+	}
+
+	goldenContent, err := os.ReadFile(gp)
+	require.NoError(t, err)
+	assert.Equal(t, []byte(ToJSON(notes.Value)), goldenContent)
+}
+
 func TestGetItems(t *testing.T) {
 	t.Parallel()
 

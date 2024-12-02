@@ -25,13 +25,32 @@ type Document struct {
 	DocumentLines []DocumentLine
 }
 
+type PurchaseDeliveryNote struct {
+	DocNum        int    `json:"DocNum,omitempty"`
+	DocEntry      int    `json:"DocEntry,omitempty"`
+	DocType       string `json:"DocType,omitempty"`
+	CardCode      string `json:",omitempty"`
+	Status        string `json:"DocumentStatus,omitempty"`
+	DocumentLines []PurchaseDeliveryNoteLine
+}
+
+type PurchaseDeliveryNoteLine struct {
+	LineNum         int
+	ItemCode        string  `json:",omitempty"`
+	ItemDescription string  `json:",omitempty"`
+	Quantity        float64 `json:",omitempty"`
+	ShipDate        string  `json:",omitempty"`
+	Price           float64 `json:",omitempty"`
+	BaseType        int     `json:",omitempty"`
+	BaseEntry       int     `json:",omitempty"`
+	BaseLine        int     `json:",omitempty"`
+}
+
 type (
-	DeliveryNote             = Document
-	DeliveryNoteLine         = DocumentLine
-	PurchaseOrder            = Document
-	PurchaseOrderLine        = DocumentLine
-	PurchaseDeliveryNote     = Document
-	PurchaseDeliveryNoteLine = DocumentLine
+	DeliveryNote      = Document
+	DeliveryNoteLine  = DocumentLine
+	PurchaseOrder     = Document
+	PurchaseOrderLine = DocumentLine
 )
 
 func (dn *DeliveryNote) IsOpen() bool {
