@@ -420,7 +420,7 @@ func (s *Session) getPurchaseDeliveryNotes(cfg Config, endpoint string) (*Purcha
 }
 
 func (s *Session) GetPurchaseDeliveryNote(cfg Config, id string) (*PurchaseDeliveryNote, error) {
-	return s.retrieveDocument(cfg.GetPurchaseDeliveryNoteEndpoint(id))
+	return retrieveDocument[PurchaseDeliveryNote](s, cfg.GetPurchaseDeliveryNoteEndpoint(id))
 }
 
 func (s *Session) ReopenPurchaseDeliveryNote(cfg Config, id string) error {
@@ -461,7 +461,9 @@ func (s *Session) CreatePurchaseDeliveryNote(cfg Config, note Document) (bool, e
 	return true, nil
 }
 
-func (s *Session) retrieveDocument(endpoint string) (*Document, error) {
+// retrieveDocument pulls a document type from an SAP endpoint. The type of Unmarshal needs to
+// be specified when calling the function.
+func retrieveDocument[T any](s *Session, endpoint string) (*T, error) {
 	req, err := http.NewRequest(http.MethodGet, endpoint, nil)
 	if err != nil {
 		return nil, err
@@ -478,7 +480,7 @@ func (s *Session) retrieveDocument(endpoint string) (*Document, error) {
 		return nil, fmt.Errorf("could not read response body content due to %s", err)
 	}
 
-	var doc Document
+	var doc T
 	if err := json.Unmarshal(content, &doc); err != nil {
 		return nil, fmt.Errorf("could not load json response due to %s", err)
 	}
