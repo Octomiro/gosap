@@ -447,16 +447,24 @@ func (s *Session) GetInventoryCounting(cfg Config, id int) (*InventoryCounting, 
 	}
 	defer resp.Body.Close()
 
-	var counting InventoryCounting
-	if err := json.NewDecoder(resp.Body).Decode(&counting); err != nil {
-		return nil, fmt.Errorf("could not decode response body due to %s", err)
+	// Read the response body
+	content, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, fmt.Errorf("could not read response body content due to %s", err)
 	}
 
-	return &counting, nil
+	var inventoryCounting InventoryCounting
+
+	// Unmarshal the JSON into the wrapper struct
+	if err := json.Unmarshal(content, &inventoryCounting); err != nil {
+		return nil, fmt.Errorf("could not load json response due to %s", err)
+	}
+
+	return &inventoryCounting, nil
 }
 
-func (s *Session) GetInventoryCountings(cfg Config, filter string) ([]InventoryCounting, error) {
-	url := cfg.GetInventoryCountingsEndpoint(filter)
+func (s *Session) GetInventoryCountings(cfg Config) ([]InventoryCounting, error) {
+	url := cfg.GetInventoryCountingsEndpoint()
 	req, err := http.NewRequest(http.MethodGet, url, nil)
 	if err != nil {
 		return nil, err
@@ -468,12 +476,19 @@ func (s *Session) GetInventoryCountings(cfg Config, filter string) ([]InventoryC
 	}
 	defer resp.Body.Close()
 
-	var countings []InventoryCounting
-	if err := json.NewDecoder(resp.Body).Decode(&countings); err != nil {
-		return nil, fmt.Errorf("could not decode response body due to %s", err)
+	// Read the response body
+	content, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, fmt.Errorf("could not read response body content due to %s", err)
 	}
 
-	return countings, nil
+	// Unmarshal the JSON into the wrapper struct
+	var response InventoryCountingResponse
+	if err := json.Unmarshal(content, &response); err != nil {
+		return nil, fmt.Errorf("could not load json response due to %s", err)
+	}
+
+	return response.Value, nil
 }
 
 func (s *Session) CreateInventoryCounting(cfg Config, counting InventoryCounting) (bool, error) {
@@ -604,4 +619,24 @@ func (s *Session) AddLinesToInventoryCounting(cfg Config, id int, lines []Invent
 	}
 
 	return true, nil
+}
+
+func (s *Session) GetAllInventoryCountingsWithLines(cfg Config) ([]InventoryCounting, error) {
+	// Fetch the list of inventory countings
+	inventoryCountings, err := s.GetInventoryCountings(cfg)
+	if err != nil {
+		return nil, fmt.Errorf("could not fetch inventory countings: %s", err)
+	}
+
+	var detailedCountings []InventoryCounting
+	for _, counting := range inventoryCountings {
+		// Fetch each inventory counting by ID to include lines
+		detailedCounting, err := s.GetInventoryCounting(cfg, counting.DocumentEntry)
+		if err != nil {
+			return nil, fmt.Errorf("could not fetch details for inventory counting ID %d: %s", counting.DocumentEntry, err)
+		}
+		detailedCountings = append(detailedCountings, *detailedCounting)
+	}
+
+	return detailedCountings, nil
 }
