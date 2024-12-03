@@ -441,16 +441,9 @@ func (s *Session) GetInventoryCounting(cfg Config, id int) (*InventoryCounting, 
 		return nil, err
 	}
 
-	resp, err := s.Do(req)
+	_, content, err := s.Do(req)
 	if err != nil {
 		return nil, err
-	}
-	defer resp.Body.Close()
-
-	// Read the response body
-	content, err := io.ReadAll(resp.Body)
-	if err != nil {
-		return nil, fmt.Errorf("could not read response body content due to %s", err)
 	}
 
 	var inventoryCounting InventoryCounting
@@ -473,16 +466,9 @@ func (s *Session) getInventoryCountings(cfg Config, endpoint string) ([]Inventor
 		return nil, err
 	}
 
-	resp, err := s.Do(req)
+	_, content, err := s.Do(req)
 	if err != nil {
 		return nil, err
-	}
-	defer resp.Body.Close()
-
-	// Read the response body
-	content, err := io.ReadAll(resp.Body)
-	if err != nil {
-		return nil, fmt.Errorf("could not read response body content due to %s", err)
 	}
 
 	// Unmarshal the JSON into the wrapper struct
@@ -514,13 +500,7 @@ func (s *Session) CreateInventoryCounting(cfg Config, counting InventoryCounting
 		return false, err
 	}
 
-	resp, err := s.Do(req)
-	if err != nil {
-		return false, err
-	}
-	defer resp.Body.Close()
-
-	_, err = io.ReadAll(resp.Body)
+	_, _, err = s.Do(req)
 	if err != nil {
 		return false, fmt.Errorf("could not read response body content due to %s", err)
 	}
@@ -540,13 +520,7 @@ func (s *Session) UpdateInventoryCounting(cfg Config, id int, updates InventoryC
 		return false, err
 	}
 
-	resp, err := s.Do(req)
-	if err != nil {
-		return false, err
-	}
-	defer resp.Body.Close()
-
-	_, err = io.ReadAll(resp.Body)
+	_, _, err = s.Do(req)
 	if err != nil {
 		return false, fmt.Errorf("could not read response body content due to %s", err)
 	}
@@ -561,13 +535,7 @@ func (s *Session) DeleteInventoryCounting(cfg Config, id int) (bool, error) {
 		return false, err
 	}
 
-	resp, err := s.Do(req)
-	if err != nil {
-		return false, err
-	}
-	defer resp.Body.Close()
-
-	_, err = io.ReadAll(resp.Body)
+	_, _, err = s.Do(req)
 	if err != nil {
 		return false, fmt.Errorf("could not read response body content due to %s", err)
 	}
@@ -582,13 +550,7 @@ func (s *Session) CloseInventoryCounting(cfg Config, id int) (bool, error) {
 		return false, err
 	}
 
-	resp, err := s.Do(req)
-	if err != nil {
-		return false, err
-	}
-	defer resp.Body.Close()
-
-	_, err = io.ReadAll(resp.Body)
+	_, _, err = s.Do(req)
 	if err != nil {
 		return false, fmt.Errorf("could not read response body content due to %s", err)
 	}
@@ -619,13 +581,7 @@ func (s *Session) AddLinesToInventoryCounting(cfg Config, id int, lines []Invent
 		return false, err
 	}
 
-	resp, err := s.Do(req)
-	if err != nil {
-		return false, err
-	}
-	defer resp.Body.Close()
-
-	_, err = io.ReadAll(resp.Body)
+	_, _, err = s.Do(req)
 	if err != nil {
 		return false, fmt.Errorf("could not read response body content due to %s", err)
 	}
