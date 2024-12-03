@@ -248,3 +248,22 @@ func TestGetItem(t *testing.T) {
 		})
 	}
 }
+
+func TestGetInventoryCountings(t *testing.T) {
+	session, err := gosap.Authenticate(config)
+	require.NoError(t, err)
+
+	// filter := "DocumentEntry ge 123" // Adjust filter as needed
+	countings, err := session.GetAllInventoryCountingsWithLines(config)
+	require.NoError(t, err)
+
+	gp := filepath.Join("testdata", filepath.FromSlash(t.Name())+".golden")
+	if *update {
+		err := os.WriteFile(gp, []byte(ToJSON(countings)), 0o600)
+		require.NoError(t, err)
+	}
+
+	goldenContent, err := os.ReadFile(gp)
+	require.NoError(t, err)
+	assert.Equal(t, []byte(ToJSON(countings)), goldenContent)
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "DocumentEntry": 4,
+    "DocumentNumber": 1,
+    "Series": 46,
+    "CountingType": "ctSingleCounter",
+    "DocumentStatus": "cdsOpen",
+    "InventoryCountingLines": [
+      {
+        "ItemCode": "i001",
+        "WarehouseCode": "01",
+        "CountedQuantity": 0
+      }
+    ]
+  },
+  {
+    "DocumentEntry": 6,
+    "DocumentNumber": 3,
+    "Series": 46,
+    "CountingType": "ctSingleCounter",
+    "DocumentStatus": "cdsOpen",
+    "InventoryCountingLines": [
+      {
+        "ItemCode": "i003",
+        "WarehouseCode": "01",
+        "CountedQuantity": 5
+      }
+    ]
+  },
+  {
+    "DocumentEntry": 5,
+    "DocumentNumber": 2,
+    "Series": 46,
+    "CountingType": "ctSingleCounter",
+    "DocumentStatus": "cdsClosed",
+    "InventoryCountingLines": [
+      {
+        "ItemCode": "i002",
+        "WarehouseCode": "01",
+        "CountedQuantity": 0
+      }
+    ]
+  }
+]
