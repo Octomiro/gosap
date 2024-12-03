@@ -124,4 +124,5 @@ type InventoryCounting struct {
 type InventoryCountingResponse struct {
 	ODataMetadata string              `json:"@odata.metadata"`
 	Value         []InventoryCounting `json:"value"`
+	NextLink      *string             `json:"odata.nextLink"`
 }
