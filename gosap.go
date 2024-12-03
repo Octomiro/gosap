@@ -437,8 +437,11 @@ func (s *Session) GetInventoryCounting(cfg Config, id int) (*InventoryCounting, 
 }
 
 func (s *Session) GetInventoryCountings(cfg Config) ([]InventoryCounting, error) {
-	url := cfg.GetInventoryCountingsEndpoint()
-	req, err := http.NewRequest(http.MethodGet, url, nil)
+	return s.getInventoryCountings(cfg, cfg.GetInventoryCountingsEndpoint())
+}
+
+func (s *Session) getInventoryCountings(cfg Config, endpoint string) ([]InventoryCounting, error) {
+	req, err := http.NewRequest(http.MethodGet, endpoint, nil)
 	if err != nil {
 		return nil, err
 	}
@@ -459,6 +462,15 @@ func (s *Session) GetInventoryCountings(cfg Config) ([]InventoryCounting, error)
 	var response InventoryCountingResponse
 	if err := json.Unmarshal(content, &response); err != nil {
 		return nil, fmt.Errorf("could not load json response due to %s", err)
+	}
+
+	if response.NextLink != nil && *response.NextLink != "" {
+		next, err := s.getInventoryCountings(cfg, cfg.BuildEndpoint(*response.NextLink))
+		if err != nil {
+			return response.Value, err
+		}
+
+		response.Value = append(response.Value, next...)
 	}
 
 	return response.Value, nil
