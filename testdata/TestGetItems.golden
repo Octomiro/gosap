@@ -15,11 +15,6 @@
     "PurchaseUnitWidth": 0
   },
   {
-    "ItemCode": "I00007",
-    "ItemName": "Cartouche d'encre pour imprimante HP Printer 95",
-    "PurchaseUnitWidth": 0
-  },
-  {
     "ItemCode": "LM4029MC",
     "ItemName": "Barette mémoire",
     "PurchaseUnitWidth": 0
@@ -302,6 +297,26 @@
   {
     "ItemCode": "A00006",
     "ItemName": "Imprimante HP type 600 Series Inc",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "i001",
+    "ItemName": "Item1",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "i002",
+    "ItemName": "Item2",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "i003",
+    "ItemName": "Item3",
+    "PurchaseUnitWidth": 0
+  },
+  {
+    "ItemCode": "I00007",
+    "ItemName": "Cartouche d'encre pour imprimante HP Printer 95",
     "PurchaseUnitWidth": 0
   }
 ]

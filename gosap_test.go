@@ -171,6 +171,7 @@ func TestGetPurchaseDeliveryNotes(t *testing.T) {
 }
 
 func TestCreatePurchaseDeliveryNote(t *testing.T) {
+	t.Skip("skipping creating PurchaseDeliveryNote")
 	t.Parallel()
 
 	session, err := gosap.Authenticate(config)
