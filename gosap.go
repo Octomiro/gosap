@@ -31,9 +31,14 @@ func Authenticate(cfg Config) (*Session, error) {
 	}
 	defer resp.Body.Close()
 
+	content, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, fmt.Errorf("could not read response body due to %s", err)
+	}
+
 	statusOK := resp.StatusCode >= http.StatusOK && resp.StatusCode < http.StatusMultipleChoices
 	if !statusOK {
-		return nil, fmt.Errorf("request to SAP API (%s) was not successful due to %s", cfg.LoginEndpoint(), resp.Status)
+		return nil, fmt.Errorf("request to SAP API (%s) was not successful due to %s - %s", cfg.LoginEndpoint(), resp.Status, string(content))
 	}
 
 	cookies := resp.Cookies()
@@ -59,7 +64,7 @@ func (s *Session) setSessionCookies(req *http.Request) {
 
 // Do sends the request and returns the response.
 // Caller should close Body of response after reading it.
-func (s *Session) Do(req *http.Request) (*http.Response, error) {
+func (s *Session) Do(req *http.Request) (*http.Response, []byte, error) {
 	tr := &http.Transport{
 		TLSClientConfig: &tls.Config{InsecureSkipVerify: true},
 	}
@@ -70,15 +75,22 @@ func (s *Session) Do(req *http.Request) (*http.Response, error) {
 
 	resp, err := client.Do(req)
 	if err != nil {
-		return nil, err
+		return nil, []byte{}, err
+	}
+
+	defer resp.Body.Close()
+
+	content, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, []byte{}, fmt.Errorf("could not read body of response due to %s", err)
 	}
 
 	statusOK := resp.StatusCode >= http.StatusOK && resp.StatusCode < http.StatusMultipleChoices
 	if !statusOK {
-		return nil, fmt.Errorf("request to SAP API (%s) was not successful due to %s", req.URL, resp.Status)
+		return nil, content, fmt.Errorf("request to SAP API (%s) was not successful due to %s - %s", req.URL, resp.Status, string(content))
 	}
 
-	return resp, nil
+	return resp, content, nil
 }
 
 func (s *Session) GetItem(cfg Config, id string) (*Item, error) {
@@ -87,15 +99,9 @@ func (s *Session) GetItem(cfg Config, id string) (*Item, error) {
 		return nil, err
 	}
 
-	resp, err := s.Do(req)
+	_, content, err := s.Do(req)
 	if err != nil {
 		return nil, err
-	}
-	defer resp.Body.Close()
-
-	content, err := io.ReadAll(resp.Body)
-	if err != nil {
-		return nil, fmt.Errorf("could not read response body content due to %s", err)
 	}
 
 	var item Item
@@ -112,15 +118,9 @@ func (s *Session) getItems(cfg Config, endpoint string) (*Items, error) {
 		return nil, err
 	}
 
-	resp, err := s.Do(req)
+	_, content, err := s.Do(req)
 	if err != nil {
 		return nil, err
-	}
-	defer resp.Body.Close()
-
-	content, err := io.ReadAll(resp.Body)
-	if err != nil {
-		return nil, fmt.Errorf("could not read response body content due to %s", err)
 	}
 
 	var items Items
@@ -154,15 +154,9 @@ func (s *Session) getSuppliers(cfg Config, endpoint string) (*Suppliers, error) 
 		return nil, err
 	}
 
-	resp, err := s.Do(req)
+	_, content, err := s.Do(req)
 	if err != nil {
 		return nil, err
-	}
-	defer resp.Body.Close()
-
-	content, err := io.ReadAll(resp.Body)
-	if err != nil {
-		return nil, fmt.Errorf("could not read response body content due to %s", err)
 	}
 
 	var suppliers Suppliers
@@ -192,15 +186,9 @@ func (s *Session) getClients(cfg Config, endpoint string) (*Clients, error) {
 		return nil, err
 	}
 
-	resp, err := s.Do(req)
+	_, content, err := s.Do(req)
 	if err != nil {
 		return nil, err
-	}
-	defer resp.Body.Close()
-
-	content, err := io.ReadAll(resp.Body)
-	if err != nil {
-		return nil, fmt.Errorf("could not read response body content due to %s", err)
 	}
 
 	var clients Clients
@@ -230,15 +218,9 @@ func (s *Session) getDeliveryNotes(cfg Config, endpoint string) (*DeliveryNotes,
 		return nil, err
 	}
 
-	resp, err := s.Do(req)
+	_, content, err := s.Do(req)
 	if err != nil {
 		return nil, err
-	}
-	defer resp.Body.Close()
-
-	content, err := io.ReadAll(resp.Body)
-	if err != nil {
-		return nil, fmt.Errorf("could not read response body content due to %s", err)
 	}
 
 	var notes DeliveryNotes
@@ -264,15 +246,9 @@ func (s *Session) GetDeliveryNote(cfg Config, id string) (*DeliveryNote, error) 
 		return nil, err
 	}
 
-	resp, err := s.Do(req)
+	_, content, err := s.Do(req)
 	if err != nil {
 		return nil, err
-	}
-	defer resp.Body.Close()
-
-	content, err := io.ReadAll(resp.Body)
-	if err != nil {
-		return nil, fmt.Errorf("could not read response body content due to %s", err)
 	}
 
 	var note DeliveryNote
@@ -289,7 +265,7 @@ func (s *Session) changeDeliveryNote(endpoint string) error {
 		return err
 	}
 
-	_, err = s.Do(req)
+	_, _, err = s.Do(req)
 
 	return err
 }
@@ -316,15 +292,9 @@ func (s *Session) getPurchaseOrders(cfg Config, endpoint string) (*PurchaseOrder
 		return nil, err
 	}
 
-	resp, err := s.Do(req)
+	_, content, err := s.Do(req)
 	if err != nil {
 		return nil, err
-	}
-	defer resp.Body.Close()
-
-	content, err := io.ReadAll(resp.Body)
-	if err != nil {
-		return nil, fmt.Errorf("could not read response body content due to %s", err)
 	}
 
 	var notes PurchaseOrders
@@ -350,15 +320,9 @@ func (s *Session) GetPurchaseOrder(cfg Config, id string) (*PurchaseOrder, error
 		return nil, err
 	}
 
-	resp, err := s.Do(req)
+	_, content, err := s.Do(req)
 	if err != nil {
 		return nil, err
-	}
-	defer resp.Body.Close()
-
-	content, err := io.ReadAll(resp.Body)
-	if err != nil {
-		return nil, fmt.Errorf("could not read response body content due to %s", err)
 	}
 
 	var note PurchaseOrder
@@ -381,30 +345,93 @@ func (s *Session) CancelPurchaseOrder(cfg Config, id string) error {
 	return s.changeDeliveryNote(cfg.CancelPurchaseOrderEndpoint(id))
 }
 
-func (s *Session) CreatePurchaseDeliveryNote(cfg Config, note PurchaseDeliveryNotes) (bool, error) {
+func (s *Session) GetPurchaseDeliveryNotes(cfg Config) (*PurchaseDeliveryNotes, error) {
+	return s.getPurchaseDeliveryNotes(cfg, cfg.GetPurchaseDeliveryNotesEndpoint())
+}
+
+func (s *Session) getPurchaseDeliveryNotes(cfg Config, endpoint string) (*PurchaseDeliveryNotes, error) {
+	req, err := http.NewRequest(http.MethodGet, endpoint, nil)
+	if err != nil {
+		return nil, err
+	}
+
+	_, content, err := s.Do(req)
+	if err != nil {
+		return nil, err
+	}
+
+	var notes PurchaseDeliveryNotes
+	if err := json.Unmarshal(content, &notes); err != nil {
+		return nil, fmt.Errorf("could not load json response due to %s", err)
+	}
+
+	if notes.NextLink != nil && *notes.NextLink != "" {
+		next, err := s.getPurchaseDeliveryNotes(cfg, cfg.BuildEndpoint(*notes.NextLink))
+		if err != nil {
+			return &notes, err
+		}
+
+		notes.Value = append(notes.Value, next.Value...)
+	}
+
+	return &notes, nil
+}
+
+func (s *Session) GetPurchaseDeliveryNote(cfg Config, id string) (*PurchaseDeliveryNote, error) {
+	return retrieveDocument[PurchaseDeliveryNote](s, cfg.GetPurchaseDeliveryNoteEndpoint(id))
+}
+
+func (s *Session) ReopenPurchaseDeliveryNote(cfg Config, id string) error {
+	return s.changeDeliveryNote(cfg.ReopenPurchaseDeliveryNoteEndpoint(id))
+}
+
+func (s *Session) ClosePurchaseDeliveryNote(cfg Config, id string) error {
+	return s.changeDeliveryNote(cfg.ClosePurchaseDeliveryNoteEndpoint(id))
+}
+
+func (s *Session) CancelPurchaseDeliveryNote(cfg Config, id string) error {
+	return s.changeDeliveryNote(cfg.CancelPurchaseDeliveryNoteEndpoint(id))
+}
+
+func (s *Session) CreatePurchaseDeliveryNote(cfg Config, note PurchaseDeliveryNote) (bool, error) {
 	payload, err := json.Marshal(note)
 	if err != nil {
 		return false, err
 	}
 
 	req, err := http.NewRequest(http.MethodPost,
-		cfg.CreatePurchaseDeliveryNoteEndpoint(), strings.NewReader(string(payload)))
+		cfg.GetPurchaseDeliveryNotesEndpoint(), strings.NewReader(string(payload)))
 	if err != nil {
 		return false, err
 	}
 
-	resp, err := s.Do(req)
+	_, _, err = s.Do(req)
 	if err != nil {
 		return false, err
-	}
-	defer resp.Body.Close()
-
-	_, err = io.ReadAll(resp.Body)
-	if err != nil {
-		return false, fmt.Errorf("could not read response body content due to %s", err)
 	}
 
 	return true, nil
+}
+
+// retrieveDocument pulls a document type from an SAP endpoint. The type of Unmarshal needs to
+// be specified when calling the function.
+func retrieveDocument[T any](s *Session, endpoint string) (*T, error) {
+	req, err := http.NewRequest(http.MethodGet, endpoint, nil)
+	if err != nil {
+		return nil, err
+	}
+
+	_, content, err := s.Do(req)
+	if err != nil {
+		return nil, err
+	}
+
+	var doc T
+	if err := json.Unmarshal(content, &doc); err != nil {
+		return nil, fmt.Errorf("could not load json response due to %s", err)
+	}
+
+	return &doc, nil
 }
 
 func (s *Session) GetInventoryCounting(cfg Config, id int) (*InventoryCounting, error) {
@@ -414,17 +441,11 @@ func (s *Session) GetInventoryCounting(cfg Config, id int) (*InventoryCounting, 
 		return nil, err
 	}
 
-	resp, err := s.Do(req)
+	resp, content, err := s.Do(req)
 	if err != nil {
 		return nil, err
 	}
 	defer resp.Body.Close()
-
-	// Read the response body
-	content, err := io.ReadAll(resp.Body)
-	if err != nil {
-		return nil, fmt.Errorf("could not read response body content due to %s", err)
-	}
 
 	var inventoryCounting InventoryCounting
 
@@ -446,17 +467,11 @@ func (s *Session) getInventoryCountings(cfg Config, endpoint string) ([]Inventor
 		return nil, err
 	}
 
-	resp, err := s.Do(req)
+	resp, content, err := s.Do(req)
 	if err != nil {
 		return nil, err
 	}
 	defer resp.Body.Close()
-
-	// Read the response body
-	content, err := io.ReadAll(resp.Body)
-	if err != nil {
-		return nil, fmt.Errorf("could not read response body content due to %s", err)
-	}
 
 	// Unmarshal the JSON into the wrapper struct
 	var response InventoryCountingResponse
@@ -487,7 +502,7 @@ func (s *Session) CreateInventoryCounting(cfg Config, counting InventoryCounting
 		return false, err
 	}
 
-	resp, err := s.Do(req)
+	resp, _, err := s.Do(req)
 	if err != nil {
 		return false, err
 	}
@@ -513,7 +528,7 @@ func (s *Session) UpdateInventoryCounting(cfg Config, id int, updates InventoryC
 		return false, err
 	}
 
-	resp, err := s.Do(req)
+	resp, _, err := s.Do(req)
 	if err != nil {
 		return false, err
 	}
@@ -534,7 +549,7 @@ func (s *Session) DeleteInventoryCounting(cfg Config, id int) (bool, error) {
 		return false, err
 	}
 
-	resp, err := s.Do(req)
+	resp, _, err := s.Do(req)
 	if err != nil {
 		return false, err
 	}
@@ -555,7 +570,7 @@ func (s *Session) CloseInventoryCounting(cfg Config, id int) (bool, error) {
 		return false, err
 	}
 
-	resp, err := s.Do(req)
+	resp, _, err := s.Do(req)
 	if err != nil {
 		return false, err
 	}
@@ -592,7 +607,7 @@ func (s *Session) AddLinesToInventoryCounting(cfg Config, id int, lines []Invent
 		return false, err
 	}
 
-	resp, err := s.Do(req)
+	resp, _, err := s.Do(req)
 	if err != nil {
 		return false, err
 	}
