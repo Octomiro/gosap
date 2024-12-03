@@ -156,17 +156,17 @@ func (c *Config) hostPort() string {
 }
 
 func (c *Config) GetInventoryCountingEndpoint(id int) string {
-	return fmt.Sprintf("https://%s/b1s/v2/InventoryCountings(%d)", c.hostPort(), id)
+	return fmt.Sprintf("https://%s/b1s/v1/InventoryCountings(%d)", c.hostPort(), id)
 }
 
-func (c *Config) GetInventoryCountingsEndpoint(filter string) string {
-	return fmt.Sprintf("https://%s/b1s/v2/InventoryCountings?$filter=%s", c.hostPort(), filter)
+func (c *Config) GetInventoryCountingsEndpoint() string {
+	return fmt.Sprintf("https://%s/b1s/v1/InventoryCountings", c.hostPort())
 }
 
 func (c *Config) CreateInventoryCountingEndpoint() string {
-	return fmt.Sprintf("https://%s/b1s/v2/InventoryCountings", c.hostPort())
+	return fmt.Sprintf("https://%s/b1s/v1/InventoryCountings", c.hostPort())
 }
 
 func (c *Config) CloseInventoryCountingEndpoint(id int) string {
-	return fmt.Sprintf("https://%s/b1s/v2/InventoryCountings(%d)/Close", c.hostPort(), id)
+	return fmt.Sprintf("https://%s/b1s/v1/InventoryCountings(%d)/Close", c.hostPort(), id)
 }
