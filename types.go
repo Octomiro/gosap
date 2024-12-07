@@ -110,6 +110,8 @@ type InventoryCountingLine struct {
 	ItemCode        string  `json:"ItemCode"`
 	WarehouseCode   string  `json:"WarehouseCode"`
 	CountedQuantity float64 `json:"CountedQuantity"`
+	LineNum         int     `json:"LineNumber,omitempty"`
+	ItemDescription string  `json:"ItemDescription,omitempty"`
 }
 
 type InventoryCounting struct {

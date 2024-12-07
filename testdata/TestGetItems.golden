@@ -15,6 +15,11 @@
     "PurchaseUnitWidth": 0
   },
   {
+    "ItemCode": "i001",
+    "ItemName": "Item1",
+    "PurchaseUnitWidth": 0
+  },
+  {
     "ItemCode": "LM4029MC",
     "ItemName": "Barette mémoire",
     "PurchaseUnitWidth": 0
@@ -297,11 +302,6 @@
   {
     "ItemCode": "A00006",
     "ItemName": "Imprimante HP type 600 Series Inc",
-    "PurchaseUnitWidth": 0
-  },
-  {
-    "ItemCode": "i001",
-    "ItemName": "Item1",
     "PurchaseUnitWidth": 0
   },
   {
