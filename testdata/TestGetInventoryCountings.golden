@@ -9,7 +9,9 @@
       {
         "ItemCode": "i001",
         "WarehouseCode": "01",
-        "CountedQuantity": 0
+        "CountedQuantity": 0,
+        "LineNumber": 1,
+        "ItemDescription": "Item1"
       }
     ]
   },
@@ -23,7 +25,9 @@
       {
         "ItemCode": "i003",
         "WarehouseCode": "01",
-        "CountedQuantity": 5
+        "CountedQuantity": 5,
+        "LineNumber": 1,
+        "ItemDescription": "Item3"
       }
     ]
   },
@@ -37,7 +41,9 @@
       {
         "ItemCode": "i002",
         "WarehouseCode": "01",
-        "CountedQuantity": 0
+        "CountedQuantity": 0,
+        "LineNumber": 1,
+        "ItemDescription": "Item2"
       }
     ]
   }
