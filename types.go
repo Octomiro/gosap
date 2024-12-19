@@ -107,9 +107,9 @@ type PurchaseDeliveryNotes struct {
 }
 
 type InventoryCountingLine struct {
-	ItemCode        string  `json:"ItemCode"`
-	WarehouseCode   string  `json:"WarehouseCode"`
-	CountedQuantity float64 `json:"CountedQuantity"`
+	ItemCode        string  `json:"ItemCode,omitempty"`
+	WarehouseCode   string  `json:"WarehouseCode,omitempty"`
+	CountedQuantity float64 `json:"CountedQuantity,omitempty"`
 	LineNum         int     `json:"LineNumber,omitempty"`
 	ItemDescription string  `json:"ItemDescription,omitempty"`
 }
@@ -118,8 +118,8 @@ type InventoryCounting struct {
 	DocumentEntry          int                     `json:"DocumentEntry,omitempty"`
 	DocumentNumber         int                     `json:"DocumentNumber,omitempty"`
 	Series                 int                     `json:"Series,omitempty"`
-	CountingType           string                  `json:"CountingType"`
-	DocumentStatus         string                  `json:"DocumentStatus"`
+	CountingType           string                  `json:"CountingType,omitempty"`
+	DocumentStatus         string                  `json:"DocumentStatus,omitempty"`
 	InventoryCountingLines []InventoryCountingLine `json:"InventoryCountingLines,omitempty"`
 }
 
