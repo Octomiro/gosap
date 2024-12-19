@@ -43,7 +43,7 @@ type PurchaseDeliveryNoteLine struct {
 	Price           float64 `json:",omitempty"`
 	BaseType        int     `json:",omitempty"`
 	BaseEntry       int     `json:",omitempty"`
-	BaseLine        int     `json:",omitempty"`
+	BaseLine        int
 }
 
 type (
