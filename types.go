@@ -128,3 +128,18 @@ type InventoryCountingResponse struct {
 	Value         []InventoryCounting `json:"value"`
 	NextLink      *string             `json:"odata.nextLink"`
 }
+
+type BinLocation struct {
+	AbsEntry    int     `json:"AbsEntry,omitempty"`
+	Warehouse   string  `json:"Warehouse,omitempty"`
+	BinCode     string  `json:"BinCode,omitempty"`
+	Description *string `json:"Description,omitempty"`
+	MinimumQty  float64 `json:"MinimumQty,omitempty"`
+	MaximumQty  float64 `json:"MaximumQty,omitempty"`
+}
+
+type BinLocationsResponse struct {
+	Metadata string        `json:"odata.metadata,omitempty"` //nolint:tagliatelle
+	Value    []BinLocation `json:"value,omitempty"`
+	NextLink *string       `json:"odata.nextLink,omitempty"` //nolint:tagliatelle
+}

@@ -1,0 +1,367 @@
+[
+  {
+    "AbsEntry": 1,
+    "Warehouse": "05",
+    "BinCode": "05-SYSTEM-BIN-LOCATION"
+  },
+  {
+    "AbsEntry": 2,
+    "Warehouse": "05",
+    "BinCode": "05-A1-E1-N1"
+  },
+  {
+    "AbsEntry": 3,
+    "Warehouse": "05",
+    "BinCode": "05-A2-E1-N1"
+  },
+  {
+    "AbsEntry": 4,
+    "Warehouse": "05",
+    "BinCode": "05-A3-E1-N1"
+  },
+  {
+    "AbsEntry": 5,
+    "Warehouse": "05",
+    "BinCode": "05-A4-E1-N1"
+  },
+  {
+    "AbsEntry": 6,
+    "Warehouse": "05",
+    "BinCode": "05-A1-E2-N1"
+  },
+  {
+    "AbsEntry": 7,
+    "Warehouse": "05",
+    "BinCode": "05-A2-E2-N1"
+  },
+  {
+    "AbsEntry": 8,
+    "Warehouse": "05",
+    "BinCode": "05-A3-E2-N1"
+  },
+  {
+    "AbsEntry": 9,
+    "Warehouse": "05",
+    "BinCode": "05-A4-E2-N1"
+  },
+  {
+    "AbsEntry": 10,
+    "Warehouse": "05",
+    "BinCode": "05-A1-E3-N1"
+  },
+  {
+    "AbsEntry": 11,
+    "Warehouse": "05",
+    "BinCode": "05-A2-E3-N1"
+  },
+  {
+    "AbsEntry": 12,
+    "Warehouse": "05",
+    "BinCode": "05-A3-E3-N1"
+  },
+  {
+    "AbsEntry": 13,
+    "Warehouse": "05",
+    "BinCode": "05-A4-E3-N1"
+  },
+  {
+    "AbsEntry": 14,
+    "Warehouse": "05",
+    "BinCode": "05-A1-E4-N1"
+  },
+  {
+    "AbsEntry": 15,
+    "Warehouse": "05",
+    "BinCode": "05-A2-E4-N1"
+  },
+  {
+    "AbsEntry": 16,
+    "Warehouse": "05",
+    "BinCode": "05-A3-E4-N1"
+  },
+  {
+    "AbsEntry": 17,
+    "Warehouse": "05",
+    "BinCode": "05-A4-E4-N1"
+  },
+  {
+    "AbsEntry": 18,
+    "Warehouse": "05",
+    "BinCode": "05-A1-E5-N1"
+  },
+  {
+    "AbsEntry": 19,
+    "Warehouse": "05",
+    "BinCode": "05-A2-E5-N1"
+  },
+  {
+    "AbsEntry": 20,
+    "Warehouse": "05",
+    "BinCode": "05-A3-E5-N1"
+  },
+  {
+    "AbsEntry": 21,
+    "Warehouse": "05",
+    "BinCode": "05-A4-E5-N1"
+  },
+  {
+    "AbsEntry": 22,
+    "Warehouse": "05",
+    "BinCode": "05-A1-E6-N1"
+  },
+  {
+    "AbsEntry": 23,
+    "Warehouse": "05",
+    "BinCode": "05-A2-E6-N1"
+  },
+  {
+    "AbsEntry": 24,
+    "Warehouse": "05",
+    "BinCode": "05-A3-E6-N1"
+  },
+  {
+    "AbsEntry": 25,
+    "Warehouse": "05",
+    "BinCode": "05-A4-E6-N1"
+  },
+  {
+    "AbsEntry": 26,
+    "Warehouse": "05",
+    "BinCode": "05-A1-E1-N2"
+  },
+  {
+    "AbsEntry": 27,
+    "Warehouse": "05",
+    "BinCode": "05-A2-E1-N2"
+  },
+  {
+    "AbsEntry": 28,
+    "Warehouse": "05",
+    "BinCode": "05-A3-E1-N2"
+  },
+  {
+    "AbsEntry": 29,
+    "Warehouse": "05",
+    "BinCode": "05-A4-E1-N2"
+  },
+  {
+    "AbsEntry": 30,
+    "Warehouse": "05",
+    "BinCode": "05-A1-E2-N2"
+  },
+  {
+    "AbsEntry": 31,
+    "Warehouse": "05",
+    "BinCode": "05-A2-E2-N2"
+  },
+  {
+    "AbsEntry": 32,
+    "Warehouse": "05",
+    "BinCode": "05-A3-E2-N2"
+  },
+  {
+    "AbsEntry": 33,
+    "Warehouse": "05",
+    "BinCode": "05-A4-E2-N2"
+  },
+  {
+    "AbsEntry": 34,
+    "Warehouse": "05",
+    "BinCode": "05-A1-E3-N2"
+  },
+  {
+    "AbsEntry": 35,
+    "Warehouse": "05",
+    "BinCode": "05-A2-E3-N2"
+  },
+  {
+    "AbsEntry": 36,
+    "Warehouse": "05",
+    "BinCode": "05-A3-E3-N2"
+  },
+  {
+    "AbsEntry": 37,
+    "Warehouse": "05",
+    "BinCode": "05-A4-E3-N2"
+  },
+  {
+    "AbsEntry": 38,
+    "Warehouse": "05",
+    "BinCode": "05-A1-E4-N2"
+  },
+  {
+    "AbsEntry": 39,
+    "Warehouse": "05",
+    "BinCode": "05-A2-E4-N2"
+  },
+  {
+    "AbsEntry": 40,
+    "Warehouse": "05",
+    "BinCode": "05-A3-E4-N2"
+  },
+  {
+    "AbsEntry": 41,
+    "Warehouse": "05",
+    "BinCode": "05-A4-E4-N2"
+  },
+  {
+    "AbsEntry": 42,
+    "Warehouse": "05",
+    "BinCode": "05-A1-E5-N2"
+  },
+  {
+    "AbsEntry": 43,
+    "Warehouse": "05",
+    "BinCode": "05-A2-E5-N2"
+  },
+  {
+    "AbsEntry": 44,
+    "Warehouse": "05",
+    "BinCode": "05-A3-E5-N2"
+  },
+  {
+    "AbsEntry": 45,
+    "Warehouse": "05",
+    "BinCode": "05-A4-E5-N2"
+  },
+  {
+    "AbsEntry": 46,
+    "Warehouse": "05",
+    "BinCode": "05-A1-E6-N2"
+  },
+  {
+    "AbsEntry": 47,
+    "Warehouse": "05",
+    "BinCode": "05-A2-E6-N2"
+  },
+  {
+    "AbsEntry": 48,
+    "Warehouse": "05",
+    "BinCode": "05-A3-E6-N2"
+  },
+  {
+    "AbsEntry": 49,
+    "Warehouse": "05",
+    "BinCode": "05-A4-E6-N2"
+  },
+  {
+    "AbsEntry": 50,
+    "Warehouse": "05",
+    "BinCode": "05-A1-E1-N3"
+  },
+  {
+    "AbsEntry": 51,
+    "Warehouse": "05",
+    "BinCode": "05-A2-E1-N3"
+  },
+  {
+    "AbsEntry": 52,
+    "Warehouse": "05",
+    "BinCode": "05-A3-E1-N3"
+  },
+  {
+    "AbsEntry": 53,
+    "Warehouse": "05",
+    "BinCode": "05-A4-E1-N3"
+  },
+  {
+    "AbsEntry": 54,
+    "Warehouse": "05",
+    "BinCode": "05-A1-E2-N3"
+  },
+  {
+    "AbsEntry": 55,
+    "Warehouse": "05",
+    "BinCode": "05-A2-E2-N3"
+  },
+  {
+    "AbsEntry": 56,
+    "Warehouse": "05",
+    "BinCode": "05-A3-E2-N3"
+  },
+  {
+    "AbsEntry": 57,
+    "Warehouse": "05",
+    "BinCode": "05-A4-E2-N3"
+  },
+  {
+    "AbsEntry": 58,
+    "Warehouse": "05",
+    "BinCode": "05-A1-E3-N3"
+  },
+  {
+    "AbsEntry": 59,
+    "Warehouse": "05",
+    "BinCode": "05-A2-E3-N3"
+  },
+  {
+    "AbsEntry": 60,
+    "Warehouse": "05",
+    "BinCode": "05-A3-E3-N3"
+  },
+  {
+    "AbsEntry": 61,
+    "Warehouse": "05",
+    "BinCode": "05-A4-E3-N3"
+  },
+  {
+    "AbsEntry": 62,
+    "Warehouse": "05",
+    "BinCode": "05-A1-E4-N3"
+  },
+  {
+    "AbsEntry": 63,
+    "Warehouse": "05",
+    "BinCode": "05-A2-E4-N3"
+  },
+  {
+    "AbsEntry": 64,
+    "Warehouse": "05",
+    "BinCode": "05-A3-E4-N3"
+  },
+  {
+    "AbsEntry": 65,
+    "Warehouse": "05",
+    "BinCode": "05-A4-E4-N3"
+  },
+  {
+    "AbsEntry": 66,
+    "Warehouse": "05",
+    "BinCode": "05-A1-E5-N3"
+  },
+  {
+    "AbsEntry": 67,
+    "Warehouse": "05",
+    "BinCode": "05-A2-E5-N3"
+  },
+  {
+    "AbsEntry": 68,
+    "Warehouse": "05",
+    "BinCode": "05-A3-E5-N3"
+  },
+  {
+    "AbsEntry": 69,
+    "Warehouse": "05",
+    "BinCode": "05-A4-E5-N3"
+  },
+  {
+    "AbsEntry": 70,
+    "Warehouse": "05",
+    "BinCode": "05-A1-E6-N3"
+  },
+  {
+    "AbsEntry": 71,
+    "Warehouse": "05",
+    "BinCode": "05-A2-E6-N3"
+  },
+  {
+    "AbsEntry": 72,
+    "Warehouse": "05",
+    "BinCode": "05-A3-E6-N3"
+  },
+  {
+    "AbsEntry": 73,
+    "Warehouse": "05",
+    "BinCode": "05-A4-E6-N3"
+  }
+]

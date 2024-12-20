@@ -267,3 +267,21 @@ func TestGetInventoryCountings(t *testing.T) {
 	require.NoError(t, err)
 	assert.Equal(t, []byte(ToJSON(countings)), goldenContent)
 }
+
+func TestGetBinLocations(t *testing.T) {
+	session, err := gosap.Authenticate(config)
+	require.NoError(t, err)
+
+	binLocations, err := session.GetBinLocations(config)
+	require.NoError(t, err)
+
+	gp := filepath.Join("testdata", filepath.FromSlash(t.Name())+".golden")
+	if *update {
+		err := os.WriteFile(gp, []byte(ToJSON(binLocations)), 0o600)
+		require.NoError(t, err)
+	}
+
+	goldenContent, err := os.ReadFile(gp)
+	require.NoError(t, err)
+	assert.Equal(t, []byte(ToJSON(binLocations)), goldenContent)
+}

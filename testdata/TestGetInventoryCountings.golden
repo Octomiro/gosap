@@ -9,7 +9,6 @@
       {
         "ItemCode": "i001",
         "WarehouseCode": "01",
-        "CountedQuantity": 0,
         "LineNumber": 1,
         "ItemDescription": "Item1"
       }
@@ -41,7 +40,21 @@
       {
         "ItemCode": "i002",
         "WarehouseCode": "01",
-        "CountedQuantity": 0,
+        "LineNumber": 1,
+        "ItemDescription": "Item2"
+      }
+    ]
+  },
+  {
+    "DocumentEntry": 9,
+    "DocumentNumber": 4,
+    "Series": 46,
+    "CountingType": "ctSingleCounter",
+    "DocumentStatus": "cdsOpen",
+    "InventoryCountingLines": [
+      {
+        "ItemCode": "i002",
+        "WarehouseCode": "01",
         "LineNumber": 1,
         "ItemDescription": "Item2"
       }
