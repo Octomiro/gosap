@@ -608,3 +608,89 @@ func (s *Session) GetAllInventoryCountingsWithLines(cfg Config) ([]InventoryCoun
 
 	return detailedCountings, nil
 }
+
+// Fetches all bin locations
+func (s *Session) GetBinLocations(cfg Config) ([]BinLocation, error) {
+	return s.getBinLocations(cfg, cfg.GetBinLocationsEndpoint())
+}
+
+// getBinLocations fetches all bin locations from the SAP Service Layer
+func (s *Session) getBinLocations(cfg Config, endpoint string) ([]BinLocation, error) {
+	req, err := http.NewRequest(http.MethodGet, endpoint, nil)
+	if err != nil {
+		return nil, fmt.Errorf("could not create request: %w", err)
+	}
+
+	_, content, err := s.Do(req)
+	if err != nil {
+		return nil, fmt.Errorf("request failed: %w", err)
+	}
+
+	// Unmarshal the JSON response into the wrapper struct
+	var response BinLocationsResponse
+	if err := json.Unmarshal(content, &response); err != nil {
+		return nil, fmt.Errorf("failed to unmarshal response: %w", err)
+	}
+
+	// Handle pagination via NextLink
+	if response.NextLink != nil && *response.NextLink != "" {
+		nextEndpoint := cfg.BuildEndpoint(*response.NextLink)
+		nextLocations, err := s.getBinLocations(cfg, nextEndpoint)
+		if err != nil {
+			return response.Value, err
+		}
+		response.Value = append(response.Value, nextLocations...)
+	}
+
+	return response.Value, nil
+}
+
+// Fetches a specific bin location by ID
+func (s *Session) GetBinLocation(cfg Config, id int) (*BinLocation, error) {
+	req, err := http.NewRequest(http.MethodGet, cfg.GetBinLocationEndpoint(id), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	_, content, err := s.Do(req)
+	if err != nil {
+		return nil, err
+	}
+
+	var location BinLocation
+	if err := json.Unmarshal(content, &location); err != nil {
+		return nil, fmt.Errorf("could not load JSON response due to %s", err)
+	}
+
+	return &location, nil
+}
+
+// Updates a specific bin location
+func (s *Session) UpdateBinLocation(cfg Config, id int, updatePayload string) error {
+	req, err := http.NewRequest(http.MethodPatch, cfg.UpdateBinLocationEndpoint(id), strings.NewReader(updatePayload))
+	if err != nil {
+		return err
+	}
+
+	_, _, err = s.Do(req)
+	if err != nil {
+		return fmt.Errorf("could not update bin location due to %s", err)
+	}
+
+	return nil
+}
+
+// Deletes a specific bin location by ID
+func (s *Session) DeleteBinLocation(cfg Config, id int) error {
+	req, err := http.NewRequest(http.MethodDelete, cfg.DeleteBinLocationEndpoint(id), nil)
+	if err != nil {
+		return fmt.Errorf("could not create delete request due to %s", err)
+	}
+
+	_, _, err = s.Do(req)
+	if err != nil {
+		return fmt.Errorf("could not delete bin location due to %s", err)
+	}
+
+	return nil
+}

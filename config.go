@@ -170,3 +170,23 @@ func (c *Config) CreateInventoryCountingEndpoint() string {
 func (c *Config) CloseInventoryCountingEndpoint(id int) string {
 	return fmt.Sprintf("https://%s/b1s/v1/InventoryCountings(%d)/Close", c.hostPort(), id)
 }
+
+func (c *Config) GetBinLocationEndpoint(id int) string {
+	return fmt.Sprintf("https://%s/b1s/v1/BinLocations(%d)", c.hostPort(), id)
+}
+
+func (c *Config) GetBinLocationsEndpoint() string {
+	return fmt.Sprintf("https://%s/b1s/v1/BinLocations", c.hostPort())
+}
+
+func (c *Config) CreateBinLocationEndpoint() string {
+	return fmt.Sprintf("https://%s/b1s/v1/BinLocations", c.hostPort())
+}
+
+func (c *Config) UpdateBinLocationEndpoint(id int) string {
+	return fmt.Sprintf("https://%s/b1s/v1/BinLocations(%d)", c.hostPort(), id)
+}
+
+func (c *Config) DeleteBinLocationEndpoint(id int) string {
+	return fmt.Sprintf("https://%s/b1s/v1/BinLocations(%d)", c.hostPort(), id)
+}

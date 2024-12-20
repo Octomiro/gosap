@@ -13,7 +13,8 @@
         "ShipDate": "2006-01-16",
         "Price": 400,
         "BaseType": 22,
-        "BaseEntry": 1
+        "BaseEntry": 1,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -75,7 +76,8 @@
         "ShipDate": "2006-01-20",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 2
+        "BaseEntry": 2,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -126,7 +128,8 @@
         "ShipDate": "2006-01-25",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 3
+        "BaseEntry": 3,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -166,7 +169,8 @@
         "ShipDate": "2006-01-30",
         "Price": 225,
         "BaseType": 22,
-        "BaseEntry": 4
+        "BaseEntry": 4,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -250,7 +254,8 @@
         "ShipDate": "2006-02-04",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 5
+        "BaseEntry": 5,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -334,7 +339,8 @@
         "ShipDate": "2006-02-09",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 6
+        "BaseEntry": 6,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -396,7 +402,8 @@
         "ShipDate": "2006-02-16",
         "Price": 400,
         "BaseType": 22,
-        "BaseEntry": 7
+        "BaseEntry": 7,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -458,7 +465,8 @@
         "ShipDate": "2006-02-15",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 8
+        "BaseEntry": 8,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -520,7 +528,8 @@
         "ShipDate": "2006-03-02",
         "Price": 225,
         "BaseType": 22,
-        "BaseEntry": 9
+        "BaseEntry": 9,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -560,7 +569,8 @@
         "ShipDate": "2006-02-28",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 10
+        "BaseEntry": 10,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -633,7 +643,8 @@
         "ShipDate": "2006-03-20",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 11
+        "BaseEntry": 11,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -673,7 +684,8 @@
         "ShipDate": "2006-03-20",
         "Price": 1383.75,
         "BaseType": 22,
-        "BaseEntry": 12
+        "BaseEntry": 12,
+        "BaseLine": 0
       }
     ]
   },
@@ -691,7 +703,8 @@
         "ShipDate": "2006-03-15",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 13
+        "BaseEntry": 13,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -753,7 +766,8 @@
         "ShipDate": "2006-03-20",
         "Price": 7.5,
         "BaseType": 22,
-        "BaseEntry": 14
+        "BaseEntry": 14,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -815,7 +829,8 @@
         "ShipDate": "2006-04-04",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 15
+        "BaseEntry": 15,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -866,7 +881,8 @@
         "ShipDate": "2006-04-01",
         "Price": 20,
         "BaseType": 22,
-        "BaseEntry": 16
+        "BaseEntry": 16,
+        "BaseLine": 0
       }
     ]
   },
@@ -884,7 +900,8 @@
         "ShipDate": "2006-04-10",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 17
+        "BaseEntry": 17,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -935,7 +952,8 @@
         "ShipDate": "2006-04-25",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 18
+        "BaseEntry": 18,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -964,7 +982,8 @@
         "ShipDate": "2006-04-25",
         "Price": 1383.75,
         "BaseType": 22,
-        "BaseEntry": 19
+        "BaseEntry": 19,
+        "BaseLine": 0
       }
     ]
   },
@@ -982,7 +1001,8 @@
         "ShipDate": "2006-04-20",
         "Price": 400,
         "BaseType": 22,
-        "BaseEntry": 20
+        "BaseEntry": 20,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -1055,7 +1075,8 @@
         "ShipDate": "2006-04-25",
         "Price": 17.5,
         "BaseType": 22,
-        "BaseEntry": 21
+        "BaseEntry": 21,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -1106,7 +1127,8 @@
         "ShipDate": "2006-05-10",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 22
+        "BaseEntry": 22,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -1135,7 +1157,8 @@
         "ShipDate": "2006-05-16",
         "Price": 400,
         "BaseType": 22,
-        "BaseEntry": 23
+        "BaseEntry": 23,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -1197,7 +1220,8 @@
         "ShipDate": "2006-05-10",
         "Price": 40,
         "BaseType": 22,
-        "BaseEntry": 24
+        "BaseEntry": 24,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -1259,7 +1283,8 @@
         "ShipDate": "2006-05-25",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 25
+        "BaseEntry": 25,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -1288,7 +1313,8 @@
         "ShipDate": "2006-05-25",
         "Price": 1383.75,
         "BaseType": 22,
-        "BaseEntry": 26
+        "BaseEntry": 26,
+        "BaseLine": 0
       }
     ]
   },
@@ -1306,7 +1332,8 @@
         "ShipDate": "2006-05-22",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 27
+        "BaseEntry": 27,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -1379,7 +1406,8 @@
         "ShipDate": "2006-06-04",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 28
+        "BaseEntry": 28,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -1419,7 +1447,8 @@
         "ShipDate": "2006-05-30",
         "Price": 100,
         "BaseType": 22,
-        "BaseEntry": 29
+        "BaseEntry": 29,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -1470,7 +1499,8 @@
         "ShipDate": "2006-06-20",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 30
+        "BaseEntry": 30,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -1510,7 +1540,8 @@
         "ShipDate": "2006-06-20",
         "Price": 1383.75,
         "BaseType": 22,
-        "BaseEntry": 31
+        "BaseEntry": 31,
+        "BaseLine": 0
       }
     ]
   },
@@ -1528,7 +1559,8 @@
         "ShipDate": "2006-06-15",
         "Price": 17.5,
         "BaseType": 22,
-        "BaseEntry": 32
+        "BaseEntry": 32,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -1568,7 +1600,8 @@
         "ShipDate": "2006-06-30",
         "Price": 225,
         "BaseType": 22,
-        "BaseEntry": 33
+        "BaseEntry": 33,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -1608,7 +1641,8 @@
         "ShipDate": "2006-06-20",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 34
+        "BaseEntry": 34,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -1648,7 +1682,8 @@
         "ShipDate": "2006-07-10",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 35
+        "BaseEntry": 35,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -1677,7 +1712,8 @@
         "ShipDate": "2006-07-02",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 36
+        "BaseEntry": 36,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -1805,7 +1841,8 @@
         "ShipDate": "2006-07-15",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 37
+        "BaseEntry": 37,
+        "BaseLine": 0
       }
     ]
   },
@@ -1823,7 +1860,8 @@
         "ShipDate": "2006-07-22",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 38
+        "BaseEntry": 38,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -1863,7 +1901,8 @@
         "ShipDate": "2006-07-23",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 39
+        "BaseEntry": 39,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -1903,7 +1942,8 @@
         "ShipDate": "2006-07-30",
         "Price": 7.5,
         "BaseType": 22,
-        "BaseEntry": 40
+        "BaseEntry": 40,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -1954,7 +1994,8 @@
         "ShipDate": "2006-08-09",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 41
+        "BaseEntry": 41,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -2005,7 +2046,8 @@
         "ShipDate": "2006-08-10",
         "Price": 400,
         "BaseType": 22,
-        "BaseEntry": 42
+        "BaseEntry": 42,
+        "BaseLine": 0
       }
     ]
   },
@@ -2023,7 +2065,8 @@
         "ShipDate": "2006-08-15",
         "Price": 45,
         "BaseType": 22,
-        "BaseEntry": 43
+        "BaseEntry": 43,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -2074,7 +2117,8 @@
         "ShipDate": "2006-08-20",
         "Price": 0.5,
         "BaseType": 22,
-        "BaseEntry": 44
+        "BaseEntry": 44,
+        "BaseLine": 0
       }
     ]
   },
@@ -2092,7 +2136,8 @@
         "ShipDate": "2006-08-29",
         "Price": 20,
         "BaseType": 22,
-        "BaseEntry": 45
+        "BaseEntry": 45,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -2132,7 +2177,8 @@
         "ShipDate": "2006-09-01",
         "Price": 1383.75,
         "BaseType": 22,
-        "BaseEntry": 46
+        "BaseEntry": 46,
+        "BaseLine": 0
       }
     ]
   },
@@ -2150,7 +2196,8 @@
         "ShipDate": "2006-09-10",
         "Price": 400,
         "BaseType": 22,
-        "BaseEntry": 47
+        "BaseEntry": 47,
+        "BaseLine": 0
       }
     ]
   },
@@ -2168,7 +2215,8 @@
         "ShipDate": "2006-09-20",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 48
+        "BaseEntry": 48,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -2219,7 +2267,8 @@
         "ShipDate": "2006-09-20",
         "Price": 225,
         "BaseType": 22,
-        "BaseEntry": 49
+        "BaseEntry": 49,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -2248,7 +2297,8 @@
         "ShipDate": "2006-09-30",
         "Price": 7.5,
         "BaseType": 22,
-        "BaseEntry": 50
+        "BaseEntry": 50,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -2288,7 +2338,8 @@
         "ShipDate": "2006-09-27",
         "Price": 225,
         "BaseType": 22,
-        "BaseEntry": 51
+        "BaseEntry": 51,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -2372,7 +2423,8 @@
         "ShipDate": "2006-10-09",
         "Price": 40,
         "BaseType": 22,
-        "BaseEntry": 52
+        "BaseEntry": 52,
+        "BaseLine": 0
       }
     ]
   },
@@ -2390,7 +2442,8 @@
         "ShipDate": "2006-10-09",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 53
+        "BaseEntry": 53,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -2430,7 +2483,8 @@
         "ShipDate": "2006-10-16",
         "Price": 45,
         "BaseType": 22,
-        "BaseEntry": 54
+        "BaseEntry": 54,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -2470,7 +2524,8 @@
         "ShipDate": "2006-10-18",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 55
+        "BaseEntry": 55,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -2510,7 +2565,8 @@
         "ShipDate": "2006-10-22",
         "Price": 400,
         "BaseType": 22,
-        "BaseEntry": 56
+        "BaseEntry": 56,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -2550,7 +2606,8 @@
         "ShipDate": "2006-10-29",
         "Price": 0.75,
         "BaseType": 22,
-        "BaseEntry": 57
+        "BaseEntry": 57,
+        "BaseLine": 0
       }
     ]
   },
@@ -2568,7 +2625,8 @@
         "ShipDate": "2006-11-09",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 58
+        "BaseEntry": 58,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -2641,7 +2699,8 @@
         "ShipDate": "2006-11-10",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 59
+        "BaseEntry": 59,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -2703,7 +2762,8 @@
         "ShipDate": "2006-11-09",
         "Price": 500,
         "BaseType": 22,
-        "BaseEntry": 60
+        "BaseEntry": 60,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -2754,7 +2814,8 @@
         "ShipDate": "2006-11-20",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 61
+        "BaseEntry": 61,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -2783,7 +2844,8 @@
         "ShipDate": "2006-11-22",
         "Price": 1,
         "BaseType": 22,
-        "BaseEntry": 62
+        "BaseEntry": 62,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -2812,7 +2874,8 @@
         "ShipDate": "2006-12-01",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 63
+        "BaseEntry": 63,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -2885,7 +2948,8 @@
         "ShipDate": "2006-12-05",
         "Price": 400,
         "BaseType": 22,
-        "BaseEntry": 64
+        "BaseEntry": 64,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -2947,7 +3011,8 @@
         "ShipDate": "2006-12-11",
         "Price": 7.5,
         "BaseType": 22,
-        "BaseEntry": 65
+        "BaseEntry": 65,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -2998,7 +3063,8 @@
         "ShipDate": "2006-12-14",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 66
+        "BaseEntry": 66,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -3049,7 +3115,8 @@
         "ShipDate": "2006-12-24",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 67
+        "BaseEntry": 67,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -3100,7 +3167,8 @@
         "ShipDate": "2007-01-06",
         "Price": 500,
         "BaseType": 22,
-        "BaseEntry": 68
+        "BaseEntry": 68,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -3129,7 +3197,8 @@
         "ShipDate": "2007-01-11",
         "Price": 1383.75,
         "BaseType": 22,
-        "BaseEntry": 69
+        "BaseEntry": 69,
+        "BaseLine": 0
       }
     ]
   },
@@ -3147,7 +3216,8 @@
         "ShipDate": "2007-01-16",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 70
+        "BaseEntry": 70,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -3176,7 +3246,8 @@
         "ShipDate": "2007-01-21",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 71
+        "BaseEntry": 71,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -3205,7 +3276,8 @@
         "ShipDate": "2007-01-26",
         "Price": 20,
         "BaseType": 22,
-        "BaseEntry": 72
+        "BaseEntry": 72,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -3234,7 +3306,8 @@
         "ShipDate": "2007-02-06",
         "Price": 97.5,
         "BaseType": 22,
-        "BaseEntry": 73
+        "BaseEntry": 73,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -3263,7 +3336,8 @@
         "ShipDate": "2007-02-11",
         "Price": 45,
         "BaseType": 22,
-        "BaseEntry": 74
+        "BaseEntry": 74,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -3292,7 +3366,8 @@
         "ShipDate": "2007-02-16",
         "Price": 922.5,
         "BaseType": 22,
-        "BaseEntry": 75
+        "BaseEntry": 75,
+        "BaseLine": 0
       }
     ]
   },
@@ -3310,7 +3385,8 @@
         "ShipDate": "2007-02-21",
         "Price": 400,
         "BaseType": 22,
-        "BaseEntry": 76
+        "BaseEntry": 76,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -3361,7 +3437,8 @@
         "ShipDate": "2007-02-26",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 77
+        "BaseEntry": 77,
+        "BaseLine": 0
       }
     ]
   },
@@ -3379,7 +3456,8 @@
         "ShipDate": "2007-03-06",
         "Price": 17.5,
         "BaseType": 22,
-        "BaseEntry": 78
+        "BaseEntry": 78,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -3408,7 +3486,8 @@
         "ShipDate": "2007-03-11",
         "Price": 500,
         "BaseType": 22,
-        "BaseEntry": 79
+        "BaseEntry": 79,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -3470,7 +3549,8 @@
         "ShipDate": "2007-03-16",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 80
+        "BaseEntry": 80,
+        "BaseLine": 0
       }
     ]
   },
@@ -3488,7 +3568,8 @@
         "ShipDate": "2007-03-21",
         "Price": 37.5,
         "BaseType": 22,
-        "BaseEntry": 81
+        "BaseEntry": 81,
+        "BaseLine": 0
       }
     ]
   },
@@ -3506,7 +3587,8 @@
         "ShipDate": "2007-03-26",
         "Price": 0.75,
         "BaseType": 22,
-        "BaseEntry": 82
+        "BaseEntry": 82,
+        "BaseLine": 0
       }
     ]
   },
@@ -3524,7 +3606,8 @@
         "ShipDate": "2007-04-10",
         "Price": 400,
         "BaseType": 22,
-        "BaseEntry": 83
+        "BaseEntry": 83,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -3586,7 +3669,8 @@
         "ShipDate": "2007-04-25",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 84
+        "BaseEntry": 84,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -3648,7 +3732,8 @@
         "ShipDate": "2007-04-25",
         "Price": 7.5,
         "BaseType": 22,
-        "BaseEntry": 85
+        "BaseEntry": 85,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -3710,7 +3795,8 @@
         "ShipDate": "2007-04-20",
         "Price": 40,
         "BaseType": 22,
-        "BaseEntry": 86
+        "BaseEntry": 86,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -3772,7 +3858,8 @@
         "ShipDate": "2007-04-25",
         "Price": 45,
         "BaseType": 22,
-        "BaseEntry": 87
+        "BaseEntry": 87,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -3832,7 +3919,8 @@
         "ItemDescription": "Canon EOS 30D",
         "Quantity": 50,
         "Price": 450,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -3840,7 +3928,8 @@
         "ItemDescription": "Hub de voyage Belkin 4-Port USB 2.0",
         "Quantity": 50,
         "Price": 9,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -3848,7 +3937,8 @@
         "ItemDescription": "Kit de transfert Belkin PC-to-Mac",
         "Quantity": 50,
         "Price": 33.75,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -3856,7 +3946,8 @@
         "ItemDescription": "LM4029D Bac 500 feuilles pour imprimante Lexmark 4029",
         "Quantity": 50,
         "Price": 26.25,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -3864,7 +3955,8 @@
         "ItemDescription": "LM4029PH Tête d'impression pour imprimante Lexmark 4029",
         "Quantity": 50,
         "Price": 15,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -3882,7 +3974,8 @@
         "ShipDate": "2007-05-16",
         "Price": 37.5,
         "BaseType": 22,
-        "BaseEntry": 89
+        "BaseEntry": 89,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -3944,7 +4037,8 @@
         "ShipDate": "2007-05-10",
         "Price": 100,
         "BaseType": 22,
-        "BaseEntry": 90
+        "BaseEntry": 90,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -4006,7 +4100,8 @@
         "ShipDate": "2007-05-25",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 91
+        "BaseEntry": 91,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -4068,7 +4163,8 @@
         "ShipDate": "2007-05-25",
         "Price": 375,
         "BaseType": 22,
-        "BaseEntry": 92
+        "BaseEntry": 92,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -4130,7 +4226,8 @@
         "ShipDate": "2007-05-22",
         "Price": 1.5,
         "BaseType": 22,
-        "BaseEntry": 93
+        "BaseEntry": 93,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -4192,7 +4289,8 @@
         "ShipDate": "2007-06-04",
         "Price": 80,
         "BaseType": 22,
-        "BaseEntry": 94
+        "BaseEntry": 94,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -4254,7 +4352,8 @@
         "ShipDate": "2007-05-30",
         "Price": 6,
         "BaseType": 22,
-        "BaseEntry": 95
+        "BaseEntry": 95,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -4316,7 +4415,8 @@
         "ShipDate": "2007-06-20",
         "Price": 75,
         "BaseType": 22,
-        "BaseEntry": 96
+        "BaseEntry": 96,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -4378,7 +4478,8 @@
         "ShipDate": "2007-06-20",
         "Price": 225,
         "BaseType": 22,
-        "BaseEntry": 97
+        "BaseEntry": 97,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -4440,7 +4541,8 @@
         "ShipDate": "2007-06-15",
         "Price": 65,
         "BaseType": 22,
-        "BaseEntry": 98
+        "BaseEntry": 98,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -4502,7 +4604,8 @@
         "ShipDate": "2007-06-30",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 99
+        "BaseEntry": 99,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -4521,7 +4624,8 @@
         "ItemDescription": "Souris USB",
         "Quantity": 30,
         "Price": 20,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -4529,7 +4633,8 @@
         "ItemDescription": "Barette mémoire DDR RAM 512 MB",
         "Quantity": 30,
         "Price": 40,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -4537,7 +4642,8 @@
         "ItemDescription": "Pack de 10 disques DVD+R",
         "Quantity": 30,
         "Price": 3,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -4555,7 +4661,8 @@
         "ShipDate": "2007-06-20",
         "Price": 9,
         "BaseType": 22,
-        "BaseEntry": 100
+        "BaseEntry": 100,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -4617,7 +4724,8 @@
         "ShipDate": "2007-07-10",
         "Price": 14,
         "BaseType": 22,
-        "BaseEntry": 101
+        "BaseEntry": 101,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -4679,7 +4787,8 @@
         "ShipDate": "2007-07-02",
         "Price": 45,
         "BaseType": 22,
-        "BaseEntry": 102
+        "BaseEntry": 102,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -4741,7 +4850,8 @@
         "ShipDate": "2007-07-15",
         "Price": 5,
         "BaseType": 22,
-        "BaseEntry": 103
+        "BaseEntry": 103,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -4803,7 +4913,8 @@
         "ShipDate": "2007-07-22",
         "Price": 375,
         "BaseType": 22,
-        "BaseEntry": 104
+        "BaseEntry": 104,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -4865,7 +4976,8 @@
         "ShipDate": "2007-07-23",
         "Price": 26.25,
         "BaseType": 22,
-        "BaseEntry": 105
+        "BaseEntry": 105,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -4927,7 +5039,8 @@
         "ShipDate": "2007-07-30",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 106
+        "BaseEntry": 106,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -4989,7 +5102,8 @@
         "ShipDate": "2007-08-09",
         "Price": 20,
         "BaseType": 22,
-        "BaseEntry": 107
+        "BaseEntry": 107,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -5051,7 +5165,8 @@
         "ShipDate": "2007-08-10",
         "Price": 29.25,
         "BaseType": 22,
-        "BaseEntry": 108
+        "BaseEntry": 108,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -5113,7 +5228,8 @@
         "ShipDate": "2007-08-15",
         "Price": 17.5,
         "BaseType": 22,
-        "BaseEntry": 109
+        "BaseEntry": 109,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -5175,7 +5291,8 @@
         "ShipDate": "2007-08-20",
         "Price": 5,
         "BaseType": 22,
-        "BaseEntry": 110
+        "BaseEntry": 110,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -5237,7 +5354,8 @@
         "ShipDate": "2007-08-29",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 111
+        "BaseEntry": 111,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -5299,7 +5417,8 @@
         "ShipDate": "2007-09-01",
         "Price": 45,
         "BaseType": 22,
-        "BaseEntry": 112
+        "BaseEntry": 112,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -5361,7 +5480,8 @@
         "ShipDate": "2007-09-10",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 113
+        "BaseEntry": 113,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -5423,7 +5543,8 @@
         "ShipDate": "2007-09-20",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 114
+        "BaseEntry": 114,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -5485,7 +5606,8 @@
         "ShipDate": "2007-09-20",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 115
+        "BaseEntry": 115,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -5547,7 +5669,8 @@
         "ShipDate": "2007-09-30",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 116
+        "BaseEntry": 116,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -5609,7 +5732,8 @@
         "ShipDate": "2007-09-27",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 117
+        "BaseEntry": 117,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -5671,7 +5795,8 @@
         "ShipDate": "2007-10-09",
         "Price": 400,
         "BaseType": 22,
-        "BaseEntry": 118
+        "BaseEntry": 118,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -5733,7 +5858,8 @@
         "ShipDate": "2007-10-09",
         "Price": 7.5,
         "BaseType": 22,
-        "BaseEntry": 119
+        "BaseEntry": 119,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -5795,7 +5921,8 @@
         "ShipDate": "2007-10-16",
         "Price": 30,
         "BaseType": 22,
-        "BaseEntry": 120
+        "BaseEntry": 120,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -5857,7 +5984,8 @@
         "ShipDate": "2007-10-18",
         "Price": 67.5,
         "BaseType": 22,
-        "BaseEntry": 121
+        "BaseEntry": 121,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -5919,7 +6047,8 @@
         "ShipDate": "2007-10-22",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 122
+        "BaseEntry": 122,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -5981,7 +6110,8 @@
         "ShipDate": "2007-10-29",
         "Price": 50,
         "BaseType": 22,
-        "BaseEntry": 123
+        "BaseEntry": 123,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -6011,7 +6141,8 @@
         "ItemDescription": "LM4029APCD Lexmark 4029 Printer AC Power Cord",
         "Quantity": 40,
         "Price": 5,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -6019,7 +6150,8 @@
         "ItemDescription": "Imprimante IBM type Infoprint 1312",
         "Quantity": 30,
         "Price": 400,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -6037,7 +6169,8 @@
         "ShipDate": "2007-11-09",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 124
+        "BaseEntry": 124,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -6099,7 +6232,8 @@
         "ShipDate": "2007-11-10",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 125
+        "BaseEntry": 125,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -6161,7 +6295,8 @@
         "ShipDate": "2007-11-09",
         "Price": 500,
         "BaseType": 22,
-        "BaseEntry": 126
+        "BaseEntry": 126,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -6223,7 +6358,8 @@
         "ShipDate": "2007-11-20",
         "Price": 1.5,
         "BaseType": 22,
-        "BaseEntry": 127
+        "BaseEntry": 127,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -6285,7 +6421,8 @@
         "ShipDate": "2007-11-22",
         "Price": 60,
         "BaseType": 22,
-        "BaseEntry": 128
+        "BaseEntry": 128,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -6347,7 +6484,8 @@
         "ShipDate": "2007-12-01",
         "Price": 9,
         "BaseType": 22,
-        "BaseEntry": 129
+        "BaseEntry": 129,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -6409,7 +6547,8 @@
         "ShipDate": "2007-12-05",
         "Price": 50,
         "BaseType": 22,
-        "BaseEntry": 130
+        "BaseEntry": 130,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -6471,7 +6610,8 @@
         "ShipDate": "2007-12-11",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 131
+        "BaseEntry": 131,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -6533,7 +6673,8 @@
         "ShipDate": "2007-12-14",
         "Price": 97.5,
         "BaseType": 22,
-        "BaseEntry": 132
+        "BaseEntry": 132,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -6595,7 +6736,8 @@
         "ShipDate": "2007-12-24",
         "Price": 100,
         "BaseType": 22,
-        "BaseEntry": 133
+        "BaseEntry": 133,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -6657,7 +6799,8 @@
         "ShipDate": "2008-01-16",
         "Price": 12,
         "BaseType": 22,
-        "BaseEntry": 134
+        "BaseEntry": 134,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -6719,7 +6862,8 @@
         "ShipDate": "2008-01-20",
         "Price": 14,
         "BaseType": 22,
-        "BaseEntry": 135
+        "BaseEntry": 135,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -6781,7 +6925,8 @@
         "ShipDate": "2008-01-25",
         "Price": 33.75,
         "BaseType": 22,
-        "BaseEntry": 136
+        "BaseEntry": 136,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -6843,7 +6988,8 @@
         "ShipDate": "2008-01-30",
         "Price": 7.5,
         "BaseType": 22,
-        "BaseEntry": 137
+        "BaseEntry": 137,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -6905,7 +7051,8 @@
         "ShipDate": "2008-02-04",
         "Price": 250,
         "BaseType": 22,
-        "BaseEntry": 138
+        "BaseEntry": 138,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -6967,7 +7114,8 @@
         "ShipDate": "2008-02-09",
         "Price": 35,
         "BaseType": 22,
-        "BaseEntry": 139
+        "BaseEntry": 139,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -7029,7 +7177,8 @@
         "ShipDate": "2008-02-16",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 140
+        "BaseEntry": 140,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -7091,7 +7240,8 @@
         "ShipDate": "2008-02-15",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 141
+        "BaseEntry": 141,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -7153,7 +7303,8 @@
         "ShipDate": "2008-03-01",
         "Price": 39,
         "BaseType": 22,
-        "BaseEntry": 142
+        "BaseEntry": 142,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -7215,7 +7366,8 @@
         "ShipDate": "2008-02-28",
         "Price": 17.5,
         "BaseType": 22,
-        "BaseEntry": 143
+        "BaseEntry": 143,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -7277,7 +7429,8 @@
         "ShipDate": "2008-03-20",
         "Price": 3.75,
         "BaseType": 22,
-        "BaseEntry": 144
+        "BaseEntry": 144,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -7337,7 +7490,8 @@
         "ItemDescription": "Imprimante HP type Color Laser Jet 4",
         "Quantity": 40,
         "Price": 300,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -7345,7 +7499,8 @@
         "ItemDescription": "Carte mère P4 Turbo",
         "Quantity": 40,
         "Price": 300,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -7353,7 +7508,8 @@
         "ItemDescription": "Carte mère P4 Turbo - Asus Chipset",
         "Quantity": 40,
         "Price": 225,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -7361,7 +7517,8 @@
         "ItemDescription": "Processeur Intel P4 2.4 GhZ",
         "Quantity": 40,
         "Price": 97.5,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -7369,7 +7526,8 @@
         "ItemDescription": "Tour PC avec alimentation",
         "Quantity": 40,
         "Price": 26.25,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -7387,7 +7545,8 @@
         "ShipDate": "2008-03-15",
         "Price": 30,
         "BaseType": 22,
-        "BaseEntry": 146
+        "BaseEntry": 146,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -7449,7 +7608,8 @@
         "ShipDate": "2008-03-20",
         "Price": 20,
         "BaseType": 22,
-        "BaseEntry": 147
+        "BaseEntry": 147,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -7511,7 +7671,8 @@
         "ShipDate": "2008-04-04",
         "Price": 22.5,
         "BaseType": 22,
-        "BaseEntry": 148
+        "BaseEntry": 148,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -7573,7 +7734,8 @@
         "ShipDate": "2008-04-01",
         "Price": 75,
         "BaseType": 22,
-        "BaseEntry": 149
+        "BaseEntry": 149,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -7635,7 +7797,8 @@
         "ShipDate": "2008-04-10",
         "Price": 20,
         "BaseType": 22,
-        "BaseEntry": 150
+        "BaseEntry": 150,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -7697,7 +7860,8 @@
         "ShipDate": "2008-04-25",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 151
+        "BaseEntry": 151,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -7759,7 +7923,8 @@
         "ShipDate": "2008-04-25",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 152
+        "BaseEntry": 152,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -7821,7 +7986,8 @@
         "ShipDate": "2008-04-20",
         "Price": 11.25,
         "BaseType": 22,
-        "BaseEntry": 153
+        "BaseEntry": 153,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -7883,7 +8049,8 @@
         "ShipDate": "2008-04-25",
         "Price": 20,
         "BaseType": 22,
-        "BaseEntry": 154
+        "BaseEntry": 154,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -7945,7 +8112,8 @@
         "ShipDate": "2008-05-10",
         "Price": 90,
         "BaseType": 22,
-        "BaseEntry": 155
+        "BaseEntry": 155,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -8007,7 +8175,8 @@
         "ShipDate": "2008-05-16",
         "Price": 450,
         "BaseType": 22,
-        "BaseEntry": 156
+        "BaseEntry": 156,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -8069,7 +8238,8 @@
         "ShipDate": "2008-05-10",
         "Price": 25,
         "BaseType": 22,
-        "BaseEntry": 157
+        "BaseEntry": 157,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -8131,7 +8301,8 @@
         "ShipDate": "2008-05-25",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 158
+        "BaseEntry": 158,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -8193,7 +8364,8 @@
         "ShipDate": "2008-05-25",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 159
+        "BaseEntry": 159,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -8255,7 +8427,8 @@
         "ShipDate": "2008-05-22",
         "Price": 375,
         "BaseType": 22,
-        "BaseEntry": 160
+        "BaseEntry": 160,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -8317,7 +8490,8 @@
         "ShipDate": "2008-06-04",
         "Price": 2.25,
         "BaseType": 22,
-        "BaseEntry": 161
+        "BaseEntry": 161,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -8379,7 +8553,8 @@
         "ShipDate": "2008-05-30",
         "Price": 40,
         "BaseType": 22,
-        "BaseEntry": 162
+        "BaseEntry": 162,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -8441,7 +8616,8 @@
         "ShipDate": "2008-06-20",
         "Price": 12,
         "BaseType": 22,
-        "BaseEntry": 163
+        "BaseEntry": 163,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -8503,7 +8679,8 @@
         "ShipDate": "2008-06-20",
         "Price": 75,
         "BaseType": 22,
-        "BaseEntry": 164
+        "BaseEntry": 164,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -8544,7 +8721,8 @@
         "ItemDescription": "Imprimante IBM type Infoprint 1222",
         "Quantity": 50,
         "Price": 150,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -8562,7 +8740,8 @@
         "ShipDate": "2008-06-15",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 165
+        "BaseEntry": 165,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -8624,7 +8803,8 @@
         "ShipDate": "2008-06-30",
         "Price": 130,
         "BaseType": 22,
-        "BaseEntry": 166
+        "BaseEntry": 166,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -8686,7 +8866,8 @@
         "ShipDate": "2008-06-20",
         "Price": 100,
         "BaseType": 22,
-        "BaseEntry": 167
+        "BaseEntry": 167,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -8748,7 +8929,8 @@
         "ShipDate": "2008-07-10",
         "Price": 9,
         "BaseType": 22,
-        "BaseEntry": 168
+        "BaseEntry": 168,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -8810,7 +8992,8 @@
         "ShipDate": "2008-07-02",
         "Price": 21,
         "BaseType": 22,
-        "BaseEntry": 169
+        "BaseEntry": 169,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -8872,7 +9055,8 @@
         "ShipDate": "2008-07-15",
         "Price": 22.5,
         "BaseType": 22,
-        "BaseEntry": 170
+        "BaseEntry": 170,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -8934,7 +9118,8 @@
         "ShipDate": "2008-07-22",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 171
+        "BaseEntry": 171,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -8996,7 +9181,8 @@
         "ShipDate": "2008-07-23",
         "Price": 375,
         "BaseType": 22,
-        "BaseEntry": 172
+        "BaseEntry": 172,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -9058,7 +9244,8 @@
         "ShipDate": "2008-07-30",
         "Price": 17.5,
         "BaseType": 22,
-        "BaseEntry": 173
+        "BaseEntry": 173,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -9120,7 +9307,8 @@
         "ShipDate": "2008-08-09",
         "Price": 20,
         "BaseType": 22,
-        "BaseEntry": 174
+        "BaseEntry": 174,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -9182,7 +9370,8 @@
         "ShipDate": "2008-08-10",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 175
+        "BaseEntry": 175,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -9244,7 +9433,8 @@
         "ShipDate": "2008-08-15",
         "Price": 29.25,
         "BaseType": 22,
-        "BaseEntry": 176
+        "BaseEntry": 176,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -9306,7 +9496,8 @@
         "ShipDate": "2008-08-20",
         "Price": 26.25,
         "BaseType": 22,
-        "BaseEntry": 177
+        "BaseEntry": 177,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -9368,7 +9559,8 @@
         "ShipDate": "2008-08-29",
         "Price": 2.5,
         "BaseType": 22,
-        "BaseEntry": 178
+        "BaseEntry": 178,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -9430,7 +9622,8 @@
         "ShipDate": "2008-09-01",
         "Price": 400,
         "BaseType": 22,
-        "BaseEntry": 179
+        "BaseEntry": 179,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -9492,7 +9685,8 @@
         "ShipDate": "2008-09-10",
         "Price": 45,
         "BaseType": 22,
-        "BaseEntry": 180
+        "BaseEntry": 180,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -9554,7 +9748,8 @@
         "ShipDate": "2008-09-20",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 181
+        "BaseEntry": 181,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -9616,7 +9811,8 @@
         "ShipDate": "2008-09-20",
         "Price": 30,
         "BaseType": 22,
-        "BaseEntry": 182
+        "BaseEntry": 182,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -9678,7 +9874,8 @@
         "ShipDate": "2008-09-30",
         "Price": 75,
         "BaseType": 22,
-        "BaseEntry": 183
+        "BaseEntry": 183,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -9708,7 +9905,8 @@
         "ItemDescription": "Kit de transfert Belkin PC-to-Mac",
         "Quantity": 30,
         "Price": 22.5,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -9716,7 +9914,8 @@
         "ItemDescription": "LM4029D Bac 500 feuilles pour imprimante Lexmark 4029",
         "Quantity": 30,
         "Price": 17.5,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -9734,7 +9933,8 @@
         "ShipDate": "2008-09-27",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 184
+        "BaseEntry": 184,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -9796,7 +9996,8 @@
         "ShipDate": "2008-10-09",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 185
+        "BaseEntry": 185,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -9858,7 +10059,8 @@
         "ShipDate": "2008-10-09",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 186
+        "BaseEntry": 186,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -9920,7 +10122,8 @@
         "ShipDate": "2008-10-16",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 187
+        "BaseEntry": 187,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -9982,7 +10185,8 @@
         "ShipDate": "2008-10-18",
         "Price": 30,
         "BaseType": 22,
-        "BaseEntry": 188
+        "BaseEntry": 188,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -10044,7 +10248,8 @@
         "ShipDate": "2008-10-22",
         "Price": 45,
         "BaseType": 22,
-        "BaseEntry": 189
+        "BaseEntry": 189,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -10106,7 +10311,8 @@
         "ShipDate": "2008-10-29",
         "Price": 600,
         "BaseType": 22,
-        "BaseEntry": 190
+        "BaseEntry": 190,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -10168,7 +10374,8 @@
         "ShipDate": "2008-11-09",
         "Price": 25,
         "BaseType": 22,
-        "BaseEntry": 191
+        "BaseEntry": 191,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -10230,7 +10437,8 @@
         "ShipDate": "2008-11-10",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 192
+        "BaseEntry": 192,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -10292,7 +10500,8 @@
         "ShipDate": "2008-11-09",
         "Price": 225,
         "BaseType": 22,
-        "BaseEntry": 193
+        "BaseEntry": 193,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -10354,7 +10563,8 @@
         "ShipDate": "2008-11-20",
         "Price": 250,
         "BaseType": 22,
-        "BaseEntry": 194
+        "BaseEntry": 194,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -10416,7 +10626,8 @@
         "ShipDate": "2008-11-22",
         "Price": 3,
         "BaseType": 22,
-        "BaseEntry": 195
+        "BaseEntry": 195,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -10478,7 +10689,8 @@
         "ShipDate": "2008-12-01",
         "Price": 60,
         "BaseType": 22,
-        "BaseEntry": 196
+        "BaseEntry": 196,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -10540,7 +10752,8 @@
         "ShipDate": "2008-12-05",
         "Price": 6,
         "BaseType": 22,
-        "BaseEntry": 197
+        "BaseEntry": 197,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -10602,7 +10815,8 @@
         "ShipDate": "2008-12-11",
         "Price": 100,
         "BaseType": 22,
-        "BaseEntry": 198
+        "BaseEntry": 198,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -10662,7 +10876,8 @@
         "ItemDescription": "Imprimante IBM type Infoprint 1226",
         "Quantity": 40,
         "Price": 150,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -10670,7 +10885,8 @@
         "ItemDescription": "Imprimante HP type Color Laser Jet 5",
         "Quantity": 40,
         "Price": 250,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -10678,7 +10894,8 @@
         "ItemDescription": "Imprimante HP type Color Laser Jet 4",
         "Quantity": 40,
         "Price": 200,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -10686,7 +10903,8 @@
         "ItemDescription": "Carte mère P4 Turbo",
         "Quantity": 40,
         "Price": 200,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -10694,7 +10912,8 @@
         "ItemDescription": "Carte mère P4 Turbo - Asus Chipset",
         "Quantity": 40,
         "Price": 150,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -10712,7 +10931,8 @@
         "ShipDate": "2008-12-24",
         "Price": 97.5,
         "BaseType": 22,
-        "BaseEntry": 200
+        "BaseEntry": 200,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -10774,7 +10994,8 @@
         "ShipDate": "2009-01-16",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 201
+        "BaseEntry": 201,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -10836,7 +11057,8 @@
         "ShipDate": "2009-01-20",
         "Price": 6,
         "BaseType": 22,
-        "BaseEntry": 202
+        "BaseEntry": 202,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -10898,7 +11120,8 @@
         "ShipDate": "2009-01-25",
         "Price": 28,
         "BaseType": 22,
-        "BaseEntry": 203
+        "BaseEntry": 203,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -10960,7 +11183,8 @@
         "ShipDate": "2009-01-30",
         "Price": 33.75,
         "BaseType": 22,
-        "BaseEntry": 204
+        "BaseEntry": 204,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -11022,7 +11246,8 @@
         "ShipDate": "2009-02-04",
         "Price": 5,
         "BaseType": 22,
-        "BaseEntry": 205
+        "BaseEntry": 205,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -11084,7 +11309,8 @@
         "ShipDate": "2009-02-09",
         "Price": 500,
         "BaseType": 22,
-        "BaseEntry": 206
+        "BaseEntry": 206,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -11146,7 +11372,8 @@
         "ShipDate": "2009-02-16",
         "Price": 17.5,
         "BaseType": 22,
-        "BaseEntry": 207
+        "BaseEntry": 207,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -11176,7 +11403,8 @@
         "ItemDescription": "Disque dur Seagate 400 GB",
         "Quantity": 30,
         "Price": 250,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -11184,7 +11412,8 @@
         "ItemDescription": "Moniteur 19' TFT",
         "Quantity": 30,
         "Price": 100,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -11202,7 +11431,8 @@
         "ShipDate": "2009-02-15",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 208
+        "BaseEntry": 208,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -11264,7 +11494,8 @@
         "ShipDate": "2009-03-02",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 209
+        "BaseEntry": 209,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -11326,7 +11557,8 @@
         "ShipDate": "2009-02-28",
         "Price": 19.5,
         "BaseType": 22,
-        "BaseEntry": 210
+        "BaseEntry": 210,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -11388,7 +11620,8 @@
         "ShipDate": "2009-03-20",
         "Price": 35,
         "BaseType": 22,
-        "BaseEntry": 211
+        "BaseEntry": 211,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -11450,7 +11683,8 @@
         "ShipDate": "2009-03-20",
         "Price": 3.75,
         "BaseType": 22,
-        "BaseEntry": 212
+        "BaseEntry": 212,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -11512,7 +11746,8 @@
         "ShipDate": "2009-03-15",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 213
+        "BaseEntry": 213,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -11574,7 +11809,8 @@
         "ShipDate": "2009-03-20",
         "Price": 60,
         "BaseType": 22,
-        "BaseEntry": 214
+        "BaseEntry": 214,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -11636,7 +11872,8 @@
         "ShipDate": "2009-04-04",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 215
+        "BaseEntry": 215,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -11698,7 +11935,8 @@
         "ShipDate": "2009-04-01",
         "Price": 22.5,
         "BaseType": 22,
-        "BaseEntry": 216
+        "BaseEntry": 216,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -11760,7 +11998,8 @@
         "ShipDate": "2009-04-10",
         "Price": 112.5,
         "BaseType": 22,
-        "BaseEntry": 217
+        "BaseEntry": 217,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -11822,7 +12061,8 @@
         "ShipDate": "2009-04-25",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 218
+        "BaseEntry": 218,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -11884,7 +12124,8 @@
         "ShipDate": "2009-04-25",
         "Price": 400,
         "BaseType": 22,
-        "BaseEntry": 219
+        "BaseEntry": 219,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -11946,7 +12187,8 @@
         "ShipDate": "2009-04-20",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 220
+        "BaseEntry": 220,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -12008,7 +12250,8 @@
         "ShipDate": "2009-04-25",
         "Price": 7.5,
         "BaseType": 22,
-        "BaseEntry": 221
+        "BaseEntry": 221,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -12070,7 +12313,8 @@
         "ShipDate": "2009-05-10",
         "Price": 40,
         "BaseType": 22,
-        "BaseEntry": 222
+        "BaseEntry": 222,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -12132,7 +12376,8 @@
         "ShipDate": "2009-05-16",
         "Price": 45,
         "BaseType": 22,
-        "BaseEntry": 223
+        "BaseEntry": 223,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -12194,7 +12439,8 @@
         "ShipDate": "2009-05-10",
         "Price": 450,
         "BaseType": 22,
-        "BaseEntry": 224
+        "BaseEntry": 224,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -12254,7 +12500,8 @@
         "ItemDescription": "Barette mémoire",
         "Quantity": 50,
         "Price": 37.5,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -12262,7 +12509,8 @@
         "ItemDescription": "LM4029SB Carte mère pour imprimante Lexmark 4029",
         "Quantity": 50,
         "Price": 75,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -12270,7 +12518,8 @@
         "ItemDescription": "LM4029ACA Cordon d'alimentation pour imprimante Lexmark 4029",
         "Quantity": 50,
         "Price": 7.5,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -12278,7 +12527,8 @@
         "ItemDescription": "LM4029APCD Lexmark 4029 Printer AC Power Cord",
         "Quantity": 50,
         "Price": 3.75,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -12286,7 +12536,8 @@
         "ItemDescription": "Imprimante IBM type Infoprint 1312",
         "Quantity": 40,
         "Price": 300,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -12304,7 +12555,8 @@
         "ShipDate": "2009-05-25",
         "Price": 100,
         "BaseType": 22,
-        "BaseEntry": 226
+        "BaseEntry": 226,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -12366,7 +12618,8 @@
         "ShipDate": "2009-05-22",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 227
+        "BaseEntry": 227,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -12428,7 +12681,8 @@
         "ShipDate": "2009-06-04",
         "Price": 375,
         "BaseType": 22,
-        "BaseEntry": 228
+        "BaseEntry": 228,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -12490,7 +12744,8 @@
         "ShipDate": "2009-05-30",
         "Price": 1.5,
         "BaseType": 22,
-        "BaseEntry": 229
+        "BaseEntry": 229,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -12552,7 +12807,8 @@
         "ShipDate": "2009-06-20",
         "Price": 80,
         "BaseType": 22,
-        "BaseEntry": 230
+        "BaseEntry": 230,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -12614,7 +12870,8 @@
         "ShipDate": "2009-06-20",
         "Price": 6,
         "BaseType": 22,
-        "BaseEntry": 231
+        "BaseEntry": 231,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -12676,7 +12933,8 @@
         "ShipDate": "2009-06-15",
         "Price": 75,
         "BaseType": 22,
-        "BaseEntry": 232
+        "BaseEntry": 232,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -12738,7 +12996,8 @@
         "ShipDate": "2009-06-30",
         "Price": 225,
         "BaseType": 22,
-        "BaseEntry": 233
+        "BaseEntry": 233,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -12800,7 +13059,8 @@
         "ShipDate": "2009-06-20",
         "Price": 65,
         "BaseType": 22,
-        "BaseEntry": 234
+        "BaseEntry": 234,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -12819,7 +13079,8 @@
         "ItemDescription": "Carte WLAN",
         "Quantity": 30,
         "Price": 30,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -12827,7 +13088,8 @@
         "ItemDescription": "Carte réseau 10/100",
         "Quantity": 30,
         "Price": 7.5,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -12835,7 +13097,8 @@
         "ItemDescription": "Disque dur Seagate 400 GB",
         "Quantity": 30,
         "Price": 250,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -12853,7 +13116,8 @@
         "ShipDate": "2009-07-10",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 235
+        "BaseEntry": 235,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -12915,7 +13179,8 @@
         "ShipDate": "2009-07-02",
         "Price": 9,
         "BaseType": 22,
-        "BaseEntry": 236
+        "BaseEntry": 236,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -12977,7 +13242,8 @@
         "ShipDate": "2009-07-15",
         "Price": 14,
         "BaseType": 22,
-        "BaseEntry": 237
+        "BaseEntry": 237,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -13039,7 +13305,8 @@
         "ShipDate": "2009-07-22",
         "Price": 45,
         "BaseType": 22,
-        "BaseEntry": 238
+        "BaseEntry": 238,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -13101,7 +13368,8 @@
         "ShipDate": "2009-07-23",
         "Price": 5,
         "BaseType": 22,
-        "BaseEntry": 239
+        "BaseEntry": 239,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -13163,7 +13431,8 @@
         "ShipDate": "2009-07-30",
         "Price": 375,
         "BaseType": 22,
-        "BaseEntry": 240
+        "BaseEntry": 240,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -13225,7 +13494,8 @@
         "ShipDate": "2009-08-09",
         "Price": 26.25,
         "BaseType": 22,
-        "BaseEntry": 241
+        "BaseEntry": 241,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -13285,7 +13555,8 @@
         "ItemDescription": "Clavier USB type Comfort",
         "Quantity": 40,
         "Price": 10,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -13293,7 +13564,8 @@
         "ItemDescription": "Souris USB",
         "Quantity": 40,
         "Price": 10,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -13301,7 +13573,8 @@
         "ItemDescription": "Barette mémoire DDR RAM 512 MB",
         "Quantity": 40,
         "Price": 20,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -13309,7 +13582,8 @@
         "ItemDescription": "Pack de 10 disques DVD+R",
         "Quantity": 40,
         "Price": 1.5,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -13317,7 +13591,8 @@
         "ItemDescription": "pack de 50 disques DVD+R",
         "Quantity": 40,
         "Price": 6,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -13335,7 +13610,8 @@
         "ShipDate": "2009-08-15",
         "Price": 20,
         "BaseType": 22,
-        "BaseEntry": 243
+        "BaseEntry": 243,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -13397,7 +13673,8 @@
         "ShipDate": "2009-08-20",
         "Price": 29.25,
         "BaseType": 22,
-        "BaseEntry": 244
+        "BaseEntry": 244,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -13459,7 +13736,8 @@
         "ShipDate": "2009-08-29",
         "Price": 17.5,
         "BaseType": 22,
-        "BaseEntry": 245
+        "BaseEntry": 245,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -13521,7 +13799,8 @@
         "ShipDate": "2009-09-01",
         "Price": 5,
         "BaseType": 22,
-        "BaseEntry": 246
+        "BaseEntry": 246,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -13583,7 +13862,8 @@
         "ShipDate": "2009-09-10",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 247
+        "BaseEntry": 247,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -13624,7 +13904,8 @@
         "ItemDescription": "Tour PC avec alimentation",
         "Quantity": 50,
         "Price": 17.5,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -13642,7 +13923,8 @@
         "ShipDate": "2009-09-20",
         "Price": 45,
         "BaseType": 22,
-        "BaseEntry": 248
+        "BaseEntry": 248,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -13704,7 +13986,8 @@
         "ShipDate": "2009-09-20",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 249
+        "BaseEntry": 249,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -13766,7 +14049,8 @@
         "ShipDate": "2009-09-30",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 250
+        "BaseEntry": 250,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -13828,7 +14112,8 @@
         "ShipDate": "2009-09-27",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 251
+        "BaseEntry": 251,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -13888,7 +14173,8 @@
         "ItemDescription": "LM4029PH Tête d'impression pour imprimante Lexmark 4029",
         "Quantity": 50,
         "Price": 15,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -13896,7 +14182,8 @@
         "ItemDescription": "Barette mémoire",
         "Quantity": 50,
         "Price": 37.5,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -13904,7 +14191,8 @@
         "ItemDescription": "LM4029SB Carte mère pour imprimante Lexmark 4029",
         "Quantity": 20,
         "Price": 75,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -13912,7 +14200,8 @@
         "ItemDescription": "LM4029ACA Cordon d'alimentation pour imprimante Lexmark 4029",
         "Quantity": 20,
         "Price": 7.5,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -13920,7 +14209,8 @@
         "ItemDescription": "LM4029APCD Lexmark 4029 Printer AC Power Cord",
         "Quantity": 20,
         "Price": 3.75,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -13936,7 +14226,8 @@
         "ItemDescription": "Imprimante IBM type Infoprint 1312",
         "Quantity": 20,
         "Price": 200,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -13944,7 +14235,8 @@
         "ItemDescription": "Imprimante IBM type Infoprint 1222",
         "Quantity": 20,
         "Price": 100,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -13952,7 +14244,8 @@
         "ItemDescription": "Imprimante IBM type Infoprint 1226",
         "Quantity": 20,
         "Price": 150,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -13960,7 +14253,8 @@
         "ItemDescription": "Imprimante HP type Color Laser Jet 5",
         "Quantity": 20,
         "Price": 250,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -13968,7 +14262,8 @@
         "ItemDescription": "Imprimante HP type Color Laser Jet 4",
         "Quantity": 20,
         "Price": 200,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -13984,7 +14279,8 @@
         "ItemDescription": "Carte mère P4 Turbo",
         "Quantity": 20,
         "Price": 400,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -13992,7 +14288,8 @@
         "ItemDescription": "Carte mère P4 Turbo - Asus Chipset",
         "Quantity": 20,
         "Price": 300,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -14000,7 +14297,8 @@
         "ItemDescription": "Processeur Intel P4 2.4 GhZ",
         "Quantity": 20,
         "Price": 130,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -14008,7 +14306,8 @@
         "ItemDescription": "Tour PC avec alimentation",
         "Quantity": 20,
         "Price": 35,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -14016,7 +14315,8 @@
         "ItemDescription": "Carte WLAN",
         "Quantity": 20,
         "Price": 60,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -14032,7 +14332,8 @@
         "ItemDescription": "Carte réseau 10/100",
         "Quantity": 25,
         "Price": 7.5,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -14040,7 +14341,8 @@
         "ItemDescription": "Disque dur Seagate 400 GB",
         "Quantity": 25,
         "Price": 250,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -14048,7 +14350,8 @@
         "ItemDescription": "Moniteur 19' TFT",
         "Quantity": 25,
         "Price": 100,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -14056,7 +14359,8 @@
         "ItemDescription": "Clavier USB type Comfort",
         "Quantity": 25,
         "Price": 10,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -14064,7 +14368,8 @@
         "ItemDescription": "Souris USB",
         "Quantity": 25,
         "Price": 10,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -14080,7 +14385,8 @@
         "ItemDescription": "Barette mémoire DDR RAM 512 MB",
         "Quantity": 25,
         "Price": 30,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -14088,7 +14394,8 @@
         "ItemDescription": "Pack de 10 disques DVD+R",
         "Quantity": 25,
         "Price": 2.25,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -14096,7 +14403,8 @@
         "ItemDescription": "pack de 50 disques DVD+R",
         "Quantity": 25,
         "Price": 9,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -14104,7 +14412,8 @@
         "ItemDescription": "Flashdrive USB 4GB",
         "Quantity": 25,
         "Price": 15,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -14112,7 +14421,8 @@
         "ItemDescription": "Flashdrive USB 8GB",
         "Quantity": 25,
         "Price": 22.5,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -14128,7 +14438,8 @@
         "ItemDescription": "Batteries A20 pour laptop IBM Thankpad",
         "Quantity": 25,
         "Price": 67.5,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -14136,7 +14447,8 @@
         "ItemDescription": "Batteries A21 pour laptop IBM Thankpad",
         "Quantity": 25,
         "Price": 60,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -14144,7 +14456,8 @@
         "ItemDescription": "Cartouche d'encre pour imprimante HP Printer 95",
         "Quantity": 25,
         "Price": 21,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -14152,7 +14465,8 @@
         "ItemDescription": "Pack HP Vivera 6 cartouches -Papier Photo",
         "Quantity": 25,
         "Price": 29.25,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -14160,7 +14474,8 @@
         "ItemDescription": "Canon PowerShot A1000IS",
         "Quantity": 25,
         "Price": 112.5,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -14176,7 +14491,8 @@
         "ItemDescription": "Canon EOS 30D",
         "Quantity": 25,
         "Price": 300,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -14184,7 +14500,8 @@
         "ItemDescription": "Hub de voyage Belkin 4-Port USB 2.0",
         "Quantity": 25,
         "Price": 6,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -14192,7 +14509,8 @@
         "ItemDescription": "Kit de transfert Belkin PC-to-Mac",
         "Quantity": 25,
         "Price": 22.5,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -14200,7 +14518,8 @@
         "ItemDescription": "LM4029D Bac 500 feuilles pour imprimante Lexmark 4029",
         "Quantity": 25,
         "Price": 17.5,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -14208,7 +14527,8 @@
         "ItemDescription": "LM4029PH Tête d'impression pour imprimante Lexmark 4029",
         "Quantity": 40,
         "Price": 10,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -14224,7 +14544,8 @@
         "ItemDescription": "Barette mémoire",
         "Quantity": 40,
         "Price": 50,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -14232,7 +14553,8 @@
         "ItemDescription": "LM4029SB Carte mère pour imprimante Lexmark 4029",
         "Quantity": 40,
         "Price": 100,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -14240,7 +14562,8 @@
         "ItemDescription": "LM4029ACA Cordon d'alimentation pour imprimante Lexmark 4029",
         "Quantity": 40,
         "Price": 10,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -14248,7 +14571,8 @@
         "ItemDescription": "LM4029APCD Lexmark 4029 Printer AC Power Cord",
         "Quantity": 40,
         "Price": 5,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -14256,7 +14580,8 @@
         "ItemDescription": "Imprimante IBM type Infoprint 1312",
         "Quantity": 30,
         "Price": 400,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -14272,7 +14597,8 @@
         "ItemDescription": "Imprimante IBM type Infoprint 1222",
         "Quantity": 30,
         "Price": 150,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -14280,7 +14606,8 @@
         "ItemDescription": "Imprimante IBM type Infoprint 1226",
         "Quantity": 30,
         "Price": 225,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -14288,7 +14615,8 @@
         "ItemDescription": "Imprimante HP type Color Laser Jet 5",
         "Quantity": 30,
         "Price": 375,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -14296,7 +14624,8 @@
         "ItemDescription": "Imprimante HP type Color Laser Jet 4",
         "Quantity": 30,
         "Price": 300,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -14304,7 +14633,8 @@
         "ItemDescription": "Carte mère P4 Turbo",
         "Quantity": 30,
         "Price": 300,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -14320,7 +14650,8 @@
         "ItemDescription": "Carte mère P4 Turbo - Asus Chipset",
         "Quantity": 30,
         "Price": 150,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -14328,7 +14659,8 @@
         "ItemDescription": "Processeur Intel P4 2.4 GhZ",
         "Quantity": 30,
         "Price": 65,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -14336,7 +14668,8 @@
         "ItemDescription": "Tour PC avec alimentation",
         "Quantity": 30,
         "Price": 17.5,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -14344,7 +14677,8 @@
         "ItemDescription": "Carte WLAN",
         "Quantity": 30,
         "Price": 30,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -14352,7 +14686,8 @@
         "ItemDescription": "Carte réseau 10/100",
         "Quantity": 30,
         "Price": 7.5,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -14368,7 +14703,8 @@
         "ItemDescription": "Disque dur Seagate 400 GB",
         "Quantity": 30,
         "Price": 500,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -14376,7 +14712,8 @@
         "ItemDescription": "Moniteur 19' TFT",
         "Quantity": 30,
         "Price": 200,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -14384,7 +14721,8 @@
         "ItemDescription": "Clavier USB type Comfort",
         "Quantity": 30,
         "Price": 20,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -14392,7 +14730,8 @@
         "ItemDescription": "Souris USB",
         "Quantity": 30,
         "Price": 20,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -14400,7 +14739,8 @@
         "ItemDescription": "Barette mémoire DDR RAM 512 MB",
         "Quantity": 30,
         "Price": 40,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -14416,7 +14756,8 @@
         "ItemDescription": "Pack de 10 disques DVD+R",
         "Quantity": 30,
         "Price": 1.5,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -14424,7 +14765,8 @@
         "ItemDescription": "pack de 50 disques DVD+R",
         "Quantity": 30,
         "Price": 6,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -14432,7 +14774,8 @@
         "ItemDescription": "Flashdrive USB 4GB",
         "Quantity": 30,
         "Price": 10,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -14440,7 +14783,8 @@
         "ItemDescription": "Flashdrive USB 8GB",
         "Quantity": 30,
         "Price": 15,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -14448,7 +14792,8 @@
         "ItemDescription": "Batteries A20 pour laptop IBM Thankpad",
         "Quantity": 30,
         "Price": 45,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -14464,7 +14809,8 @@
         "ItemDescription": "Batteries A21 pour laptop IBM Thankpad",
         "Quantity": 30,
         "Price": 60,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -14472,7 +14818,8 @@
         "ItemDescription": "Cartouche d'encre pour imprimante HP Printer 95",
         "Quantity": 30,
         "Price": 21,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -14480,7 +14827,8 @@
         "ItemDescription": "Pack HP Vivera 6 cartouches -Papier Photo",
         "Quantity": 30,
         "Price": 29.25,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -14488,7 +14836,8 @@
         "ItemDescription": "Canon PowerShot A1000IS",
         "Quantity": 30,
         "Price": 112.5,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -14496,7 +14845,8 @@
         "ItemDescription": "Canon EOS 30D",
         "Quantity": 30,
         "Price": 450,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -14512,7 +14862,8 @@
         "ItemDescription": "Hub de voyage Belkin 4-Port USB 2.0",
         "Quantity": 10,
         "Price": 9,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -14520,7 +14871,8 @@
         "ItemDescription": "Kit de transfert Belkin PC-to-Mac",
         "Quantity": 10,
         "Price": 33.75,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -14528,7 +14880,8 @@
         "ItemDescription": "LM4029D Bac 500 feuilles pour imprimante Lexmark 4029",
         "Quantity": 10,
         "Price": 26.25,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -14536,7 +14889,8 @@
         "ItemDescription": "LM4029PH Tête d'impression pour imprimante Lexmark 4029",
         "Quantity": 10,
         "Price": 15,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -14544,7 +14898,8 @@
         "ItemDescription": "Barette mémoire",
         "Quantity": 10,
         "Price": 37.5,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -14560,7 +14915,8 @@
         "ItemDescription": "LM4029SB Carte mère pour imprimante Lexmark 4029",
         "Quantity": 10,
         "Price": 50,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -14568,7 +14924,8 @@
         "ItemDescription": "LM4029ACA Cordon d'alimentation pour imprimante Lexmark 4029",
         "Quantity": 10,
         "Price": 5,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -14576,7 +14933,8 @@
         "ItemDescription": "LM4029APCD Lexmark 4029 Printer AC Power Cord",
         "Quantity": 10,
         "Price": 2.5,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -14584,7 +14942,8 @@
         "ItemDescription": "Imprimante IBM type Infoprint 1312",
         "Quantity": 10,
         "Price": 200,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -14592,7 +14951,8 @@
         "ItemDescription": "Imprimante IBM type Infoprint 1222",
         "Quantity": 10,
         "Price": 100,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -14608,7 +14968,8 @@
         "ItemDescription": "Imprimante IBM type Infoprint 1226",
         "Quantity": 10,
         "Price": 300,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -14616,7 +14977,8 @@
         "ItemDescription": "Imprimante HP type Color Laser Jet 5",
         "Quantity": 10,
         "Price": 500,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -14624,7 +14986,8 @@
         "ItemDescription": "Imprimante HP type Color Laser Jet 4",
         "Quantity": 10,
         "Price": 400,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -14632,7 +14995,8 @@
         "ItemDescription": "Carte mère P4 Turbo",
         "Quantity": 50,
         "Price": 400,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -14640,7 +15004,8 @@
         "ItemDescription": "Carte mère P4 Turbo - Asus Chipset",
         "Quantity": 50,
         "Price": 300,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -14656,7 +15021,8 @@
         "ItemDescription": "Papier pour imprimante blanc A4",
         "Quantity": 5,
         "Price": 180,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -14664,7 +15030,8 @@
         "ItemDescription": "Papier pour imprimante A4 recyclé",
         "Quantity": 5,
         "Price": 108,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -14682,7 +15049,8 @@
         "ShipDate": "2007-05-10",
         "Price": 450,
         "BaseType": 22,
-        "BaseEntry": 88
+        "BaseEntry": 88,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -14815,7 +15183,8 @@
         "ShipDate": "2008-03-20",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 145
+        "BaseEntry": 145,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -14926,7 +15295,8 @@
         "ShipDate": "2008-12-14",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 199
+        "BaseEntry": 199,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -15018,7 +15388,8 @@
         "ShipDate": "2009-05-25",
         "Price": 37.5,
         "BaseType": 22,
-        "BaseEntry": 225
+        "BaseEntry": 225,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -15121,7 +15492,8 @@
         "ShipDate": "2009-08-10",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 242
+        "BaseEntry": 242,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -15202,7 +15574,8 @@
         "ShipDate": "2009-10-09",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 252
+        "BaseEntry": 252,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -15264,7 +15637,8 @@
         "ShipDate": "2009-10-09",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 253
+        "BaseEntry": 253,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -15326,7 +15700,8 @@
         "ShipDate": "2009-10-16",
         "Price": 400,
         "BaseType": 22,
-        "BaseEntry": 254
+        "BaseEntry": 254,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -15388,7 +15763,8 @@
         "ShipDate": "2009-10-18",
         "Price": 7.5,
         "BaseType": 22,
-        "BaseEntry": 255
+        "BaseEntry": 255,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -15450,7 +15826,8 @@
         "ShipDate": "2009-10-22",
         "Price": 30,
         "BaseType": 22,
-        "BaseEntry": 256
+        "BaseEntry": 256,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -15512,7 +15889,8 @@
         "ShipDate": "2009-10-29",
         "Price": 67.5,
         "BaseType": 22,
-        "BaseEntry": 257
+        "BaseEntry": 257,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -15574,7 +15952,8 @@
         "ShipDate": "2009-11-09",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 258
+        "BaseEntry": 258,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -15636,7 +16015,8 @@
         "ShipDate": "2009-11-10",
         "Price": 50,
         "BaseType": 22,
-        "BaseEntry": 259
+        "BaseEntry": 259,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -15698,7 +16078,8 @@
         "ShipDate": "2009-11-09",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 260
+        "BaseEntry": 260,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -15760,7 +16141,8 @@
         "ShipDate": "2009-11-20",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 261
+        "BaseEntry": 261,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -15822,7 +16204,8 @@
         "ShipDate": "2009-11-22",
         "Price": 500,
         "BaseType": 22,
-        "BaseEntry": 262
+        "BaseEntry": 262,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -15884,7 +16267,8 @@
         "ShipDate": "2009-12-01",
         "Price": 1.5,
         "BaseType": 22,
-        "BaseEntry": 263
+        "BaseEntry": 263,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -15946,7 +16330,8 @@
         "ShipDate": "2009-12-05",
         "Price": 60,
         "BaseType": 22,
-        "BaseEntry": 264
+        "BaseEntry": 264,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -16008,7 +16393,8 @@
         "ShipDate": "2009-12-11",
         "Price": 9,
         "BaseType": 22,
-        "BaseEntry": 265
+        "BaseEntry": 265,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -16070,7 +16456,8 @@
         "ShipDate": "2009-12-14",
         "Price": 50,
         "BaseType": 22,
-        "BaseEntry": 266
+        "BaseEntry": 266,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -16132,7 +16519,8 @@
         "ShipDate": "2009-12-24",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 267
+        "BaseEntry": 267,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -16194,7 +16582,8 @@
         "ShipDate": "2010-02-19",
         "Price": 14,
         "BaseType": 22,
-        "BaseEntry": 269
+        "BaseEntry": 269,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -16234,7 +16623,8 @@
         "ShipDate": "2010-05-31",
         "Price": 100,
         "BaseType": 22,
-        "BaseEntry": 270
+        "BaseEntry": 270,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -16285,7 +16675,8 @@
         "ShipDate": "2010-07-16",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 271
+        "BaseEntry": 271,
+        "BaseLine": 0
       }
     ]
   },
@@ -16303,7 +16694,8 @@
         "ShipDate": "2010-05-01",
         "Price": 60,
         "BaseType": 22,
-        "BaseEntry": 272
+        "BaseEntry": 272,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -16343,7 +16735,8 @@
         "ShipDate": "2010-07-14",
         "Price": 75,
         "BaseType": 22,
-        "BaseEntry": 273
+        "BaseEntry": 273,
+        "BaseLine": 0
       }
     ]
   },
@@ -16361,7 +16754,8 @@
         "ShipDate": "2010-05-09",
         "Price": 2.5,
         "BaseType": 22,
-        "BaseEntry": 274
+        "BaseEntry": 274,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -16401,7 +16795,8 @@
         "ShipDate": "2010-06-14",
         "Price": 400,
         "BaseType": 22,
-        "BaseEntry": 275
+        "BaseEntry": 275,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -16441,7 +16836,8 @@
         "ShipDate": "2010-02-02",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 276
+        "BaseEntry": 276,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -16481,7 +16877,8 @@
         "ShipDate": "2010-07-03",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 277
+        "BaseEntry": 277,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -16521,7 +16918,8 @@
         "ShipDate": "2010-04-21",
         "Price": 21,
         "BaseType": 22,
-        "BaseEntry": 278
+        "BaseEntry": 278,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -16550,7 +16948,8 @@
         "ShipDate": "2010-04-19",
         "Price": 20,
         "BaseType": 22,
-        "BaseEntry": 279
+        "BaseEntry": 279,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -16601,7 +17000,8 @@
         "ShipDate": "2010-02-22",
         "Price": 100,
         "BaseType": 22,
-        "BaseEntry": 280
+        "BaseEntry": 280,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -16630,7 +17030,8 @@
         "ShipDate": "2010-06-26",
         "Price": 2.25,
         "BaseType": 22,
-        "BaseEntry": 281
+        "BaseEntry": 281,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -16681,7 +17082,8 @@
         "ShipDate": "2010-03-22",
         "Price": 1065,
         "BaseType": 22,
-        "BaseEntry": 282
+        "BaseEntry": 282,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -16710,7 +17112,8 @@
         "ShipDate": "2010-03-15",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 283
+        "BaseEntry": 283,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -16761,7 +17164,8 @@
         "ShipDate": "2010-06-19",
         "Price": 3.75,
         "BaseType": 22,
-        "BaseEntry": 284
+        "BaseEntry": 284,
+        "BaseLine": 0
       }
     ]
   },
@@ -16779,7 +17183,8 @@
         "ShipDate": "2010-04-13",
         "Price": 100,
         "BaseType": 22,
-        "BaseEntry": 285
+        "BaseEntry": 285,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -16830,7 +17235,8 @@
         "ShipDate": "2010-05-01",
         "Price": 37.5,
         "BaseType": 22,
-        "BaseEntry": 286
+        "BaseEntry": 286,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -16870,7 +17276,8 @@
         "ShipDate": "2010-07-04",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 287
+        "BaseEntry": 287,
+        "BaseLine": 0
       }
     ]
   },
@@ -16888,7 +17295,8 @@
         "ShipDate": "2010-03-12",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 288
+        "BaseEntry": 288,
+        "BaseLine": 0
       }
     ]
   },
@@ -16906,7 +17314,8 @@
         "ShipDate": "2010-04-05",
         "Price": 11.25,
         "BaseType": 22,
-        "BaseEntry": 289
+        "BaseEntry": 289,
+        "BaseLine": 0
       }
     ]
   },
@@ -16924,7 +17333,8 @@
         "ShipDate": "2010-06-29",
         "Price": 20,
         "BaseType": 22,
-        "BaseEntry": 290
+        "BaseEntry": 290,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -16975,7 +17385,8 @@
         "ShipDate": "2010-03-07",
         "Price": 17.5,
         "BaseType": 22,
-        "BaseEntry": 291
+        "BaseEntry": 291,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -17026,7 +17437,8 @@
         "ShipDate": "2010-05-14",
         "Price": 28,
         "BaseType": 22,
-        "BaseEntry": 292
+        "BaseEntry": 292,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -17066,7 +17478,8 @@
         "ShipDate": "2010-02-07",
         "Price": 30,
         "BaseType": 22,
-        "BaseEntry": 293
+        "BaseEntry": 293,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -17117,7 +17530,8 @@
         "ShipDate": "2010-07-20",
         "Price": 6,
         "BaseType": 22,
-        "BaseEntry": 294
+        "BaseEntry": 294,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -17168,7 +17582,8 @@
         "ShipDate": "2010-06-27",
         "Price": 3,
         "BaseType": 22,
-        "BaseEntry": 295
+        "BaseEntry": 295,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -17219,7 +17634,8 @@
         "ShipDate": "2010-10-07",
         "Price": 20,
         "BaseType": 22,
-        "BaseEntry": 296
+        "BaseEntry": 296,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -17259,7 +17675,8 @@
         "ShipDate": "2010-10-12",
         "Price": 7.5,
         "BaseType": 22,
-        "BaseEntry": 297
+        "BaseEntry": 297,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -17288,7 +17705,8 @@
         "ShipDate": "2010-11-16",
         "Price": 680,
         "BaseType": 22,
-        "BaseEntry": 298
+        "BaseEntry": 298,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -17328,7 +17746,8 @@
         "ShipDate": "2010-11-25",
         "Price": 144,
         "BaseType": 22,
-        "BaseEntry": 299
+        "BaseEntry": 299,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -17357,7 +17776,8 @@
         "ShipDate": "2010-08-15",
         "Price": 5,
         "BaseType": 22,
-        "BaseEntry": 300
+        "BaseEntry": 300,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -17408,7 +17828,8 @@
         "ShipDate": "2010-12-17",
         "Price": 525,
         "BaseType": 22,
-        "BaseEntry": 301
+        "BaseEntry": 301,
+        "BaseLine": 0
       }
     ]
   },
@@ -17426,7 +17847,8 @@
         "ShipDate": "2011-01-01",
         "Price": 50,
         "BaseType": 22,
-        "BaseEntry": 302
+        "BaseEntry": 302,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -17466,7 +17888,8 @@
         "ShipDate": "2010-10-28",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 303
+        "BaseEntry": 303,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -17517,7 +17940,8 @@
         "ShipDate": "2010-11-01",
         "Price": 7.5,
         "BaseType": 22,
-        "BaseEntry": 304
+        "BaseEntry": 304,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -17568,7 +17992,8 @@
         "ShipDate": "2010-11-13",
         "Price": 525,
         "BaseType": 22,
-        "BaseEntry": 305
+        "BaseEntry": 305,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -17608,7 +18033,8 @@
         "ShipDate": "2010-11-30",
         "Price": 350,
         "BaseType": 22,
-        "BaseEntry": 306
+        "BaseEntry": 306,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -17637,7 +18063,8 @@
         "ShipDate": "2010-11-27",
         "Price": 1.5,
         "BaseType": 22,
-        "BaseEntry": 307
+        "BaseEntry": 307,
+        "BaseLine": 0
       }
     ]
   },
@@ -17655,7 +18082,8 @@
         "ShipDate": "2010-09-22",
         "Price": 240,
         "BaseType": 22,
-        "BaseEntry": 308
+        "BaseEntry": 308,
+        "BaseLine": 0
       }
     ]
   },
@@ -17673,7 +18101,8 @@
         "ShipDate": "2010-09-19",
         "Price": 500,
         "BaseType": 22,
-        "BaseEntry": 309
+        "BaseEntry": 309,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -17713,7 +18142,8 @@
         "ShipDate": "2010-11-21",
         "Price": 2.25,
         "BaseType": 22,
-        "BaseEntry": 310
+        "BaseEntry": 310,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -17764,7 +18194,8 @@
         "ShipDate": "2010-09-26",
         "Price": 29.25,
         "BaseType": 22,
-        "BaseEntry": 311
+        "BaseEntry": 311,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -17815,7 +18246,8 @@
         "ShipDate": "2010-10-24",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 312
+        "BaseEntry": 312,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -17855,7 +18287,8 @@
         "ShipDate": "2011-01-09",
         "Price": 72,
         "BaseType": 22,
-        "BaseEntry": 313
+        "BaseEntry": 313,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -17906,7 +18339,8 @@
         "ShipDate": "2010-08-11",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 314
+        "BaseEntry": 314,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -17935,7 +18369,8 @@
         "ShipDate": "2011-01-06",
         "Price": 710,
         "BaseType": 22,
-        "BaseEntry": 315
+        "BaseEntry": 315,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -17986,7 +18421,8 @@
         "ShipDate": "2010-09-21",
         "Price": 450,
         "BaseType": 22,
-        "BaseEntry": 316
+        "BaseEntry": 316,
+        "BaseLine": 0
       }
     ]
   },
@@ -18004,7 +18440,8 @@
         "ShipDate": "2010-11-04",
         "Price": 90,
         "BaseType": 22,
-        "BaseEntry": 317
+        "BaseEntry": 317,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -18044,7 +18481,8 @@
         "ShipDate": "2010-10-07",
         "Price": 1065,
         "BaseType": 22,
-        "BaseEntry": 318
+        "BaseEntry": 318,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -18073,7 +18511,8 @@
         "ShipDate": "2011-01-21",
         "Price": 26.25,
         "BaseType": 22,
-        "BaseEntry": 319
+        "BaseEntry": 319,
+        "BaseLine": 0
       }
     ]
   },
@@ -18091,7 +18530,8 @@
         "ShipDate": "2010-12-16",
         "Price": 5,
         "BaseType": 22,
-        "BaseEntry": 320
+        "BaseEntry": 320,
+        "BaseLine": 0
       }
     ]
   },
@@ -18109,7 +18549,8 @@
         "ShipDate": "2010-12-31",
         "Price": 60,
         "BaseType": 22,
-        "BaseEntry": 321
+        "BaseEntry": 321,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -18160,7 +18601,8 @@
         "ShipDate": "2011-03-29",
         "Price": 20,
         "BaseType": 22,
-        "BaseEntry": 322
+        "BaseEntry": 322,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -18200,7 +18642,8 @@
         "ShipDate": "2011-02-19",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 323
+        "BaseEntry": 323,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -18240,7 +18683,8 @@
         "ShipDate": "2011-06-01",
         "Price": 500,
         "BaseType": 22,
-        "BaseEntry": 324
+        "BaseEntry": 324,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -18269,7 +18713,8 @@
         "ShipDate": "2011-05-19",
         "Price": 680,
         "BaseType": 22,
-        "BaseEntry": 325
+        "BaseEntry": 325,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -18320,7 +18765,8 @@
         "ShipDate": "2011-04-07",
         "Price": 1020,
         "BaseType": 22,
-        "BaseEntry": 326
+        "BaseEntry": 326,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -18371,7 +18817,8 @@
         "ShipDate": "2011-03-23",
         "Price": 72,
         "BaseType": 22,
-        "BaseEntry": 327
+        "BaseEntry": 327,
+        "BaseLine": 0
       }
     ]
   },
@@ -18389,7 +18836,8 @@
         "ShipDate": "2011-03-15",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 328
+        "BaseEntry": 328,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -18429,7 +18877,8 @@
         "ShipDate": "2011-03-12",
         "Price": 9,
         "BaseType": 22,
-        "BaseEntry": 329
+        "BaseEntry": 329,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -18480,7 +18929,8 @@
         "ShipDate": "2011-06-25",
         "Price": 80,
         "BaseType": 22,
-        "BaseEntry": 330
+        "BaseEntry": 330,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -18509,7 +18959,8 @@
         "ShipDate": "2011-03-12",
         "Price": 19.5,
         "BaseType": 22,
-        "BaseEntry": 331
+        "BaseEntry": 331,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -18560,7 +19011,8 @@
         "ShipDate": "2011-06-19",
         "Price": 100,
         "BaseType": 22,
-        "BaseEntry": 332
+        "BaseEntry": 332,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -18611,7 +19063,8 @@
         "ShipDate": "2011-07-23",
         "Price": 400,
         "BaseType": 22,
-        "BaseEntry": 333
+        "BaseEntry": 333,
+        "BaseLine": 0
       }
     ]
   },
@@ -18629,7 +19082,8 @@
         "ShipDate": "2011-02-18",
         "Price": 7.5,
         "BaseType": 22,
-        "BaseEntry": 334
+        "BaseEntry": 334,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -18680,7 +19134,8 @@
         "ShipDate": "2011-03-29",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 335
+        "BaseEntry": 335,
+        "BaseLine": 0
       }
     ]
   },
@@ -18698,7 +19153,8 @@
         "ShipDate": "2011-04-13",
         "Price": 100,
         "BaseType": 22,
-        "BaseEntry": 336
+        "BaseEntry": 336,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -18749,7 +19205,8 @@
         "ShipDate": "2011-02-24",
         "Price": 75,
         "BaseType": 22,
-        "BaseEntry": 337
+        "BaseEntry": 337,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -18778,7 +19235,8 @@
         "ShipDate": "2011-02-22",
         "Price": 180,
         "BaseType": 22,
-        "BaseEntry": 338
+        "BaseEntry": 338,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -18818,7 +19276,8 @@
         "ShipDate": "2011-07-15",
         "Price": 240,
         "BaseType": 22,
-        "BaseEntry": 339
+        "BaseEntry": 339,
+        "BaseLine": 0
       }
     ]
   },
@@ -18836,7 +19295,8 @@
         "ShipDate": "2011-06-20",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 340
+        "BaseEntry": 340,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -18876,7 +19336,8 @@
         "ShipDate": "2011-03-27",
         "Price": 75,
         "BaseType": 22,
-        "BaseEntry": 341
+        "BaseEntry": 341,
+        "BaseLine": 0
       }
     ]
   },
@@ -18894,7 +19355,8 @@
         "ShipDate": "2011-07-11",
         "Price": 5,
         "BaseType": 22,
-        "BaseEntry": 342
+        "BaseEntry": 342,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -18923,7 +19385,8 @@
         "ShipDate": "2011-06-17",
         "Price": 37.5,
         "BaseType": 22,
-        "BaseEntry": 343
+        "BaseEntry": 343,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -18974,7 +19437,8 @@
         "ShipDate": "2011-02-13",
         "Price": 67.5,
         "BaseType": 22,
-        "BaseEntry": 344
+        "BaseEntry": 344,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -19014,7 +19478,8 @@
         "ShipDate": "2011-04-19",
         "Price": 26.25,
         "BaseType": 22,
-        "BaseEntry": 345
+        "BaseEntry": 345,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -19054,7 +19519,8 @@
         "ShipDate": "2011-03-27",
         "Price": 9,
         "BaseType": 22,
-        "BaseEntry": 346
+        "BaseEntry": 346,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -19094,7 +19560,8 @@
         "ShipDate": "2011-06-05",
         "Price": 2.5,
         "BaseType": 22,
-        "BaseEntry": 347
+        "BaseEntry": 347,
+        "BaseLine": 0
       }
     ]
   },
@@ -19112,7 +19579,8 @@
         "ShipDate": "2011-03-04",
         "Price": 72,
         "BaseType": 22,
-        "BaseEntry": 348
+        "BaseEntry": 348,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -19141,7 +19609,8 @@
         "ShipDate": "2011-03-03",
         "Price": 6,
         "BaseType": 22,
-        "BaseEntry": 349
+        "BaseEntry": 349,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -19181,7 +19650,8 @@
         "ShipDate": "2011-03-09",
         "Price": 100,
         "BaseType": 22,
-        "BaseEntry": 350
+        "BaseEntry": 350,
+        "BaseLine": 0
       }
     ]
   },
@@ -19199,7 +19669,8 @@
         "ShipDate": "2011-10-25",
         "Price": 20,
         "BaseType": 22,
-        "BaseEntry": 351
+        "BaseEntry": 351,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -19239,7 +19710,8 @@
         "ShipDate": "2011-12-16",
         "Price": 100,
         "BaseType": 22,
-        "BaseEntry": 352
+        "BaseEntry": 352,
+        "BaseLine": 0
       }
     ]
   },
@@ -19257,7 +19729,8 @@
         "ShipDate": "2011-10-20",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 353
+        "BaseEntry": 353,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -19308,7 +19781,8 @@
         "ShipDate": "2011-10-11",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 354
+        "BaseEntry": 354,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -19348,7 +19822,8 @@
         "ShipDate": "2011-08-27",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 355
+        "BaseEntry": 355,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -19388,7 +19863,8 @@
         "ShipDate": "2011-12-12",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 356
+        "BaseEntry": 356,
+        "BaseLine": 0
       }
     ]
   },
@@ -19406,7 +19882,8 @@
         "ShipDate": "2011-10-07",
         "Price": 250,
         "BaseType": 22,
-        "BaseEntry": 357
+        "BaseEntry": 357,
+        "BaseLine": 0
       }
     ]
   },
@@ -19424,7 +19901,8 @@
         "ShipDate": "2011-09-24",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 358
+        "BaseEntry": 358,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -19475,7 +19953,8 @@
         "ShipDate": "2011-10-21",
         "Price": 3,
         "BaseType": 22,
-        "BaseEntry": 359
+        "BaseEntry": 359,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -19526,7 +20005,8 @@
         "ShipDate": "2012-01-01",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 360
+        "BaseEntry": 360,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -19566,7 +20046,8 @@
         "ShipDate": "2011-08-24",
         "Price": 250,
         "BaseType": 22,
-        "BaseEntry": 361
+        "BaseEntry": 361,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -19595,7 +20076,8 @@
         "ShipDate": "2011-09-06",
         "Price": 680,
         "BaseType": 22,
-        "BaseEntry": 362
+        "BaseEntry": 362,
+        "BaseLine": 0
       }
     ]
   },
@@ -19613,7 +20095,8 @@
         "ShipDate": "2011-12-15",
         "Price": 33.75,
         "BaseType": 22,
-        "BaseEntry": 363
+        "BaseEntry": 363,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -19653,7 +20136,8 @@
         "ShipDate": "2012-01-16",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 364
+        "BaseEntry": 364,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -19693,7 +20177,8 @@
         "ShipDate": "2011-09-27",
         "Price": 130,
         "BaseType": 22,
-        "BaseEntry": 365
+        "BaseEntry": 365,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -19722,7 +20207,8 @@
         "ShipDate": "2012-01-29",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 366
+        "BaseEntry": 366,
+        "BaseLine": 0
       }
     ]
   },
@@ -19740,7 +20226,8 @@
         "ShipDate": "2012-01-07",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 367
+        "BaseEntry": 367,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -19791,7 +20278,8 @@
         "ShipDate": "2011-09-01",
         "Price": 500,
         "BaseType": 22,
-        "BaseEntry": 368
+        "BaseEntry": 368,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -19820,7 +20308,8 @@
         "ShipDate": "2011-10-24",
         "Price": 28,
         "BaseType": 22,
-        "BaseEntry": 369
+        "BaseEntry": 369,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -19871,7 +20360,8 @@
         "ShipDate": "2012-01-06",
         "Price": 3.75,
         "BaseType": 22,
-        "BaseEntry": 370
+        "BaseEntry": 370,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -19900,7 +20390,8 @@
         "ShipDate": "2011-12-25",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 371
+        "BaseEntry": 371,
+        "BaseLine": 0
       }
     ]
   },
@@ -19918,7 +20409,8 @@
         "ShipDate": "2011-11-08",
         "Price": 19.5,
         "BaseType": 22,
-        "BaseEntry": 372
+        "BaseEntry": 372,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -19947,7 +20439,8 @@
         "ShipDate": "2011-09-05",
         "Price": 108,
         "BaseType": 22,
-        "BaseEntry": 373
+        "BaseEntry": 373,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -19976,7 +20469,8 @@
         "ShipDate": "2012-06-04",
         "Price": 26.25,
         "BaseType": 22,
-        "BaseEntry": 374
+        "BaseEntry": 374,
+        "BaseLine": 0
       }
     ]
   },
@@ -19994,7 +20488,8 @@
         "ShipDate": "2012-05-05",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 375
+        "BaseEntry": 375,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -20023,7 +20518,8 @@
         "ShipDate": "2012-07-27",
         "Price": 500,
         "BaseType": 22,
-        "BaseEntry": 376
+        "BaseEntry": 376,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -20063,7 +20559,8 @@
         "ShipDate": "2012-04-23",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 377
+        "BaseEntry": 377,
+        "BaseLine": 0
       }
     ]
   },
@@ -20081,7 +20578,8 @@
         "ShipDate": "2012-04-15",
         "Price": 75,
         "BaseType": 22,
-        "BaseEntry": 378
+        "BaseEntry": 378,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -20121,7 +20619,8 @@
         "ShipDate": "2012-07-04",
         "Price": 450,
         "BaseType": 22,
-        "BaseEntry": 382
+        "BaseEntry": 382,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -20150,7 +20649,8 @@
         "ShipDate": "2012-05-14",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 389
+        "BaseEntry": 389,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -20201,7 +20701,8 @@
         "ShipDate": "2012-06-17",
         "Price": 225,
         "BaseType": 22,
-        "BaseEntry": 390
+        "BaseEntry": 390,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -20252,7 +20753,8 @@
         "ShipDate": "2012-05-13",
         "Price": 240,
         "BaseType": 22,
-        "BaseEntry": 391
+        "BaseEntry": 391,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -20303,7 +20805,8 @@
         "ShipDate": "2012-05-17",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 392
+        "BaseEntry": 392,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -20332,7 +20835,8 @@
         "ShipDate": "2012-03-31",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 384
+        "BaseEntry": 384,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -20383,7 +20887,8 @@
         "ShipDate": "2012-04-17",
         "Price": 30,
         "BaseType": 22,
-        "BaseEntry": 385
+        "BaseEntry": 385,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -20434,7 +20939,8 @@
         "ShipDate": "2012-07-14",
         "Price": 375,
         "BaseType": 22,
-        "BaseEntry": 386
+        "BaseEntry": 386,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -20474,7 +20980,8 @@
         "ShipDate": "2012-06-15",
         "Price": 5,
         "BaseType": 22,
-        "BaseEntry": 393
+        "BaseEntry": 393,
+        "BaseLine": 0
       }
     ]
   },
@@ -20492,7 +20999,8 @@
         "ShipDate": "2012-04-06",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 395
+        "BaseEntry": 395,
+        "BaseLine": 0
       }
     ]
   },
@@ -20510,7 +21018,8 @@
         "ShipDate": "2012-06-22",
         "Price": 6,
         "BaseType": 22,
-        "BaseEntry": 379
+        "BaseEntry": 379,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -20539,7 +21048,8 @@
         "ShipDate": "2012-06-03",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 381
+        "BaseEntry": 381,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -20590,7 +21100,8 @@
         "ShipDate": "2012-05-15",
         "Price": 6,
         "BaseType": 22,
-        "BaseEntry": 387
+        "BaseEntry": 387,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -20641,7 +21152,8 @@
         "ShipDate": "2012-05-07",
         "Price": 450,
         "BaseType": 22,
-        "BaseEntry": 388
+        "BaseEntry": 388,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -20681,7 +21193,8 @@
         "ShipDate": "2012-12-11",
         "Price": 26.25,
         "BaseType": 22,
-        "BaseEntry": 396
+        "BaseEntry": 396,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -20710,7 +21223,8 @@
         "ShipDate": "2012-03-23",
         "Price": 180,
         "BaseType": 22,
-        "BaseEntry": 394
+        "BaseEntry": 394,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -20739,7 +21253,8 @@
         "ShipDate": "2012-12-21",
         "Price": 225,
         "BaseType": 22,
-        "BaseEntry": 401
+        "BaseEntry": 401,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -20790,7 +21305,8 @@
         "ShipDate": "2012-08-30",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 402
+        "BaseEntry": 402,
+        "BaseLine": 0
       }
     ]
   },
@@ -20808,7 +21324,8 @@
         "ShipDate": "2012-08-03",
         "Price": 65,
         "BaseType": 22,
-        "BaseEntry": 406
+        "BaseEntry": 406,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -20859,7 +21376,8 @@
         "ShipDate": "2013-01-17",
         "Price": 65,
         "BaseType": 22,
-        "BaseEntry": 407
+        "BaseEntry": 407,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -20888,7 +21406,8 @@
         "ShipDate": "2013-01-27",
         "Price": 1.5,
         "BaseType": 22,
-        "BaseEntry": 408
+        "BaseEntry": 408,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -20939,7 +21458,8 @@
         "ShipDate": "2012-10-02",
         "Price": 375,
         "BaseType": 22,
-        "BaseEntry": 409
+        "BaseEntry": 409,
+        "BaseLine": 0
       }
     ]
   },
@@ -20968,7 +21488,8 @@
         "ShipDate": "2012-10-25",
         "Price": 17.5,
         "BaseType": 22,
-        "BaseEntry": 410
+        "BaseEntry": 410,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -21008,7 +21529,8 @@
         "ShipDate": "2012-09-29",
         "Price": 97.5,
         "BaseType": 22,
-        "BaseEntry": 411
+        "BaseEntry": 411,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -21070,7 +21592,8 @@
         "ShipDate": "2012-12-30",
         "Price": 2.5,
         "BaseType": 22,
-        "BaseEntry": 412
+        "BaseEntry": 412,
+        "BaseLine": 0
       }
     ]
   },
@@ -21088,7 +21611,8 @@
         "ShipDate": "2012-10-02",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 413
+        "BaseEntry": 413,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -21128,7 +21652,8 @@
         "ShipDate": "2012-09-10",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 414
+        "BaseEntry": 414,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -21190,7 +21715,8 @@
         "ShipDate": "2012-12-24",
         "Price": 3.75,
         "BaseType": 22,
-        "BaseEntry": 416
+        "BaseEntry": 416,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -21219,7 +21745,8 @@
         "ShipDate": "2013-01-28",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 417
+        "BaseEntry": 417,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -21248,7 +21775,8 @@
         "ShipDate": "2012-12-20",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 418
+        "BaseEntry": 418,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -21288,7 +21816,8 @@
         "ShipDate": "2012-10-10",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 419
+        "BaseEntry": 419,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -21317,7 +21846,8 @@
         "ShipDate": "2012-12-29",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 420
+        "BaseEntry": 420,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -21357,7 +21887,8 @@
         "ShipDate": "2012-03-28",
         "Price": 710,
         "BaseType": 22,
-        "BaseEntry": 380
+        "BaseEntry": 380,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -21397,7 +21928,8 @@
         "ShipDate": "2013-03-04",
         "Price": 350,
         "BaseType": 22,
-        "BaseEntry": 268
+        "BaseEntry": 268,
+        "BaseLine": 0
       }
     ]
   },
@@ -21426,7 +21958,8 @@
         "ShipDate": "2012-11-21",
         "Price": 350,
         "BaseType": 22,
-        "BaseEntry": 399
+        "BaseEntry": 399,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -21455,7 +21988,8 @@
         "ShipDate": "2013-01-14",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 400
+        "BaseEntry": 400,
+        "BaseLine": 0
       }
     ]
   },
@@ -21473,7 +22007,8 @@
         "ShipDate": "2012-11-07",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 403
+        "BaseEntry": 403,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -21513,7 +22048,8 @@
         "ShipDate": "2013-01-14",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 404
+        "BaseEntry": 404,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -21553,7 +22089,8 @@
         "ShipDate": "2013-01-22",
         "Price": 1065,
         "BaseType": 22,
-        "BaseEntry": 405
+        "BaseEntry": 405,
+        "BaseLine": 0
       }
     ]
   },
@@ -21571,7 +22108,8 @@
         "ShipDate": "2014-02-10",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 423
+        "BaseEntry": 423,
+        "BaseLine": 0
       }
     ]
   },
@@ -21589,7 +22127,8 @@
         "ShipDate": "2014-02-26",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 424
+        "BaseEntry": 424,
+        "BaseLine": 0
       }
     ]
   },
@@ -21607,7 +22146,8 @@
         "ShipDate": "2015-02-22",
         "Price": 100,
         "BaseType": 22,
-        "BaseEntry": 425
+        "BaseEntry": 425,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -21680,7 +22220,8 @@
         "ShipDate": "2015-03-06",
         "Price": 375,
         "BaseType": 22,
-        "BaseEntry": 426
+        "BaseEntry": 426,
+        "BaseLine": 0
       },
       {
         "LineNum": 5,
@@ -21775,7 +22316,8 @@
         "ShipDate": "2014-05-17",
         "Price": 75,
         "BaseType": 22,
-        "BaseEntry": 427
+        "BaseEntry": 427,
+        "BaseLine": 0
       },
       {
         "LineNum": 7,
@@ -21815,7 +22357,8 @@
         "ShipDate": "2015-02-14",
         "Price": 9,
         "BaseType": 22,
-        "BaseEntry": 428
+        "BaseEntry": 428,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -21855,7 +22398,8 @@
         "ShipDate": "2014-11-02",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 429
+        "BaseEntry": 429,
+        "BaseLine": 0
       }
     ]
   },
@@ -21873,7 +22417,8 @@
         "ShipDate": "2012-04-27",
         "Price": 22.5,
         "BaseType": 22,
-        "BaseEntry": 383
+        "BaseEntry": 383,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -21957,7 +22502,8 @@
         "ShipDate": "2014-06-16",
         "Price": 20,
         "BaseType": 22,
-        "BaseEntry": 422
+        "BaseEntry": 422,
+        "BaseLine": 0
       }
     ]
   },
@@ -22008,7 +22554,8 @@
         "ShipDate": "2014-05-14",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 430
+        "BaseEntry": 430,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -22103,7 +22650,8 @@
         "ShipDate": "2014-06-21",
         "Price": 350,
         "BaseType": 22,
-        "BaseEntry": 431
+        "BaseEntry": 431,
+        "BaseLine": 0
       }
     ]
   },
@@ -22143,7 +22691,8 @@
         "ShipDate": "2014-09-13",
         "Price": 108,
         "BaseType": 22,
-        "BaseEntry": 433
+        "BaseEntry": 433,
+        "BaseLine": 0
       }
     ]
   },
@@ -22194,7 +22743,8 @@
         "ShipDate": "2015-02-04",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 434
+        "BaseEntry": 434,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -22256,7 +22806,8 @@
         "ShipDate": "2014-08-09",
         "Price": 600,
         "BaseType": 22,
-        "BaseEntry": 435
+        "BaseEntry": 435,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -22351,7 +22902,8 @@
         "ShipDate": "2014-03-24",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 436
+        "BaseEntry": 436,
+        "BaseLine": 0
       },
       {
         "LineNum": 5,
@@ -22435,7 +22987,8 @@
         "ShipDate": "2014-09-10",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 438
+        "BaseEntry": 438,
+        "BaseLine": 0
       },
       {
         "LineNum": 6,
@@ -22519,7 +23072,8 @@
         "ShipDate": "2014-11-23",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 439
+        "BaseEntry": 439,
+        "BaseLine": 0
       },
       {
         "LineNum": 5,
@@ -22581,7 +23135,8 @@
         "ShipDate": "2014-09-19",
         "Price": 5,
         "BaseType": 22,
-        "BaseEntry": 440
+        "BaseEntry": 440,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -22643,7 +23198,8 @@
         "ShipDate": "2014-11-29",
         "Price": 1360,
         "BaseType": 22,
-        "BaseEntry": 458
+        "BaseEntry": 458,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -22694,7 +23250,8 @@
         "ShipDate": "2015-03-09",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 459
+        "BaseEntry": 459,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -22756,7 +23313,8 @@
         "ShipDate": "2014-06-28",
         "Price": 375,
         "BaseType": 22,
-        "BaseEntry": 432
+        "BaseEntry": 432,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -22829,7 +23387,8 @@
         "ShipDate": "2014-05-05",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 441
+        "BaseEntry": 441,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -22891,7 +23450,8 @@
         "ShipDate": "2015-04-17",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 443
+        "BaseEntry": 443,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -22986,7 +23546,8 @@
         "ShipDate": "2014-12-01",
         "Price": 3,
         "BaseType": 22,
-        "BaseEntry": 445
+        "BaseEntry": 445,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -23037,7 +23598,8 @@
         "ShipDate": "2015-01-27",
         "Price": 60,
         "BaseType": 22,
-        "BaseEntry": 446
+        "BaseEntry": 446,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -23110,7 +23672,8 @@
         "ShipDate": "2014-12-14",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 448
+        "BaseEntry": 448,
+        "BaseLine": 0
       }
     ]
   },
@@ -23161,7 +23724,8 @@
         "ShipDate": "2014-04-27",
         "Price": 72,
         "BaseType": 22,
-        "BaseEntry": 449
+        "BaseEntry": 449,
+        "BaseLine": 0
       }
     ]
   },
@@ -23179,7 +23743,8 @@
         "ShipDate": "2015-02-25",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 450
+        "BaseEntry": 450,
+        "BaseLine": 0
       }
     ]
   },
@@ -23230,7 +23795,8 @@
         "ShipDate": "2014-12-16",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 451
+        "BaseEntry": 451,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -23270,7 +23836,8 @@
         "ShipDate": "2014-11-20",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 460
+        "BaseEntry": 460,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -23321,7 +23888,8 @@
         "ShipDate": "2015-05-09",
         "Price": 2.5,
         "BaseType": 22,
-        "BaseEntry": 461
+        "BaseEntry": 461,
+        "BaseLine": 0
       }
     ]
   },
@@ -23339,7 +23907,8 @@
         "ShipDate": "2014-07-13",
         "Price": 45,
         "BaseType": 22,
-        "BaseEntry": 462
+        "BaseEntry": 462,
+        "BaseLine": 0
       }
     ]
   },
@@ -23379,7 +23948,8 @@
         "ShipDate": "2015-03-31",
         "Price": 250,
         "BaseType": 22,
-        "BaseEntry": 463
+        "BaseEntry": 463,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -23463,7 +24033,8 @@
         "ShipDate": "2014-10-11",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 442
+        "BaseEntry": 442,
+        "BaseLine": 0
       }
     ]
   },
@@ -23525,7 +24096,8 @@
         "ShipDate": "2015-03-31",
         "Price": 700,
         "BaseType": 22,
-        "BaseEntry": 457
+        "BaseEntry": 457,
+        "BaseLine": 0
       }
     ]
   },
@@ -23565,7 +24137,8 @@
         "ShipDate": "2015-03-20",
         "Price": 680,
         "BaseType": 22,
-        "BaseEntry": 464
+        "BaseEntry": 464,
+        "BaseLine": 0
       }
     ]
   },
@@ -23605,7 +24178,8 @@
         "ShipDate": "2014-07-05",
         "Price": 65,
         "BaseType": 22,
-        "BaseEntry": 465
+        "BaseEntry": 465,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -23689,7 +24263,8 @@
         "ShipDate": "2014-07-22",
         "Price": 180,
         "BaseType": 22,
-        "BaseEntry": 437
+        "BaseEntry": 437,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -23762,7 +24337,8 @@
         "ShipDate": "2015-04-01",
         "Price": 6,
         "BaseType": 22,
-        "BaseEntry": 447
+        "BaseEntry": 447,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -23868,7 +24444,8 @@
         "ShipDate": "2015-02-26",
         "Price": 20,
         "BaseType": 22,
-        "BaseEntry": 452
+        "BaseEntry": 452,
+        "BaseLine": 0
       }
     ]
   },
@@ -23941,7 +24518,8 @@
         "ShipDate": "2015-04-24",
         "Price": 26.25,
         "BaseType": 22,
-        "BaseEntry": 453
+        "BaseEntry": 453,
+        "BaseLine": 0
       }
     ]
   },
@@ -23959,7 +24537,8 @@
         "ShipDate": "2014-05-08",
         "Price": 250,
         "BaseType": 22,
-        "BaseEntry": 454
+        "BaseEntry": 454,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -24087,7 +24666,8 @@
         "ShipDate": "2014-11-17",
         "Price": 350,
         "BaseType": 22,
-        "BaseEntry": 455
+        "BaseEntry": 455,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -24171,7 +24751,8 @@
         "ShipDate": "2014-08-05",
         "Price": 710,
         "BaseType": 22,
-        "BaseEntry": 456
+        "BaseEntry": 456,
+        "BaseLine": 0
       },
       {
         "LineNum": 6,
@@ -24255,7 +24836,8 @@
         "ShipDate": "2015-02-15",
         "Price": 225,
         "BaseType": 22,
-        "BaseEntry": 466
+        "BaseEntry": 466,
+        "BaseLine": 0
       },
       {
         "LineNum": 6,
@@ -24295,7 +24877,8 @@
         "ShipDate": "2015-04-03",
         "Price": 225,
         "BaseType": 22,
-        "BaseEntry": 467
+        "BaseEntry": 467,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -24335,7 +24918,8 @@
         "ShipDate": "2015-01-08",
         "Price": 600,
         "BaseType": 22,
-        "BaseEntry": 468
+        "BaseEntry": 468,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -24364,7 +24948,8 @@
         "ShipDate": "2015-04-14",
         "Price": 500,
         "BaseType": 22,
-        "BaseEntry": 469
+        "BaseEntry": 469,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -24437,7 +25022,8 @@
         "ShipDate": "2015-01-16",
         "Price": 120,
         "BaseType": 22,
-        "BaseEntry": 470
+        "BaseEntry": 470,
+        "BaseLine": 0
       }
     ]
   },
@@ -24466,7 +25052,8 @@
         "ShipDate": "2015-02-26",
         "Price": 30,
         "BaseType": 22,
-        "BaseEntry": 471
+        "BaseEntry": 471,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -24506,7 +25093,8 @@
         "ShipDate": "2015-06-11",
         "Price": 60,
         "BaseType": 22,
-        "BaseEntry": 472
+        "BaseEntry": 472,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -24601,7 +25189,8 @@
         "ShipDate": "2015-01-19",
         "Price": 12.5,
         "BaseType": 22,
-        "BaseEntry": 473
+        "BaseEntry": 473,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -24630,7 +25219,8 @@
         "ShipDate": "2014-07-22",
         "Price": 60,
         "BaseType": 22,
-        "BaseEntry": 474
+        "BaseEntry": 474,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -24725,7 +25315,8 @@
         "ShipDate": "2014-10-14",
         "Price": 240,
         "BaseType": 22,
-        "BaseEntry": 476
+        "BaseEntry": 476,
+        "BaseLine": 0
       }
     ]
   },
@@ -24743,7 +25334,8 @@
         "ShipDate": "2015-06-13",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 478
+        "BaseEntry": 478,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -24816,7 +25408,8 @@
         "ShipDate": "2014-09-04",
         "Price": 2.5,
         "BaseType": 22,
-        "BaseEntry": 479
+        "BaseEntry": 479,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -24867,7 +25460,8 @@
         "ShipDate": "2014-11-28",
         "Price": 350,
         "BaseType": 22,
-        "BaseEntry": 480
+        "BaseEntry": 480,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -24918,7 +25512,8 @@
         "ShipDate": "2015-01-21",
         "Price": 65,
         "BaseType": 22,
-        "BaseEntry": 444
+        "BaseEntry": 444,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -25035,7 +25630,8 @@
         "ShipDate": "2015-03-31",
         "Price": 1065,
         "BaseType": 22,
-        "BaseEntry": 475
+        "BaseEntry": 475,
+        "BaseLine": 0
       },
       {
         "LineNum": 5,
@@ -25097,7 +25693,8 @@
         "ShipDate": "2015-02-25",
         "Price": 22.5,
         "BaseType": 22,
-        "BaseEntry": 477
+        "BaseEntry": 477,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -25203,7 +25800,8 @@
         "ShipDate": "2015-06-21",
         "Price": 120,
         "BaseType": 22,
-        "BaseEntry": 484
+        "BaseEntry": 484,
+        "BaseLine": 0
       },
       {
         "LineNum": 6,
@@ -25254,7 +25852,8 @@
         "ShipDate": "2015-03-20",
         "Price": 20,
         "BaseType": 22,
-        "BaseEntry": 485
+        "BaseEntry": 485,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -25294,7 +25893,8 @@
         "ShipDate": "2014-09-11",
         "Price": 1420,
         "BaseType": 22,
-        "BaseEntry": 488
+        "BaseEntry": 488,
+        "BaseLine": 0
       }
     ]
   },
@@ -25323,7 +25923,8 @@
         "ShipDate": "2014-10-25",
         "Price": 60,
         "BaseType": 22,
-        "BaseEntry": 489
+        "BaseEntry": 489,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -25374,7 +25975,8 @@
         "ShipDate": "2014-10-23",
         "Price": 500,
         "BaseType": 22,
-        "BaseEntry": 483
+        "BaseEntry": 483,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -25436,7 +26038,8 @@
         "ShipDate": "2015-02-17",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 486
+        "BaseEntry": 486,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -25476,7 +26079,8 @@
         "ShipDate": "2014-08-14",
         "Price": 90,
         "BaseType": 22,
-        "BaseEntry": 487
+        "BaseEntry": 487,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -25527,7 +26131,8 @@
         "ShipDate": "2015-05-11",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 491
+        "BaseEntry": 491,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -25655,7 +26260,8 @@
         "ShipDate": "2015-04-28",
         "Price": 250,
         "BaseType": 22,
-        "BaseEntry": 496
+        "BaseEntry": 496,
+        "BaseLine": 0
       }
     ]
   },
@@ -25684,7 +26290,8 @@
         "ShipDate": "2015-05-02",
         "Price": 500,
         "BaseType": 22,
-        "BaseEntry": 500
+        "BaseEntry": 500,
+        "BaseLine": 0
       }
     ]
   },
@@ -25724,7 +26331,8 @@
         "ShipDate": "2015-05-03",
         "Price": 40,
         "BaseType": 22,
-        "BaseEntry": 482
+        "BaseEntry": 482,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -25786,7 +26394,8 @@
         "ShipDate": "2015-03-15",
         "Price": 17.5,
         "BaseType": 22,
-        "BaseEntry": 490
+        "BaseEntry": 490,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -25914,7 +26523,8 @@
         "ShipDate": "2014-08-08",
         "Price": 108,
         "BaseType": 22,
-        "BaseEntry": 492
+        "BaseEntry": 492,
+        "BaseLine": 0
       }
     ]
   },
@@ -25943,7 +26553,8 @@
         "ShipDate": "2015-02-03",
         "Price": 350,
         "BaseType": 22,
-        "BaseEntry": 494
+        "BaseEntry": 494,
+        "BaseLine": 0
       }
     ]
   },
@@ -25983,7 +26594,8 @@
         "ShipDate": "2014-12-02",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 495
+        "BaseEntry": 495,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -26056,7 +26668,8 @@
         "ShipDate": "2015-05-12",
         "Price": 250,
         "BaseType": 22,
-        "BaseEntry": 499
+        "BaseEntry": 499,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -26129,7 +26742,8 @@
         "ShipDate": "2014-10-04",
         "Price": 65,
         "BaseType": 22,
-        "BaseEntry": 501
+        "BaseEntry": 501,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -26213,7 +26827,8 @@
         "ShipDate": "2014-11-16",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 502
+        "BaseEntry": 502,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -26275,7 +26890,8 @@
         "ShipDate": "2015-01-23",
         "Price": 180,
         "BaseType": 22,
-        "BaseEntry": 503
+        "BaseEntry": 503,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -26304,7 +26920,8 @@
         "ShipDate": "2015-06-10",
         "Price": 35,
         "BaseType": 22,
-        "BaseEntry": 506
+        "BaseEntry": 506,
+        "BaseLine": 0
       }
     ]
   },
@@ -26344,7 +26961,8 @@
         "ShipDate": "2015-02-22",
         "Price": 6,
         "BaseType": 22,
-        "BaseEntry": 507
+        "BaseEntry": 507,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -26428,7 +27046,8 @@
         "ShipDate": "2015-08-12",
         "Price": 20,
         "BaseType": 22,
-        "BaseEntry": 508
+        "BaseEntry": 508,
+        "BaseLine": 0
       },
       {
         "LineNum": 6,
@@ -26479,7 +27098,8 @@
         "ShipDate": "2014-11-10",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 481
+        "BaseEntry": 481,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -26563,7 +27183,8 @@
         "ShipDate": "2014-09-05",
         "Price": 5,
         "BaseType": 22,
-        "BaseEntry": 497
+        "BaseEntry": 497,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -26636,7 +27257,8 @@
         "ShipDate": "2015-08-12",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 498
+        "BaseEntry": 498,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -26753,7 +27375,8 @@
         "ShipDate": "2015-07-14",
         "Price": 375,
         "BaseType": 22,
-        "BaseEntry": 504
+        "BaseEntry": 504,
+        "BaseLine": 0
       },
       {
         "LineNum": 7,
@@ -26815,7 +27438,8 @@
         "ShipDate": "2014-11-28",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 505
+        "BaseEntry": 505,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -26855,7 +27479,8 @@
         "ShipDate": "2015-07-05",
         "Price": 400,
         "BaseType": 22,
-        "BaseEntry": 510
+        "BaseEntry": 510,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -26983,7 +27608,8 @@
         "ShipDate": "2015-07-07",
         "Price": 1.5,
         "BaseType": 22,
-        "BaseEntry": 512
+        "BaseEntry": 512,
+        "BaseLine": 0
       },
       {
         "LineNum": 8,
@@ -27012,7 +27638,8 @@
         "ShipDate": "2015-10-09",
         "Price": 450,
         "BaseType": 22,
-        "BaseEntry": 516
+        "BaseEntry": 516,
+        "BaseLine": 0
       }
     ]
   },
@@ -27052,7 +27679,8 @@
         "ShipDate": "2015-02-02",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 517
+        "BaseEntry": 517,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -27114,7 +27742,8 @@
         "ShipDate": "2014-11-20",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 518
+        "BaseEntry": 518,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -27220,7 +27849,8 @@
         "ShipDate": "2014-12-18",
         "Price": 400,
         "BaseType": 22,
-        "BaseEntry": 519
+        "BaseEntry": 519,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -27326,7 +27956,8 @@
         "ShipDate": "2015-10-01",
         "Price": 500,
         "BaseType": 22,
-        "BaseEntry": 520
+        "BaseEntry": 520,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -27410,7 +28041,8 @@
         "ShipDate": "2014-08-11",
         "Price": 22.5,
         "BaseType": 22,
-        "BaseEntry": 493
+        "BaseEntry": 493,
+        "BaseLine": 0
       }
     ]
   },
@@ -27439,7 +28071,8 @@
         "ShipDate": "2015-08-27",
         "Price": 14,
         "BaseType": 22,
-        "BaseEntry": 509
+        "BaseEntry": 509,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -27501,7 +28134,8 @@
         "ShipDate": "2015-08-30",
         "Price": 65,
         "BaseType": 22,
-        "BaseEntry": 521
+        "BaseEntry": 521,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -27552,7 +28186,8 @@
         "ShipDate": "2014-12-08",
         "Price": 35,
         "BaseType": 22,
-        "BaseEntry": 522
+        "BaseEntry": 522,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -27669,7 +28304,8 @@
         "ShipDate": "2014-12-07",
         "Price": 75,
         "BaseType": 22,
-        "BaseEntry": 523
+        "BaseEntry": 523,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -27698,7 +28334,8 @@
         "ShipDate": "2015-01-03",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 525
+        "BaseEntry": 525,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -27837,7 +28474,8 @@
         "ShipDate": "2015-03-18",
         "Price": 108,
         "BaseType": 22,
-        "BaseEntry": 526
+        "BaseEntry": 526,
+        "BaseLine": 0
       }
     ]
   },
@@ -27888,7 +28526,8 @@
         "ShipDate": "2015-08-13",
         "Price": 7.5,
         "BaseType": 22,
-        "BaseEntry": 527
+        "BaseEntry": 527,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -27994,7 +28633,8 @@
         "ShipDate": "2015-05-31",
         "Price": 25,
         "BaseType": 22,
-        "BaseEntry": 528
+        "BaseEntry": 528,
+        "BaseLine": 0
       }
     ]
   },
@@ -28012,7 +28652,8 @@
         "ShipDate": "2015-01-20",
         "Price": 12,
         "BaseType": 22,
-        "BaseEntry": 529
+        "BaseEntry": 529,
+        "BaseLine": 0
       }
     ]
   },
@@ -28030,7 +28671,8 @@
         "ShipDate": "2015-09-05",
         "Price": 100,
         "BaseType": 22,
-        "BaseEntry": 511
+        "BaseEntry": 511,
+        "BaseLine": 0
       }
     ]
   },
@@ -28059,7 +28701,8 @@
         "ShipDate": "2015-01-07",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 515
+        "BaseEntry": 515,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -28165,7 +28808,8 @@
         "ShipDate": "2015-08-12",
         "Price": 30,
         "BaseType": 22,
-        "BaseEntry": 524
+        "BaseEntry": 524,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -28227,7 +28871,8 @@
         "ShipDate": "2015-12-12",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 530
+        "BaseEntry": 530,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -28355,7 +29000,8 @@
         "ShipDate": "2014-12-07",
         "Price": 1420,
         "BaseType": 22,
-        "BaseEntry": 531
+        "BaseEntry": 531,
+        "BaseLine": 0
       },
       {
         "LineNum": 6,
@@ -28395,7 +29041,8 @@
         "ShipDate": "2015-07-24",
         "Price": 120,
         "BaseType": 22,
-        "BaseEntry": 532
+        "BaseEntry": 532,
+        "BaseLine": 0
       }
     ]
   },
@@ -28413,7 +29060,8 @@
         "ShipDate": "2015-05-24",
         "Price": 100,
         "BaseType": 22,
-        "BaseEntry": 533
+        "BaseEntry": 533,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -28464,7 +29112,8 @@
         "ShipDate": "2015-01-17",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 534
+        "BaseEntry": 534,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -28559,7 +29208,8 @@
         "ShipDate": "2015-01-08",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 535
+        "BaseEntry": 535,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -28599,7 +29249,8 @@
         "ShipDate": "2015-06-27",
         "Price": 35,
         "BaseType": 22,
-        "BaseEntry": 537
+        "BaseEntry": 537,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -28683,7 +29334,8 @@
         "ShipDate": "2015-02-22",
         "Price": 710,
         "BaseType": 22,
-        "BaseEntry": 539
+        "BaseEntry": 539,
+        "BaseLine": 0
       }
     ]
   },
@@ -28778,7 +29430,8 @@
         "ShipDate": "2015-02-22",
         "Price": 3.75,
         "BaseType": 22,
-        "BaseEntry": 540
+        "BaseEntry": 540,
+        "BaseLine": 0
       }
     ]
   },
@@ -28796,7 +29449,8 @@
         "ShipDate": "2015-04-19",
         "Price": 50,
         "BaseType": 22,
-        "BaseEntry": 541
+        "BaseEntry": 541,
+        "BaseLine": 0
       }
     ]
   },
@@ -28847,7 +29501,8 @@
         "ShipDate": "2015-04-11",
         "Price": 150,
         "BaseType": 22,
-        "BaseEntry": 513
+        "BaseEntry": 513,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -28931,7 +29586,8 @@
         "ShipDate": "2015-08-30",
         "Price": 120,
         "BaseType": 22,
-        "BaseEntry": 514
+        "BaseEntry": 514,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -28993,7 +29649,8 @@
         "ShipDate": "2015-04-07",
         "Price": 400,
         "BaseType": 22,
-        "BaseEntry": 536
+        "BaseEntry": 536,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -29055,7 +29712,8 @@
         "ShipDate": "2015-07-28",
         "Price": 450,
         "BaseType": 22,
-        "BaseEntry": 538
+        "BaseEntry": 538,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -29139,7 +29797,8 @@
         "ShipDate": "2015-04-08",
         "Price": 1360,
         "BaseType": 22,
-        "BaseEntry": 542
+        "BaseEntry": 542,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -29245,7 +29904,8 @@
         "ShipDate": "2015-10-23",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 543
+        "BaseEntry": 543,
+        "BaseLine": 0
       },
       {
         "LineNum": 8,
@@ -29329,7 +29989,8 @@
         "ShipDate": "2015-04-13",
         "Price": 20,
         "BaseType": 22,
-        "BaseEntry": 545
+        "BaseEntry": 545,
+        "BaseLine": 0
       }
     ]
   },
@@ -29347,7 +30008,8 @@
         "ShipDate": "2016-01-10",
         "Price": 65,
         "BaseType": 22,
-        "BaseEntry": 546
+        "BaseEntry": 546,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -29442,7 +30104,8 @@
         "ShipDate": "2015-11-19",
         "Price": 450,
         "BaseType": 22,
-        "BaseEntry": 548
+        "BaseEntry": 548,
+        "BaseLine": 0
       },
       {
         "LineNum": 5,
@@ -29504,7 +30167,8 @@
         "ShipDate": "2015-11-05",
         "Price": 21,
         "BaseType": 22,
-        "BaseEntry": 544
+        "BaseEntry": 544,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -29599,7 +30263,8 @@
         "ShipDate": "2015-03-03",
         "Price": 20,
         "BaseType": 22,
-        "BaseEntry": 547
+        "BaseEntry": 547,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -29683,7 +30348,8 @@
         "ShipDate": "2015-03-03",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 549
+        "BaseEntry": 549,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -29723,7 +30389,8 @@
         "ShipDate": "2015-01-12",
         "Price": 40,
         "BaseType": 22,
-        "BaseEntry": 550
+        "BaseEntry": 550,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -29774,7 +30441,8 @@
         "ShipDate": "2015-08-14",
         "Price": 130,
         "BaseType": 22,
-        "BaseEntry": 551
+        "BaseEntry": 551,
+        "BaseLine": 0
       }
     ]
   },
@@ -29814,7 +30482,8 @@
         "ShipDate": "2015-11-11",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 552
+        "BaseEntry": 552,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -29865,7 +30534,8 @@
         "ShipDate": "2015-06-21",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 553
+        "BaseEntry": 553,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -29993,7 +30663,8 @@
         "ShipDate": "2015-09-18",
         "Price": 700,
         "BaseType": 22,
-        "BaseEntry": 555
+        "BaseEntry": 555,
+        "BaseLine": 0
       }
     ]
   },
@@ -30022,7 +30693,8 @@
         "ShipDate": "2015-07-16",
         "Price": 2.25,
         "BaseType": 22,
-        "BaseEntry": 556
+        "BaseEntry": 556,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -30106,7 +30778,8 @@
         "ShipDate": "2015-08-20",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 557
+        "BaseEntry": 557,
+        "BaseLine": 0
       },
       {
         "LineNum": 5,
@@ -30168,7 +30841,8 @@
         "ShipDate": "2015-07-21",
         "Price": 9,
         "BaseType": 22,
-        "BaseEntry": 558
+        "BaseEntry": 558,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -30252,7 +30926,8 @@
         "ShipDate": "2015-08-11",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 560
+        "BaseEntry": 560,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -30314,7 +30989,8 @@
         "ShipDate": "2015-10-23",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 561
+        "BaseEntry": 561,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -30387,7 +31063,8 @@
         "ShipDate": "2016-02-23",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 554
+        "BaseEntry": 554,
+        "BaseLine": 0
       }
     ]
   },
@@ -30416,7 +31093,8 @@
         "ShipDate": "2015-07-20",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 559
+        "BaseEntry": 559,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -30555,7 +31233,8 @@
         "ShipDate": "2015-09-26",
         "Price": 40,
         "BaseType": 22,
-        "BaseEntry": 562
+        "BaseEntry": 562,
+        "BaseLine": 0
       },
       {
         "LineNum": 6,
@@ -30584,7 +31263,8 @@
         "ShipDate": "2016-04-13",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 563
+        "BaseEntry": 563,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -30657,7 +31337,8 @@
         "ShipDate": "2016-04-07",
         "Price": 240,
         "BaseType": 22,
-        "BaseEntry": 564
+        "BaseEntry": 564,
+        "BaseLine": 0
       }
     ]
   },
@@ -30730,7 +31411,8 @@
         "ShipDate": "2016-01-07",
         "Price": 18.75,
         "BaseType": 22,
-        "BaseEntry": 565
+        "BaseEntry": 565,
+        "BaseLine": 0
       },
       {
         "LineNum": 6,
@@ -30792,7 +31474,8 @@
         "ShipDate": "2015-06-02",
         "Price": 20,
         "BaseType": 22,
-        "BaseEntry": 566
+        "BaseEntry": 566,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -30832,7 +31515,8 @@
         "ShipDate": "2015-07-21",
         "Price": 19.5,
         "BaseType": 22,
-        "BaseEntry": 567
+        "BaseEntry": 567,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -30916,7 +31600,8 @@
         "ShipDate": "2016-01-22",
         "Price": 75,
         "BaseType": 22,
-        "BaseEntry": 569
+        "BaseEntry": 569,
+        "BaseLine": 0
       },
       {
         "LineNum": 5,
@@ -30989,7 +31674,8 @@
         "ShipDate": "2015-08-29",
         "Price": 2.5,
         "BaseType": 22,
-        "BaseEntry": 570
+        "BaseEntry": 570,
+        "BaseLine": 0
       }
     ]
   },
@@ -31062,7 +31748,8 @@
         "ShipDate": "2016-06-29",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 571
+        "BaseEntry": 571,
+        "BaseLine": 0
       }
     ]
   },
@@ -31091,7 +31778,8 @@
         "ShipDate": "2015-12-23",
         "Price": 21,
         "BaseType": 22,
-        "BaseEntry": 572
+        "BaseEntry": 572,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -31197,7 +31885,8 @@
         "ShipDate": "2016-06-19",
         "Price": 240,
         "BaseType": 22,
-        "BaseEntry": 577
+        "BaseEntry": 577,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -31237,7 +31926,8 @@
         "ShipDate": "2015-07-11",
         "Price": 500,
         "BaseType": 22,
-        "BaseEntry": 568
+        "BaseEntry": 568,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -31266,7 +31956,8 @@
         "ShipDate": "2016-04-25",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 573
+        "BaseEntry": 573,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -31416,7 +32107,8 @@
         "ShipDate": "2016-07-31",
         "Price": 2.5,
         "BaseType": 22,
-        "BaseEntry": 574
+        "BaseEntry": 574,
+        "BaseLine": 0
       },
       {
         "LineNum": 6,
@@ -31533,7 +32225,8 @@
         "ShipDate": "2015-09-10",
         "Price": 25,
         "BaseType": 22,
-        "BaseEntry": 579
+        "BaseEntry": 579,
+        "BaseLine": 0
       }
     ]
   },
@@ -31551,7 +32244,8 @@
         "ShipDate": "2016-03-03",
         "Price": 17.5,
         "BaseType": 22,
-        "BaseEntry": 576
+        "BaseEntry": 576,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -31613,7 +32307,8 @@
         "ShipDate": "2016-06-09",
         "Price": 1.5,
         "BaseType": 22,
-        "BaseEntry": 580
+        "BaseEntry": 580,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -31653,7 +32348,8 @@
         "ShipDate": "2016-03-03",
         "Price": 20,
         "BaseType": 22,
-        "BaseEntry": 581
+        "BaseEntry": 581,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -31704,7 +32400,8 @@
         "ShipDate": "2016-04-26",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 585
+        "BaseEntry": 585,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -31799,7 +32496,8 @@
         "ShipDate": "2015-11-06",
         "Price": 1420,
         "BaseType": 22,
-        "BaseEntry": 575
+        "BaseEntry": 575,
+        "BaseLine": 0
       },
       {
         "LineNum": 7,
@@ -31894,7 +32592,8 @@
         "ShipDate": "2016-03-31",
         "Price": 20,
         "BaseType": 22,
-        "BaseEntry": 578
+        "BaseEntry": 578,
+        "BaseLine": 0
       },
       {
         "LineNum": 6,
@@ -31934,7 +32633,8 @@
         "ShipDate": "2016-01-09",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 587
+        "BaseEntry": 587,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -32007,7 +32707,8 @@
         "ShipDate": "2015-12-10",
         "Price": 12,
         "BaseType": 22,
-        "BaseEntry": 588
+        "BaseEntry": 588,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -32058,7 +32759,8 @@
         "ShipDate": "2016-09-10",
         "Price": 22.5,
         "BaseType": 22,
-        "BaseEntry": 589
+        "BaseEntry": 589,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -32087,7 +32789,8 @@
         "ShipDate": "2016-05-30",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 590
+        "BaseEntry": 590,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -32149,7 +32852,8 @@
         "ShipDate": "2016-07-06",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 592
+        "BaseEntry": 592,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -32178,7 +32882,8 @@
         "ShipDate": "2016-10-17",
         "Price": 20,
         "BaseType": 22,
-        "BaseEntry": 593
+        "BaseEntry": 593,
+        "BaseLine": 0
       }
     ]
   },
@@ -32251,7 +32956,8 @@
         "ShipDate": "2016-06-07",
         "Price": 21,
         "BaseType": 22,
-        "BaseEntry": 582
+        "BaseEntry": 582,
+        "BaseLine": 0
       },
       {
         "LineNum": 6,
@@ -32302,7 +33008,8 @@
         "ShipDate": "2015-11-18",
         "Price": 200,
         "BaseType": 22,
-        "BaseEntry": 591
+        "BaseEntry": 591,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -32331,7 +33038,8 @@
         "ShipDate": "2015-11-03",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 594
+        "BaseEntry": 594,
+        "BaseLine": 0
       }
     ]
   },
@@ -32360,7 +33068,8 @@
         "ShipDate": "2016-08-16",
         "Price": 26.25,
         "BaseType": 22,
-        "BaseEntry": 595
+        "BaseEntry": 595,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -32499,7 +33208,8 @@
         "ShipDate": "2015-11-20",
         "Price": 120,
         "BaseType": 22,
-        "BaseEntry": 597
+        "BaseEntry": 597,
+        "BaseLine": 0
       },
       {
         "LineNum": 5,
@@ -32572,7 +33282,8 @@
         "ShipDate": "2016-05-30",
         "Price": 29.25,
         "BaseType": 22,
-        "BaseEntry": 598
+        "BaseEntry": 598,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -32634,7 +33345,8 @@
         "ShipDate": "2016-08-02",
         "Price": 80,
         "BaseType": 22,
-        "BaseEntry": 599
+        "BaseEntry": 599,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -32718,7 +33430,8 @@
         "ShipDate": "2016-05-09",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 601
+        "BaseEntry": 601,
+        "BaseLine": 0
       },
       {
         "LineNum": 6,
@@ -32769,7 +33482,8 @@
         "ShipDate": "2016-04-02",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 602
+        "BaseEntry": 602,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -32809,7 +33523,8 @@
         "ShipDate": "2016-09-11",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 583
+        "BaseEntry": 583,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -32860,7 +33575,8 @@
         "ShipDate": "2016-01-20",
         "Price": 100,
         "BaseType": 22,
-        "BaseEntry": 584
+        "BaseEntry": 584,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -32966,7 +33682,8 @@
         "ShipDate": "2016-10-22",
         "Price": 75,
         "BaseType": 22,
-        "BaseEntry": 586
+        "BaseEntry": 586,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -33006,7 +33723,8 @@
         "ShipDate": "2016-08-16",
         "Price": 25,
         "BaseType": 22,
-        "BaseEntry": 596
+        "BaseEntry": 596,
+        "BaseLine": 0
       }
     ]
   },
@@ -33024,7 +33742,8 @@
         "ShipDate": "2016-08-12",
         "Price": 65,
         "BaseType": 22,
-        "BaseEntry": 600
+        "BaseEntry": 600,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -33064,7 +33783,8 @@
         "ShipDate": "2016-11-19",
         "Price": 350,
         "BaseType": 22,
-        "BaseEntry": 603
+        "BaseEntry": 603,
+        "BaseLine": 0
       }
     ]
   },
@@ -33126,7 +33846,8 @@
         "ShipDate": "2016-09-27",
         "Price": 26.25,
         "BaseType": 22,
-        "BaseEntry": 604
+        "BaseEntry": 604,
+        "BaseLine": 0
       },
       {
         "LineNum": 5,
@@ -33210,7 +33931,8 @@
         "ShipDate": "2015-12-28",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 605
+        "BaseEntry": 605,
+        "BaseLine": 0
       },
       {
         "LineNum": 5,
@@ -33283,7 +34005,8 @@
         "ShipDate": "2016-03-08",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 606
+        "BaseEntry": 606,
+        "BaseLine": 0
       }
     ]
   },
@@ -33334,7 +34057,8 @@
         "ShipDate": "2016-08-13",
         "Price": 15,
         "BaseType": 22,
-        "BaseEntry": 607
+        "BaseEntry": 607,
+        "BaseLine": 0
       }
     ]
   },
@@ -33385,7 +34109,8 @@
         "ShipDate": "2016-05-20",
         "Price": 9,
         "BaseType": 22,
-        "BaseEntry": 608
+        "BaseEntry": 608,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -33458,7 +34183,8 @@
         "ShipDate": "2016-01-04",
         "Price": 1.5,
         "BaseType": 22,
-        "BaseEntry": 609
+        "BaseEntry": 609,
+        "BaseLine": 0
       }
     ]
   },
@@ -33498,7 +34224,8 @@
         "ShipDate": "2016-10-07",
         "Price": 50,
         "BaseType": 22,
-        "BaseEntry": 610
+        "BaseEntry": 610,
+        "BaseLine": 0
       },
       {
         "LineNum": 3,
@@ -33593,7 +34320,8 @@
         "ShipDate": "2016-09-08",
         "Price": 75,
         "BaseType": 22,
-        "BaseEntry": 611
+        "BaseEntry": 611,
+        "BaseLine": 0
       }
     ]
   },
@@ -33666,7 +34394,8 @@
         "ShipDate": "2017-02-04",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 612
+        "BaseEntry": 612,
+        "BaseLine": 0
       },
       {
         "LineNum": 6,
@@ -33739,7 +34468,8 @@
         "ShipDate": "2016-04-10",
         "Price": 67.5,
         "BaseType": 22,
-        "BaseEntry": 613
+        "BaseEntry": 613,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -33801,7 +34531,8 @@
         "ShipDate": "2017-02-02",
         "Price": 20,
         "BaseType": 22,
-        "BaseEntry": 617
+        "BaseEntry": 617,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -33863,7 +34594,8 @@
         "ShipDate": "2017-02-05",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 616
+        "BaseEntry": 616,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -33925,7 +34657,8 @@
         "ShipDate": "2017-02-06",
         "Price": 225,
         "BaseType": 22,
-        "BaseEntry": 618
+        "BaseEntry": 618,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -33965,7 +34698,8 @@
         "ShipDate": "2017-02-08",
         "Price": 300,
         "BaseType": 22,
-        "BaseEntry": 620
+        "BaseEntry": 620,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -34049,7 +34783,8 @@
         "ShipDate": "2017-02-08",
         "Price": 10,
         "BaseType": 22,
-        "BaseEntry": 619
+        "BaseEntry": 619,
+        "BaseLine": 0
       }
     ]
   },
@@ -34067,7 +34802,8 @@
         "ShipDate": "2017-02-07",
         "Price": 65,
         "BaseType": 22,
-        "BaseEntry": 622
+        "BaseEntry": 622,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -34162,7 +34898,8 @@
         "ShipDate": "2017-02-14",
         "Price": 7.5,
         "BaseType": 22,
-        "BaseEntry": 621
+        "BaseEntry": 621,
+        "BaseLine": 0
       },
       {
         "LineNum": 4,
@@ -34246,7 +34983,8 @@
         "ShipDate": "2017-02-17",
         "Price": 26.25,
         "BaseType": 22,
-        "BaseEntry": 627
+        "BaseEntry": 627,
+        "BaseLine": 0
       },
       {
         "LineNum": 2,
@@ -34319,7 +35057,8 @@
         "ShipDate": "2017-02-04",
         "Price": 400,
         "BaseType": 22,
-        "BaseEntry": 630
+        "BaseEntry": 630,
+        "BaseLine": 0
       },
       {
         "LineNum": 1,
@@ -34357,7 +35096,8 @@
         "ItemDescription": "Imprimante IBM type Infoprint 1312",
         "Quantity": 100,
         "Price": 50,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -34373,7 +35113,8 @@
         "ItemDescription": "Imprimante IBM type Infoprint 1312",
         "Quantity": 100,
         "Price": 50,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -34389,7 +35130,8 @@
         "ItemDescription": "LM4029 Imprimante Lexmark 4029",
         "Quantity": 100,
         "Price": 50,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -34405,7 +35147,8 @@
         "ItemDescription": "LM4029 Imprimante Lexmark 4029",
         "Quantity": 100,
         "Price": 50,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -34421,7 +35164,8 @@
         "ItemDescription": "Cartouche d'encre pour imprimante HP Printer 95",
         "Quantity": 20,
         "Price": 28,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -34437,7 +35181,8 @@
         "ItemDescription": "Cartouche d'encre pour imprimante HP Printer 95",
         "Quantity": 20,
         "Price": 28,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -34453,7 +35198,8 @@
         "ItemDescription": "Cartouche d'encre pour imprimante HP Printer 95",
         "Quantity": 20,
         "Price": 28,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -34469,7 +35215,8 @@
         "ItemDescription": "Cartouche d'encre pour imprimante HP Printer 95",
         "Quantity": 20,
         "Price": 28,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -34485,7 +35232,8 @@
         "ItemDescription": "Cartouche d'encre pour imprimante HP Printer 95",
         "Quantity": 20,
         "Price": 28,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -34501,7 +35249,8 @@
         "ItemDescription": "Cartouche d'encre pour imprimante HP Printer 95",
         "Quantity": 20,
         "Price": 28,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -34517,7 +35266,8 @@
         "ItemDescription": "Cartouche d'encre pour imprimante HP Printer 95",
         "Quantity": 20,
         "Price": 28,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -34533,7 +35283,8 @@
         "ItemDescription": "Cartouche d'encre pour imprimante HP Printer 95",
         "Quantity": 20,
         "Price": 28,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -34549,7 +35300,8 @@
         "ItemDescription": "Cartouche d'encre pour imprimante HP Printer 95",
         "Quantity": 20,
         "Price": 28,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -34565,7 +35317,8 @@
         "ItemDescription": "Cartouche d'encre pour imprimante HP Printer 95",
         "Quantity": 20,
         "Price": 28,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -34581,7 +35334,8 @@
         "ItemDescription": "Cartouche d'encre pour imprimante HP Printer 95",
         "Quantity": 20,
         "Price": 28,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -34597,7 +35351,8 @@
         "ItemDescription": "Cartouche d'encre pour imprimante HP Printer 95",
         "Quantity": 20,
         "Price": 28,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   },
@@ -34613,7 +35368,8 @@
         "ItemDescription": "Cartouche d'encre pour imprimante HP Printer 95",
         "Quantity": 20,
         "Price": 28,
-        "BaseType": -1
+        "BaseType": -1,
+        "BaseLine": 0
       }
     ]
   }
