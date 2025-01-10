@@ -22,6 +22,7 @@ type Document struct {
 	DocType       string `json:"DocType,omitempty"`
 	CardCode      string `json:",omitempty"`
 	Status        string `json:"DocumentStatus,omitempty"`
+	PlateNum      string `json:"U_PlateNum,omitempty"`
 	DocumentLines []DocumentLine
 }
 
